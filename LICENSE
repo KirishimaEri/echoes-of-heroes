@@ -19,18 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-SCOPE OF THIS LICENSE
-
-This license covers the SOFTWARE only: the source code under `src/` (excluding
-`src/data/`), `scripts/`, and all configuration and build files at the
-repository root.
-
-The HISTORICAL DATA — `src/data/places.json`, `src/data/thematics.ts`,
-`src/data/wuhanSpecial.ts` and `scripts/data/sector*.json`, i.e. the place
-records, martyr biographies, coordinates, narrative text and the citations
-attached to each entry — is NOT licensed under this MIT license. It is licensed
-separately under CC BY-SA 4.0. See LICENSE-DATA.md for the terms and the
-required attribution format.
