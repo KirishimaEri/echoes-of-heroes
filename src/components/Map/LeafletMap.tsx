@@ -730,7 +730,9 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({
   return (
     <div className="relative w-full h-[720px] bg-stone overflow-hidden flex flex-col lg:flex-row">
       {/* ================= 1. LEFT COLUMN: 交互式地图画布 (Flex-1) ================= */}
-      <div className="flex-1 h-[370px] lg:h-full relative min-w-0 order-1">
+      {/* z-0 建立层叠上下文：Leaflet 内部图层 z-index 200–1000 被限制在本框内，
+          不会逃逸盖住 sticky 页头（z-30）与贡献弹窗（z-50）及后续正文。 */}
+      <div className="flex-1 h-[370px] lg:h-full relative z-0 min-w-0 order-1">
         <MapContainer
           center={center}
           zoom={zoom}
