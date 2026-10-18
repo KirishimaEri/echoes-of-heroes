@@ -217,18 +217,6 @@ The data license uses the ShareAlike and Attribution clauses: corrections to the
 
 ## 🕊️ In memory
 
-<div align="center">
-
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 720 340" role="img" aria-label="In memory">
-  <rect x="0" y="0" width="720" height="340" rx="14" fill="#ede8dc"/>
-  <text x="360" y="66" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="26" font-weight="700" fill="#3a3128">愿中华无恙 · 愿河山一统</text>
-  <text x="360" y="98" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="16" font-style="italic" fill="#4a4038">May China be at peace, and the land remain whole.</text>
-  <text x="360" y="150" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="18" font-style="italic" fill="#4a4038">「天地英雄气，千秋尚凛然。」</text>
-  <text x="360" y="178" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="14" font-style="italic" fill="#4a4038">"The spirit of heroes fills heaven and earth, and endures through the ages."</text>
-  <text x="360" y="224" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="15" fill="#4a4038">In memory of all who gave their lives in 1931–1945 and in the long</text>
-  <text x="360" y="248" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="15" fill="#4a4038">struggle that preceded it, for the independence of the nation, the liberation</text>
-  <text x="360" y="272" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="15" fill="#4a4038">of the people, and the dignity of the country.</text>
-  <text x="360" y="314" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="14" fill="#6b5f52">Echoes of Heroes · History begins with the names beneath our feet.</text>
-</svg>
-
-</div>
+<p align="center">
+  <img src="assets/tribute-en.svg" alt="In memory — 愿中华无恙 · 愿河山一统" width="720">
+</p>

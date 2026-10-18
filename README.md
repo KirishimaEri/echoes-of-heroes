@@ -227,15 +227,6 @@ npm run typecheck && npm run lint
 
 ## 🕊️ 致敬
 
-<div align="center">
-
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 720 300" role="img" aria-label="致敬">
-  <rect x="0" y="0" width="720" height="300" rx="14" fill="#ede8dc"/>
-  <text x="360" y="78" text-anchor="middle" font-family="'Noto Serif SC','Songti SC',serif" font-size="28" font-weight="700" fill="#3a3128">愿中华无恙 · 愿河山一统</text>
-  <text x="360" y="128" text-anchor="middle" font-family="'Noto Serif SC','Songti SC',serif" font-size="20" font-style="italic" fill="#4a4038">「天地英雄气，千秋尚凛然。」</text>
-  <text x="360" y="176" text-anchor="middle" font-family="'Noto Serif SC','Songti SC',serif" font-size="17" fill="#4a4038">谨以此数字系统，致敬所有在 1931—1945 年及漫长救亡征程中，</text>
-  <text x="360" y="204" text-anchor="middle" font-family="'Noto Serif SC','Songti SC',serif" font-size="17" fill="#4a4038">为争取民族独立、人民解放与国家尊严而英勇捐躯的烈士先锋。</text>
-  <text x="360" y="256" text-anchor="middle" font-family="'Noto Serif SC','Songti SC',serif" font-size="15" fill="#6b5f52">《山河同名》项目组 · 让历史从我们脚下的地名开始</text>
-</svg>
-
-</div>
+<p align="center">
+  <img src="assets/tribute-zh.svg" alt="致敬：愿中华无恙 · 愿河山一统" width="720">
+</p>
