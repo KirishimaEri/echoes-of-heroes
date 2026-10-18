@@ -29,12 +29,7 @@ shanxi-caijiaya-village   heilongjiang-lengyun-village
 
 对这 17 条，`hero.birth_year` 与 `hero.sacrifice_age` 记录的是**群体的代表年岁**，
 不是某个人的生卒，因此恒等式 `death_year − birth_year = sacrifice_age` 对其不成立。
-全库共 **11 条**不满足该恒等式，且经逐条复核，**这 11 条全部属于上述群体条目**，
-没有一条是个人记录的真错误。
-
-**需要澄清的一点**：这不构成史实错误，而是**模式（schema）缺失**——`HeroInfo`
-类型没有 `is_group` / `commemorative_scope` 字段，机器无法区分「一个人的 25 岁」和
-「一个集体的代表年岁」，只能靠阅读 `hero.name` 猜。
+全库共 **11 条**不满足该恒等式，且经逐条复核，**这 11 条全部属于上述群体条目**。
 
 - **影响**：见第 3 条。
 - **应做**：为 `HeroInfo` 增加 `is_group: boolean`（或 `commemorative_scope:
@@ -43,7 +38,7 @@ shanxi-caijiaya-village   heilongjiang-lengyun-village
 
 ## 2. `[口径]` 3 条记录的牺牲年份落在 1931–1945 主题区间之外
 
-项目主题是十四年抗战（1931–1945），但以下 3 条被有意保留：
+项目主题是十四年抗战（1931–1945），但以下 3 条被保留：
 
 | id | 英烈 | 牺牲 | 保留理由（依条目 `story` 与 `title`） |
 | :--- | :--- | :--- | :--- |
@@ -51,15 +46,8 @@ shanxi-caijiaya-village   heilongjiang-lengyun-village
 | `harbin-zhaolin-street` | 李兆麟 | 1946-03-09 | 东北抗联将领，抗战胜利后遇害；哈尔滨兆麟街以其名命名 |
 | `heilongjiang-zhaolin-village` | 李兆麟 | 1946-03-09 | 同上，黑龙江村落命名条目 |
 
-**这不是数据错误**，是**收录口径未写清楚**：项目实际收录的是「**在抗战期间或因其
-而被命名**的地名」，而非「1931–1945 年间牺牲的英烈名录」。README 与页面标题的
-简写容易让读者按后者理解。
-
-- **曾经的真实缺陷（已修）**：首页筛选器的年份边界此前被硬编码为 `[1931, 1946]`，
-  使 `jiangsu-zhenghong-town`（1925）在碑林、编年史、地图三个视图中**全部静默消失**——
-  即页面宣称收录 100 处，实际只显示 99 处。现 `src/lib/places.ts` 的 `YEAR_BOUNDS`
-  已改为从数据本身派生，`createDefaultFilter()` 为初始与重置状态的唯一定义。
-- **待办**：README「史料考据原则」一节应明确写出这条收录口径。
+项目实际收录的是「**在抗战期间或因其
+而被命名**的地名」。
 
 ## 3. `[口径]` 首页「英烈平均殉国年龄」混算了个人年龄与群体名义年龄
 
