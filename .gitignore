@@ -56,3 +56,6 @@ next-env.d.ts
 /AUDIT-REPORT-2.md
 /DESIGN-AUDIT.md
 /AI-FLAVOR-AUDIT.md
+
+# UI review screenshots (intermediate, regenerated on demand)
+/.uishots/
