@@ -197,16 +197,16 @@ npm run typecheck && npm run lint
 
 本项目由维护者 [@KirishimaEri](https://github.com/KirishimaEri) 发起并主持，由多个大语言模型组成的人机协作项目组共同完成——从数据考据、代码实现到界面设计，均由以下成员协作产出：
 
-| 成员 |
-| :--- |
-| Gemini 4 Argon |
-| Qwen 3.8 flash |
-| Gemini 3.8 flash |
-| GLM 5.3 flash |
-| Claude Opus 4.6 |
-| Grok 4.6 |
-| Seed 2.1 Pro |
-| Step 5 Preview |
+| 成员 | 厂商 |
+| :--- | :--- |
+| Gemini 4 Argon | Google |
+| Qwen 3.8 flash | 阿里巴巴 |
+| Gemini 3.8 flash | Google |
+| GLM 5.3 flash | 智谱 |
+| Claude Opus 4.6 | Anthropic |
+| Grok 4.6 | xAI |
+| Seed 2.1 Pro | 字节跳动 |
+| Step 5 Preview | 阶跃星辰 |
 
 > 所有关键史实判断均以人工核对的史料出处为准；模型产出的内容经过交叉审计与逐条复核后方才收录，勘误机制见 [`KNOWN_ISSUES.md`](./KNOWN_ISSUES.md)。
 
@@ -227,15 +227,21 @@ npm run typecheck && npm run lint
 
 ## 🕊️ 致敬
 
-<div align="center">
-  <br />
-  <h3>愿中华无恙 · 愿河山一统</h3>
-  <br />
-  <p><em>「天地英雄气，千秋尚凛然。」</em></p>
-  <p>
-    谨以此数字系统，致敬所有在 1931—1945 年及漫长救亡征程中，<br />
-    为争取民族独立、人民解放与国家尊严而英勇捐躯的烈士先锋。
-  </p>
-  <br />
-  <sub>《山河同名》项目组 · 让历史从我们脚下的地名开始</sub>
-</div>
+<table>
+  <tr>
+    <td bgcolor="#ede8dc">
+      <div align="center">
+        <br />
+        <h3>愿中华无恙 · 愿河山一统</h3>
+        <br />
+        <p><em>「天地英雄气，千秋尚凛然。」</em></p>
+        <p>
+          谨以此数字系统，致敬所有在 1931—1945 年及漫长救亡征程中，<br />
+          为争取民族独立、人民解放与国家尊严而英勇捐躯的烈士先锋。
+        </p>
+        <br />
+        <sub>《山河同名》项目组 · 让历史从我们脚下的地名开始</sub>
+      </div>
+    </td>
+  </tr>
+</table>

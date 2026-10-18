@@ -187,16 +187,16 @@ Submit a pull request, or leave a note through the "点亮家乡英雄地名" (l
 
 The project was initiated and is maintained by [@KirishimaEri](https://github.com/KirishimaEri), and built by a human–AI collaboration team of large language models — from data research and code to interface design:
 
-| Member |
-| :--- |
-| Gemini 4 Argon |
-| Qwen 3.8 flash |
-| Gemini 3.8 flash |
-| GLM 5.3 flash |
-| Claude Opus 4.6 |
-| Grok 4.6 |
-| Seed 2.1 Pro |
-| Step 5 Preview |
+| Member | Vendor |
+| :--- | :--- |
+| Gemini 4 Argon | Google |
+| Qwen 3.8 flash | Alibaba |
+| Gemini 3.8 flash | Google |
+| GLM 5.3 flash | Zhipu AI |
+| Claude Opus 4.6 | Anthropic |
+| Grok 4.6 | xAI |
+| Seed 2.1 Pro | ByteDance |
+| Step 5 Preview | StepFun |
 
 > All key historical judgments rest on sources verified by human review; model output is cross-audited and checked entry by entry before inclusion. Errata: [`KNOWN_ISSUES.md`](./KNOWN_ISSUES.md).
 
@@ -217,15 +217,21 @@ The data license uses the ShareAlike and Attribution clauses: corrections to the
 
 ## 🕊️ In memory
 
-<div align="center">
-  <br />
-  <h3>愿中华无恙 · 愿河山一统 / May China be at peace, and the land remain whole.</h3>
-  <br />
-  <p><em>「天地英雄气，千秋尚凛然。」 — "The spirit of heroes fills heaven and earth, and endures through the ages."</em></p>
-  <p>
-    In memory of all who gave their lives in 1931–1945 and in the long struggle that preceded it,<br />
-    for the independence of the nation, the liberation of the people, and the dignity of the country.
-  </p>
-  <br />
-  <sub>Echoes of Heroes · History begins with the names beneath our feet.</sub>
-</div>
+<table>
+  <tr>
+    <td bgcolor="#ede8dc">
+      <div align="center">
+        <br />
+        <h3>愿中华无恙 · 愿河山一统 / May China be at peace, and the land remain whole.</h3>
+        <br />
+        <p><em>「天地英雄气，千秋尚凛然。」 — "The spirit of heroes fills heaven and earth, and endures through the ages."</em></p>
+        <p>
+          In memory of all who gave their lives in 1931–1945 and in the long struggle that preceded it,<br />
+          for the independence of the nation, the liberation of the people, and the dignity of the country.
+        </p>
+        <br />
+        <sub>Echoes of Heroes · History begins with the names beneath our feet.</sub>
+      </div>
+    </td>
+  </tr>
+</table>
