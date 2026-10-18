@@ -14,9 +14,7 @@
  * ───────────────────────────────────────────────────────────────────────────
  */
 
-const PLACEHOLDER_OWNER = 'YOUR_GITHUB_USERNAME';
-
-export const REPO_OWNER = PLACEHOLDER_OWNER;
+export const REPO_OWNER = 'KirishimaEri';
 
 export const REPO_NAME = 'echoes-of-heroes';
 
@@ -34,5 +32,4 @@ export const CLONE_URL = `${REPO_URL}.git`;
  */
 export const CONTRIBUTE_ISSUE_URL = `${REPO_URL}/issues/new`;
 
-/** False while the owner is still a placeholder — nothing outbound is rendered then. */
-export const isPublished = REPO_OWNER !== PLACEHOLDER_OWNER;
+export const isPublished = true;
