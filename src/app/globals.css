@@ -1,0 +1,250 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/*
+ * 「碑拓」设计系统 —— 纸、墨、印。
+ * 纸是冷的、糙的；字是凹的、黑的；唯有朱砂是全站唯一的彩色。
+ * 唯一的深色面是地图（砚台）。所有颜色必须引用 @theme token，禁止硬编码 hex。
+ */
+@theme {
+  /* 纸（背景阶） */
+  --color-paper: #ede8dc;
+  --color-paper-2: #e4ddcd;
+  --color-paper-3: #d8d0bc;
+
+  /* 墨（前景阶） */
+  --color-ink: #1a1815;
+  --color-ink-2: #4a453c;
+  --color-ink-3: #5c5446;
+  --color-ink-4: #b5ac99;
+
+  /* 朱（唯一强调色） */
+  --color-cinnabar: #a4321f;
+  --color-cinnabar-dim: #7c2a1c;
+  --color-cinnabar-wash: #a4321f14;
+
+  /* 线与砚 */
+  --color-line: #c9bfa9;
+  --color-stone: #141210;
+
+  --font-serif: "Noto Serif SC", "Songti SC", "SimSun", "STSong", "Source Han Serif SC", "Times New Roman", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+:root {
+  --background: #ede8dc;
+  --foreground: #1a1815;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--color-cinnabar);
+  color: var(--color-paper);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-paper-2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-cinnabar);
+}
+
+/* ---- 工具类：界格线 / 题签 / 巨字 ---- */
+
+/* 界格线：地方志分栏式 1px 横线 */
+.rule-line {
+  border-bottom: 1px solid var(--color-line);
+}
+
+/* 碑额小字：栏目题签 */
+.epigraph-label {
+  font-family: var(--font-serif);
+  font-size: 12px;
+  letter-spacing: 0.5em;
+  color: var(--color-ink-3);
+}
+
+/* 巨字：碑刻正文，只用于被读的大标题 */
+.font-monument {
+  font-family: var(--font-serif);
+  letter-spacing: 0;
+  font-weight: 900;
+}
+
+/* ---- 动效（三组，全部有叙事动机） ---- */
+
+/* 1. 显影：拓印显影，墨在纸上洇开。全站唯一入场动画（CSS-only）。 */
+@keyframes develop {
+  0% {
+    opacity: 0;
+    filter: contrast(1.4) blur(2px);
+  }
+  100% {
+    opacity: 1;
+    filter: contrast(1) blur(0);
+  }
+}
+
+.develop {
+  animation: develop 0.7s cubic-bezier(0.2, 0.6, 0.3, 1) both;
+}
+
+.develop-stagger > * {
+  animation: develop 0.7s cubic-bezier(0.2, 0.6, 0.3, 1) both;
+}
+.develop-stagger > *:nth-child(1) { animation-delay: 0s; }
+.develop-stagger > *:nth-child(2) { animation-delay: 0.08s; }
+.develop-stagger > *:nth-child(3) { animation-delay: 0.16s; }
+.develop-stagger > *:nth-child(4) { animation-delay: 0.24s; }
+.develop-stagger > *:nth-child(5) { animation-delay: 0.32s; }
+.develop-stagger > *:nth-child(6) { animation-delay: 0.4s; }
+.develop-stagger > *:nth-child(7) { animation-delay: 0.48s; }
+.develop-stagger > *:nth-child(8) { animation-delay: 0.56s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .develop,
+  .develop-stagger > * {
+    animation: none;
+  }
+}
+
+/* 2. 落印：朱砂方印砸落带回弹，用于弹窗标题角等关键确认时刻。 */
+@keyframes stamp {
+  0% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(0.94);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.stamp {
+  animation: stamp 0.45s cubic-bezier(0.2, 1.4, 0.4, 1) both;
+}
+
+/* 3. 石纹常驻：拓片界格线极慢流动。 */
+@keyframes stoneflow {
+  to {
+    background-position-x: 48px;
+  }
+}
+
+.stone-flow {
+  background-image: linear-gradient(
+    90deg,
+    var(--color-line) 0 24px,
+    transparent 24px 48px
+  );
+  background-size: 48px 1px;
+  background-repeat: repeat-x;
+  animation: stoneflow 8s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stone-flow {
+    animation: none;
+  }
+}
+
+/* Marker Pulse Animation (map, dark surface) */
+@keyframes markerPulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(164, 50, 31, 0.7);
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 12px rgba(164, 50, 31, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(164, 50, 31, 0);
+  }
+}
+
+.marker-pulsing {
+  animation: markerPulse 2.2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+/* ---- Leaflet：砚台（全站唯一深色面，保持暗色定妆） ---- */
+.leaflet-container {
+  background-color: #141210 !important;
+  font-family: var(--font-sans) !important;
+  width: 100%;
+  height: 100%;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #ede8dc !important;
+  color: #1a1815 !important;
+  border-radius: 0 !important;
+  border: 1px solid rgba(164, 50, 31, 0.55) !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6) !important;
+  padding: 4px !important;
+}
+
+.leaflet-popup-tip {
+  background-color: #ede8dc !important;
+  border: 1px solid rgba(164, 50, 31, 0.55) !important;
+}
+
+.leaflet-container a {
+  color: #1a1815 !important;
+}
+
+/* Leaflet 原生控件拟古化：方角、纸底、墨线，融入装裱 */
+.leaflet-bar {
+  border: 1px solid #c9bfa9 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.leaflet-bar a {
+  background: #e4ddcd !important;
+  color: #1a1815 !important;
+  border-bottom: 1px solid #c9bfa9 !important;
+  border-radius: 0 !important;
+}
+
+.leaflet-bar a:hover {
+  background: #d8d0bc !important;
+  color: #a4321f !important;
+}
+
+/* Custom Tooltip Styling for Leaflet Map */
+.custom-gold-tooltip,
+.custom-red-tooltip {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.custom-gold-tooltip::before,
+.custom-red-tooltip::before {
+  display: none !important;
+}

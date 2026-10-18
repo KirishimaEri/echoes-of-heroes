@@ -1,0 +1,58 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# leftover README export bundle (duplicate of README.md + a second copy of
+# hero-banner.png). Kept on disk, but out of history — committing it would bake
+# ~440 KB of duplicate binary into every clone. Delete the directory if you no
+# longer need it; nothing in the build references it.
+/shanheshongming-readme-bundle/
+
+# Internal review records. Keep on disk for future iterations, but never
+# commit — they contain unverified judgments and must not enter public history.
+/AUDIT-REPORT.md
+/AUDIT-REPORT-2.md
+
+# AI-era internal review documents (never publish)
+/AUDIT-REPORT.md
+/AUDIT-REPORT-2.md
+/DESIGN-AUDIT.md
+/AI-FLAVOR-AUDIT.md
