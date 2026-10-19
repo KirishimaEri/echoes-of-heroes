@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
-  "description": "山河同名 (Echoes of Heroes) — an open, sourced atlas of Chinese places named after martyrs of the War of Resistance Against Japan, 1931–1945. A static Next.js site plus the 100-entry dataset behind it.",
+  "description": "山河同名 (Echoes of Heroes) — an open, sourced atlas of Chinese places named after martyrs of the War of Resistance Against Japan, 1931–1945. A static Next.js site plus the 294-entry dataset behind it.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "test": "node --test scripts/epochs.test.ts"
+    "test": "node --test scripts/epochs.test.mts scripts/view_model.test.mts",
+    "validate:data": "node scripts/validate_data.js",
+    "data:merge": "node scripts/merge_places.js",
+    "check": "npm run typecheck && npm run lint && npm run test && npm run validate:data"
   },
   "dependencies": {
     "@types/leaflet": "^1.9.22",
