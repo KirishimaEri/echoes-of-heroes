@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-10-19T04:53:35.465Z",
+  "applied": true,
+  "tiers": {
+    "T1_age": [],
+    "T2_age_arith": [
+      {
+        "id": "hebei-zhiguang-county",
+        "name": "李之光",
+        "value": 31,
+        "evidence": "1908 — 1939"
+      },
+      {
+        "id": "heilongjiang-shaowen-xiang",
+        "name": "田绍文",
+        "value": 35,
+        "evidence": "1907 — 1942"
+      }
+    ],
+    "T3_date": [],
+    "review": [
+      {
+        "id": "jilin-hanzhang-dajie",
+        "name": "陈翰章",
+        "candidates": [
+          1948
+        ],
+        "evidence": "敦化城区命名翰章大街纪念，其出生地半截河屯另于1948年改名翰章屯。"
+      },
+      {
+        "id": "jilin-jingyu-lu-tonghua",
+        "name": "杨靖宇",
+        "candidates": [
+          1954
+        ],
+        "evidence": "1954年通化杨靖宇烈士陵园在靖宇山动工修建，山下长路随之定名靖宇路，陵园即位于东昌区靖宇路888号。"
+      },
+      {
+        "id": "jiangsu-wanglong-bridge",
+        "name": "王龙",
+        "candidates": [
+          1985
+        ],
+        "evidence": "解放后将其殉难处附近小桥命名为王龙桥，1985年镇江市政府又在桥畔修建王龙亭。"
+      },
+      {
+        "id": "zhejiang-xuemian-road",
+        "name": "朱学勉",
+        "candidates": [
+          1945
+        ],
+        "evidence": "1945年7月金萧支队诸暨办事处将枫桥忠义中学改名学勉公学，解放后枫桥又命名学勉路，并建学勉中学纪念烈士。"
+      }
+    ]
+  }
+}
