@@ -29,8 +29,9 @@
   </p>
 
   <p align="center">
+    <a href="https://github.com/KirishimaEri/echoes-of-heroes/actions/workflows/deploy.yml"><img src="https://github.com/KirishimaEri/echoes-of-heroes/actions/workflows/deploy.yml/badge.svg?branch=main" alt="构建与发布状态" /></a>
     <img src="https://img.shields.io/badge/Next.js_16_·_TypeScript_·_Tailwind_v4-black?style=flat-square" alt="技术栈" />
-    <img src="https://img.shields.io/badge/收录-100处·每条附史料出处-8b2528?style=flat-square" alt="100 处地名档案，每条附史料出处" />
+    <img src="https://img.shields.io/badge/收录-294处·每条附史料出处-8b2528?style=flat-square" alt="294 处地名档案，每条附史料出处" />
     <img src="https://img.shields.io/badge/代码-MIT_·_数据-CC_BY--SA_4.0-green?style=flat-square" alt="代码 MIT，数据 CC BY-SA 4.0" />
     <img src="https://img.shields.io/badge/已知问题-公开于KNOWN_ISSUES-orange?style=flat-square" alt="已知问题与勘误清单" />
   </p>
@@ -95,13 +96,14 @@
 
 ## 📊 收录规模
 
-本系统第一阶段已收录 **100 处**以抗战英烈命名的地名档案，覆盖全国 **16 个省、自治区、直辖市**。每条记录均标注史料出处，按地理与历史脉络分为五大板块：
+本档案现有 **294 处**以抗战英烈命名的地名记录，覆盖 **24 个省、自治区、直辖市**，涉及 **239 个英烈名号**（含以战斗集体立目者），共标注 **775 条**史料出处。按地名层级分：
 
-- **板块一 · 现存县市与历史曾用烈士县名（20 处）**：靖宇县（杨靖宇）、尚志市（赵尚志）、左权县（左权）、黄骅市（黄骅）；以及抗战时期设立、后并入现代区划的宏毅县、包森县、振堂县、企之县、麟阁县、筑先县、理琪县、竹庭县、登禹县、雪枫县、紫石县、自忠县等。
-- **板块二 · 全国大中城市抗战英雄道路（20 处）**：北京佟麟阁路、赵登禹路、张自忠路；天津张自忠路、吉鸿昌路；上海晋元路、子青路、靖宇东路、一曼街、安澜路；武汉张自忠路、郝梦龄路、刘家麒路、陈怀民路、芦沟桥路；哈尔滨尚志大街、靖宇街、兆麟街、一曼街；重庆北碚张自忠路。
-- **板块三 · 华中新四军与敌后根据地乡镇（25 处）**：江苏盐城、南通、淮安等地拥有全国最密集的新四军烈士命名乡镇——学富镇、特庸镇、明朗乡、瑞丰镇、泽夫镇、合德镇、大中街道、振东乡、白丁镇等。
-- **板块四 · 华北太行、吕梁与冀鲁根据地村镇（20 处）**：山东聊城本斋回族乡（马本斋）、河北献县本斋村、易县五勇村与狼牙山村（狼牙山五壮士）等。
-- **板块五 · 东北抗日联军纪念地名（15 处）**：吉林敦化翰章乡（陈翰章）、汪清振波村，黑龙江尚志仁义乡、铁力宏生村等。
+- **现存县市（4 处）**：靖宇县（杨靖宇）、尚志市（赵尚志）、左权县（左权）、黄骅市（黄骅）。
+- **历史曾用烈士县名（41 处）**：抗战时期或胜利后设立、后又并入现代区划的包森县、振堂县、企之县、宏毅县、麟阁县、筑先县、理琪县、登禹县、竹庭县、雪枫县、紫石县、自忠县、复程县、匡五县、南峰县、康杰县、士敏县等。
+- **城市街道（74 处）**：北京佟麟阁路、赵登禹路、张自忠路；上海自忠路、晋元路、子青路；武汉张自忠路、郝梦龄路、陈怀民路、芦沟桥路；哈尔滨尚志大街、靖宇街、兆麟街；通化靖宇路、延吉德泰街、凤城邓铁梅路、苗可秀街。
+- **乡镇与村落（175 处）**：苏北里下河水乡是全国最密集的新四军烈士命名乡镇带——学富镇、特庸镇、明朗村、泽夫村、合德镇、大中街道、振东村、白丁村、正红镇、黄尖镇；华北有河北献县本斋村、易县狼牙山镇、山东理琪村、耀南村、振华村；东北抗联则有敦化翰章乡、汪清振波村、铁力宏生村、富裕县绍文乡、肇东明久乡。
+
+山河图层已定位 **252 处**；其余 **42 处**经纬尚未考订，它们照常收录于碑林名录与编年史，仅不出现在地图上，逐条原因见 [`scripts/data/pending_coordinates.md`](./scripts/data/pending_coordinates.md)。更名年份、生卒年与殉国日期缺载者同理，页面一律标注「待考」，不以推测填补。
 
 我们不做「绝无讹误」的承诺——史料考据可以被继续推翻。编者自查确认的口径问题、建模缺陷与待核条目，公开列于 [`KNOWN_ISSUES.md`](./KNOWN_ISSUES.md)；若你掌握更好的出处，欢迎据其勘误。
 
@@ -150,19 +152,21 @@ npm run dev
 
 ### 数据字段与提交流程
 
-⚠️ **不要直接改 `src/data/places.json`。** 它是生成产物，真实源文件是按五大板块拆分的 `scripts/data/sector1.json` … `sector5.json`；任何人执行 `node scripts/merge_places.js` 都会用源文件整体覆盖 `places.json`，直接改动会被静默清空。
+⚠️ **不要直接改 `src/data/places.json`。** 它是生成产物，真源是按片区拆分的 `scripts/data/sector*.json`（基线 `sector1`–`sector5`，扩充 `sector6-northeast`、`sector7-north`、`sector8-east`、`sector9-centralsouth`、`sector10-west`）；任何人执行 `node scripts/merge_places.js` 都会用源文件整体覆盖 `places.json`。294 条扩充当初正是只写进了产物，才使一次合并几乎将其清空——现在 merge 在结果**少于**现有产物时会拒绝写入。
 
 正确流程：
 
 ```bash
-# 1. 把新记录加进它所属板块的源文件（板块三 → sector3.json，以此类推）
-# 2. 重新生成主数据文件
+# 1. 把新记录加进它所属片区的 sector 源文件
+# 2. 重新生成主数据文件（若结果比现有产物少，需 --force 才允许删减）
 node scripts/merge_places.js
-# 3. 自检
-npm run typecheck && npm run lint
+# 3. 门禁：类型 → 规范 → 视图模型与 epoch 不变量测试 → 数据不变量校验
+npm run check
+# 4. 构建后再校验导出与数据是否一致（首页计数 == places.json 条数）
+npm run build && npm run verify:export
 ```
 
-一条记录的完整字段（`merge_places.js` 仅强制 `id`、`modern_name`、`hero`、`coordinates` 存在与 `id` 不重复，其余请自行保证）：
+一条记录的完整字段（`merge_places.js` 强制 `id`、`modern_name`、`hero.name` 非空与 `id` 全库唯一，并把无法解析的 `coordinates` 归一为 `null`；年份值域、类别枚举、坐标轴序与重复记录由 `npm run validate:data` 把关）：
 
 | 字段 | 含义 | 注意 |
 | :--- | :--- | :--- |
@@ -171,7 +175,7 @@ npm run typecheck && npm run lint
 | `former_name` | 旧称 | **不是** `historical_name` |
 | `category` | `县市` / `街道` / `乡镇与村落` / `历史曾用县名` | 类型里还有个零使用的 `乡镇`，请勿新增使用 |
 | `province` / `city` | 省级、市级归属 | 跨省用 `省A/省B`，两侧均为全称 |
-| `coordinates` | **`[经度, 纬度]`** | 与 `thematics.ts` 的 `[纬度, 经度]` 相反，见 KNOWN_ISSUES 第 6 条 |
+| `coordinates` | **`[经度, 纬度]`**，未考订者写 `null` | 与 `thematics.ts` 的 `[纬度, 经度]` 相反，见 KNOWN_ISSUES 第 6 条；空数组不被接受，一律用 `null` 表示经纬待考 |
 | `renamed_year` | 命名/更名年份 | |
 | `hero.name` | 英烈姓名或集体称谓 | 群体条目请在命名中体现（如「…群体」「…群英」） |
 | `hero.birth_year` / `death_year` / `sacrifice_age` | 生卒与殉国年龄 | 个人记录须满足 `death_year − birth_year = sacrifice_age`；群体条目为代表年岁，不适用该式 |

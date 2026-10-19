@@ -30,8 +30,9 @@
   </p>
 
   <p align="center">
+    <a href="https://github.com/KirishimaEri/echoes-of-heroes/actions/workflows/deploy.yml"><img src="https://github.com/KirishimaEri/echoes-of-heroes/actions/workflows/deploy.yml/badge.svg?branch=main" alt="Build and deploy status" /></a>
     <img src="https://img.shields.io/badge/Next.js_16_·_TypeScript_·_Tailwind_v4-black?style=flat-square" alt="Stack" />
-    <img src="https://img.shields.io/badge/100_entries-·_each_with_cited_sources-8b2528?style=flat-square" alt="100 entries, each with cited sources" />
+    <img src="https://img.shields.io/badge/294_entries-·_each_with_cited_sources-8b2528?style=flat-square" alt="294 entries, each with cited sources" />
     <img src="https://img.shields.io/badge/Code-MIT_·_Data-CC_BY--SA_4.0-green?style=flat-square" alt="Code MIT, data CC BY-SA 4.0" />
     <img src="https://img.shields.io/badge/Known_issues-published_in_KNOWN_ISSUES-orange?style=flat-square" alt="Known issues published in KNOWN_ISSUES" />
   </p>
@@ -94,13 +95,14 @@ Five cities have been turned into guided exhibits: activating one locks the map 
 
 ## 📊 The archive
 
-The first phase contains **100 entries** across **16 provinces and municipalities**, every one backed by written sources. The entries are organized into five sections:
+The archive now holds **294 entries** across **24 provincial-level units**, naming **239 martyrs** (some entries commemorate a unit rather than an individual) and citing **775 written sources**. Grouped by the kind of place:
 
-- **Section 1 — Counties and wartime county names (20)**: Jingyu County (Yang Jingyu), Shangzhi (Zhao Shangzhi), Zuoquan County (Zuo Quan), Huanghua (Huang Hua); and wartime counties later absorbed into modern divisions — Hongyi, Baosen, Zhengtang, Qizhi, Linge, Zhuxian, Liqi, Zhuting, Dengyu, Xuefeng, Zishi, Zizhong, and others.
-- **Section 2 — Hero roads in major cities (20)**: Tong Linge Road, Zhao Dengyu Road and Zhang Zizhong Road in Beijing; Zhang Zizhong Road and Ji Hongchang Road in Tianjin; Jinyuan Road, Ziqing Road, Jingyu East Road, Yiman Street and Anlan Road in Shanghai; Zhang Zizhong, Hao Mengling, Liu Jiaqi, Chen Huaimin and Lugouqiao Roads in Wuhan; Shangzhi Avenue, Jingyu Street, Zhaolin Street and Yiman Street in Harbin; Zhang Zizhong Road in Beibei, Chongqing.
-- **Section 3 — New Fourth Army towns of the central-China bases (25)**: the densest cluster of martyr-named towns in the country, in Yancheng, Nantong and Huai'an, Jiangsu — Xuefu, Teyong, Minglang, Ruifeng, Zefu, Hede, Dazhong, Zhendong, Baiding, and more.
-- **Section 4 — Villages and towns of the North China bases (20)**: Benzha Hui Township in Liaocheng, Shandong (Ma Benzhai); Benzha Village in Xianxian, Hebei; Wuyong Village and Langya Mountain Village in Yixian (the Five Heroes of Langya Mountain).
-- **Section 5 — Places remembering the Northeast Anti-Japanese United Army (15)**: Hanzhang Township in Dunhua, Jilin (Chen Hanzhang); Zhenbo Village in Wangqing; Renyi Township in Shangzhi and Hongsheng Village in Tieli, Heilongjiang.
+- **Existing counties and cities (4)**: Jingyu County (Yang Jingyu), Shangzhi (Zhao Shangzhi), Zuoquan County (Zuo Quan), Huanghua (Huang Hua).
+- **Wartime county names since retired (41)**: divisions created during or immediately after the war and later absorbed — Baosen, Zhengtang, Qizhi, Hongyi, Linge, Zhuxian, Liqi, Dengyu, Zhuting, Xuefeng, Zishi, Zizhong, Fucheng, Kuangwu, Nanfeng, Kangjie, Shimin, and others.
+- **City streets (74)**: Tong Linge Road, Zhao Dengyu Road and Zhang Zizhong Road in Beijing; Zizhong Road, Jinyuan Road and Ziqing Road in Shanghai; Zhang Zizhong, Hao Mengling, Chen Huaimin and Lugouqiao Roads in Wuhan; Shangzhi Avenue, Jingyu Street and Zhaolin Street in Harbin; Jingyu Road in Tonghua, Detai Street in Yanji, Deng Tiemei Road and Miao Kexiu Street in Fengcheng.
+- **Towns and villages (175)**: the Lihe River marshlands of central Jiangsu hold the densest cluster of New Fourth Army martyr-named towns in the country — Xuefu, Teyong, Minglang, Zefu, Hede, Dazhong, Zhendong, Baiding, Zhenghong, Huangjian; North China contributes Benzha Village in Xianxian, Langya Mountain Town in Yixian, and Liqi, Yaonan and Zhenhua villages in Shandong; the Northeast Anti-Japanese United Army is remembered in Hanzhang Township (Dunhua), Zhenbo Village (Wangqing), Hongsheng Village (Tieli), Shaowen Township (Fuyu) and Mingjiu Township (Zhaodong).
+
+**252** entries are located in the map layer. The remaining **42** still await coordinate verification: they remain fully present in the name book and the chronology and are simply not plotted, and each reason is listed in [`scripts/data/pending_coordinates.md`](./scripts/data/pending_coordinates.md). Renaming years, birth and death years and sacrifice dates go the same way — printed as 「待考」 (pending verification) rather than filled with a plausible guess.
 
 We do not claim this archive is free of error — scholarship on these names is meant to be challenged and corrected. Problems the editors have confirmed, modeling gaps and entries still awaiting verification are published openly in [`KNOWN_ISSUES.md`](./KNOWN_ISSUES.md). If you hold a better source, we would like to hear from you.
 
@@ -144,17 +146,21 @@ Our own eyes are limited, and China's land is vast. If you find in local gazette
 
 ### Data fields and workflow
 
-⚠️ **Do not edit `src/data/places.json` directly.** It is a generated file. The real sources are the five sector files `scripts/data/sector1.json` … `sector5.json`; anyone running `node scripts/merge_places.js` overwrites `places.json` entirely from them — direct edits are silently wiped.
+⚠️ **Do not edit `src/data/places.json` directly.** It is a generated file. The real sources are `scripts/data/sector*.json`, split by region (baseline `sector1`–`sector5`, expansion `sector6-northeast`, `sector7-north`, `sector8-east`, `sector9-centralsouth`, `sector10-west`); anyone running `node scripts/merge_places.js` overwrites `places.json` entirely from them — direct edits are silently wiped. That is exactly what nearly cost the archive its 194 expansion records, which is why the merge now refuses to write a result smaller than the file it is replacing.
+
+The supported flow:
 
 ```bash
-# 1. Add the new record to the sector file of its section (Section 3 → sector3.json, etc.)
-# 2. Regenerate the master data file
+# 1. add records to the sector file for their region
+# 2. regenerate the main data file (pass --force only if a deletion is intended)
 node scripts/merge_places.js
-# 3. Self-check
-npm run typecheck && npm run lint
+# 3. gate: types → lint → view-model and epoch invariant tests → data validation
+npm run check
+# 4. after building, verify the export still agrees with the data
+npm run build && npm run verify:export
 ```
 
-A complete record has the following fields (`merge_places.js` only enforces the existence of `id`, `modern_name`, `hero`, `coordinates` and the uniqueness of `id`; the rest is up to you):
+A complete record has the following fields (`merge_places.js` requires a non-empty `id`, `modern_name` and `hero.name`, rejects duplicate ids, and normalises an unusable `coordinates` value to `null`; year ranges, category enums, coordinate axis order and duplicate records are checked by `npm run validate:data`):
 
 | Field | Meaning | Notes |
 | :--- | :--- | :--- |
@@ -163,7 +169,7 @@ A complete record has the following fields (`merge_places.js` only enforces the 
 | `former_name` | Former name | **Not** `historical_name` |
 | `category` | `县市` (county/city) / `街道` (street) / `乡镇与村落` (town and village) / `历史曾用县名` (former wartime county name) | An unused `乡镇` value exists in the type; do not add new uses |
 | `province` / `city` | Province and city | Cross-province: `省A/省B`, both full names |
-| `coordinates` | **`[longitude, latitude]`** | Opposite order from `thematics.ts` (`[lat, lng]`); see KNOWN_ISSUES #6 |
+| `coordinates` | **`[longitude, latitude]`**, or `null` when unverified | Opposite order from `thematics.ts` (`[lat, lng]`); see KNOWN_ISSUES #6. An empty array is not accepted — a pending location is `null`, shown as 待考 |
 | `renamed_year` | Year of naming/renaming | |
 | `hero.name` | Hero's name or collective designation | Collective entries should say so in the name (e.g. "…group") |
 | `hero.birth_year` / `death_year` / `sacrifice_age` | Birth year, death year, age at death | Individual records must satisfy `death_year − birth_year = sacrifice_age`; collective entries use representative values |
