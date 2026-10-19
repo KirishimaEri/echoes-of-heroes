@@ -75,21 +75,44 @@ Leaflet 在处理大量自定义 `divIcon` 时，频繁的 DOM 创建与销毁�
 ## 构建与验证
 
 ```bash
-npm run typecheck   # 类型检查（独立于构建）
-npm run lint        # ESLint
-npm test            # 回归测试（时间轴 epoch 覆盖完整性）
-npm run build       # 生成静态产物到 out/
-npx serve out       # 本地预览（output: "export" 模式下 next start 不可用，须用静态服务器）
+npm run check        # 门禁：typecheck → lint → test → validate:data（提交前跑这个）
+npm run typecheck    # 类型检查（独立于构建）
+npm run lint         # ESLint
+npm test             # 回归测试：时间轴 epoch 覆盖 + 视图模型不变量（直接跑真实数据集）
+npm run validate:data# sector 真源一致性、字段值域、坐标轴序、重复记录
+npm run build        # 生成静态产物到 out/
+npm run verify:export# 构建后校验：首页计数 == places.json 条数、basePath 前缀、可见文本无 undefined/NaN
+npx serve out        # 本地预览（output: "export" 模式下 next start 不可用，须用静态服务器）
 ```
+
+`npm run build` 之后务必跑一次 `verify:export`。它存在的原因是：v0.1.2 那次线上两个视图白屏，
+tsc、eslint 与构建全都不报错——空值只有在渲染成文字时才暴露。它同时断言首页宣称的记录数
+等于数据文件的实际条数，因此任何静默丢记录的筛选改动都会在这里失败。脚本支持
+`--html=<path>`，反向测试用它对一份被故意改坏的副本验证「守卫真的会失败」。
+
+## 发布
+
+`.github/workflows/deploy.yml` 在推送到 `main` 时执行：门禁 → 静态导出 → 导出一致性校验 →
+以 Pages 制品部署（结构取自 Next.js 官方模板 `nextjs/deploy-github-pages`，改为 npm）。
+
+一次性前置设置（仓库所有者操作）：**Settings → Pages → Source = GitHub Actions**。
+若 Source 仍是 `gh-pages` 分支，deploy 作业会失败，而线上页面继续由该分支提供——
+这也是历史上手工发布所走的路径；切换成功一次之后，`gh-pages` 分支即可停用。
 
 ## 数据管线
 
-- `scripts/data/sector1.json` … `sector5.json`：五大板块源数据（人工维护）
-- `node scripts/merge_places.js`：合并生成 `src/data/places.json`
-- `scripts/epochs.test.ts`：时间轴分段覆盖回归测试（`npm test` 运行）
+- `scripts/data/sector1.json` … `sector5.json`：基线条目的板块源数据（人工维护）
+- `scripts/data/sector6-northeast.json` … `sector10-west.json`：按片区划分的扩充记录（同为真源）
+- `node scripts/merge_places.js`：合并全部 `sector*.json` 生成 `src/data/places.json`；
+  合并结果若少于现有产物会拒绝写入（防误删），需 `--force` 才允许删减
+- `node scripts/sync_sectors.js`：把直接改在 `places.json` 里的记录回写到 sector 真源
+- `node scripts/validate_data.js`：真源一致性与字段不变量（`npm run validate:data`）
+- `scripts/epochs.test.mts`、`scripts/view_model.test.mts`：`npm test` 运行
+- `node scripts/geocode_amap_web.js` → `apply_coordinates.js`：经纬考订管线（详见 KNOWN_ISSUES 第 9 条）
+- `node scripts/check_export.js`：构建产物一致性校验（`npm run verify:export`）
 
-⚠️ 不要直接修改 `src/data/places.json`——它是生成产物，任何人执行 merge 脚本都会用源文件整体覆盖它。字段说明与提交流程见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+⚠️ 不要直接修改 `src/data/places.json`——它是生成产物，任何人执行 merge 脚本都会用源文件整体覆盖它（这正是 294 条扩充险些被清空的原因）。字段说明与提交流程见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
 ## 已知边界
 
-坐标轴序不一致、枚举取值未归一、无自动化 CI 等结构性问题，以及数据口径问题与待核条目，均公开列于 [`KNOWN_ISSUES.md`](./KNOWN_ISSUES.md)。
+坐标轴序不一致、枚举取值未归一等结构性问题，经纬与年月的待考条目，以及数据口径问题，均公开列于 [`KNOWN_ISSUES.md`](./KNOWN_ISSUES.md)。

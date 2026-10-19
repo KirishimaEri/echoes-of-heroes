@@ -116,7 +116,7 @@ shanxi-caijiaya-village   heilongjiang-lengyun-village
 第 2、3 条描述的问题正是从这道防线漏过去的（它不校验年份、枚举与恒等式）。现在：
 
 - `npm run check` 串起 `tsc --noEmit` → `eslint` → `node --test` → `validate_data.js`；
-- `scripts/view_model.test.ts` 直接对真实数据集跑视图模型不变式：坐标只能是
+- `scripts/view_model.test.mts` 直接对真实数据集跑视图模型不变式：坐标只能是
   `null` 或合法的 `[lng, lat]`（并断言 `lng > lat`，因为轴序颠倒正是本库反复踩过的坑）、
   编年分桶不丢记录、任何缩放级别下聚合结果都可绘制、统计口径不被空值污染；
 - `scripts/validate_data.js` 校验 sector 真源与 `places.json` 是否一致、字段值域、
@@ -124,8 +124,9 @@ shanxi-caijiaya-village   heilongjiang-lengyun-village
 - `scripts/merge_places.js` 现在会在合并结果**少于**现有 `places.json` 时拒绝写入
   （见第 9 条的事故），需要 `--force` 才允许删减。
 
-- **仍缺**：GitHub Actions。上述检查目前只能靠本地 `npm run check` 与人工自觉，
-  对协作者没有强制力。
+- **仍缺**：`verify:export`（导出产物一致性校验）只挂在 CI 的构建之后，未纳入本地
+  `npm run check`——因为它需要 `out/` 已生成。本地提交前若改了渲染逻辑，请手动
+  `npm run build && npm run verify:export`。
 
 ## 9. `[待补]` 194 条新增条目经纬度待考 —— v0.1.2 线上崩溃的直接起因
 
@@ -145,18 +146,26 @@ shanxi-caijiaya-village   heilongjiang-lengyun-village
 显示「待考」，无坐标条目**照常收录于名录与编年，但不进入空间图层**（地图面板顶部
 明示「N 处经纬待考，未列入空间图层」）。缺的是坐标本身，不是防线。
 
-补坐标的现状与限制：
+补坐标的实际路径与限制：
 
-- 本机网络下 Nominatim 与 Overpass 镜像均被网关拦截（406/500/超时），可用的是
-  photon.komoot.io；它对中文乡镇、街道、村的覆盖很差——已跑的 93 条中仅 23 条
-  可靠命中、8 条同名多解，59 条未命中，命中率约 1/3。
-- 「历史曾用县名」25 条（复程县、匡五县等战时设立后又撤销的县名）在公开地名库中
-  根本不存在，按今名检索必然 0 命中。
-- 结论：要成规模补齐，需要高德 Web服务 key（`scripts/geocode_amap.js` 已备好，
-  含地名级校验与配额熔断）。**未通过校验的一律留空，不做「看起来对」的填补。**
+- 主路径是**免 key** 的 `www.amap.com/service/poiTips`（高德网页版自用），返回 x/y
+  （GCJ-02，与底图同系）、`district` 与 `adcode`。对照：photon.komoot.io（OSM）对同一批
+  记录 100 条仅解出 26 条；此路 194 条解出 152 条。本机的 Nominatim 与 Overpass 镜像
+  均被网关拦截（超时/406/500），`restapi.amap.com` 可达但需 Web服务 key，故未采用。
+- 必须带**县级 adcode** 收紧检索：该端点只返回约 10 条建议，全国「双龙村」被阿城区、
+  双城区、延寿县等占满，记录所在的五常市那条根本不出现。
+- 每条命中都要落在记录自身所载的县/区之内；写到「五常市沙河子镇」就不许因为
+  「阿城区也属于哈尔滨市」而放行。开发过程中该类误配抓到两例（双龙村@阿城、
+  国生路@南通），均为校验层级过松所致，已修并在 `geocode_amap_web.js` 注释中留下成因。
+- 乡镇一级的坐标常挂在「X人民政府」行上，此类按治所取值并记为 `approximate`，
+  `coordinate_note` 明写「按所属政区治所示意，非地名精确点位」。
+- 现状：**已定位 252 / 294**。仍待考 42 条 = 25 条历史曾用县名（战后撤销的战时设县，
+  公开地名库无此名；按今属县治所填补等于替记录宣称它没说过的坐标）+ 17 条村、桥、堤、
+  关级地名（索引中查无同名或同名多解）。逐条原因与同名分布见
+  [`scripts/data/pending_coordinates.md`](./scripts/data/pending_coordinates.md)。
 - 坐标系限制：底图用高德瓦片（GCJ-02），而既有 100 条手工坐标中有 58 条只精确到
   小数点后 2 位（约 1 公里），因此本库整体只保证公里级定位，不宣称米级精度；
-  补入的新坐标会带 `coordinate_source` 标注来源，便于将来统一重投影。
+  补入的新坐标带 `coordinate_source` 标注来源，便于将来统一重投影。
 
 ## 10. `[待核]` 70 条更名年份来源未载，页面显示「更名待考」
 
