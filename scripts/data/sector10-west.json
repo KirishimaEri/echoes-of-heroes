@@ -1,0 +1,194 @@
+[
+  {
+    "id": "yunnan-fuyuan-lijiji-avenue",
+    "modern_name": "立基大道",
+    "former_name": "立基大道",
+    "category": "街道",
+    "province": "云南省",
+    "city": "曲靖市",
+    "coordinates": [
+      104.265,
+      25.7
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "王甲本",
+      "birth_year": 1901,
+      "death_year": 1944,
+      "sacrifice_age": 43,
+      "title": "第七十九军中将军长（追晋陆军中将）",
+      "force": "国民革命军第79军",
+      "sacrifice_date": "1944年9月7日",
+      "battle": "湖南东安山口铺掩护军部突围肉搏殉国",
+      "story": "王甲本字立基，云南富源人，国民革命军第79军中将军长，先后参加淞沪、武汉、长沙、常德等会战，以能打硬仗著称，人称“硬仗将军”。1944年9月7日，在湖南东安山口铺遭日军化装突袭，亲率军部手枪排反击，弹尽后与敌肉搏，被刺中腹部壮烈牺牲。家乡富源县将连接新旧城区的主干道命名为立基大道，以其字纪念将军。"
+    },
+    "modern_status": "位于云南省曲靖市富源县城，立基大道宽40米、长3.3公里，为连接新旧城区的城市主干道，是富源人民缅怀王甲本将军的重要载体。",
+    "sources": [
+      "人民日报《硬仗将军王甲本（铭记历史 缅怀先烈·抗日英雄）》 http://cpc.people.com.cn/BIG5/n1/2025/0806/c443712-40537078.html",
+      "中华人民共和国退役军人事务部《硬仗将军王甲本》 https://www.mva.gov.cn/sy/zt/jnkzsl80zn/mhxl/202509/t20250902_510601.html",
+      "中国第二历史档案馆《硬战军长王甲本》 http://www.shac.net.cn/mgcq/mgmr/201807/t20180703_3908.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 云南省曲靖市富源县"
+  },
+  {
+    "id": "sichuan-lushan-leyiqin-road",
+    "modern_name": "乐以琴路",
+    "former_name": "乐以琴路",
+    "category": "街道",
+    "province": "四川省",
+    "city": "雅安市",
+    "coordinates": [
+      102.9303,
+      30.1571
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "乐以琴",
+      "birth_year": 1914,
+      "death_year": 1937,
+      "sacrifice_age": 23,
+      "title": "空军第四大队上尉分队长（抗日航空英烈）",
+      "force": "国民革命军空军",
+      "sacrifice_date": "1937年12月3日",
+      "battle": "南京保卫空战殉国",
+      "story": "乐以琴原名乐以钟，四川芦山人，中央航校三期毕业，曾任空军第四大队分队长，抗战初期在淞沪、南京空战中连日出击，曾一人击落日机多架，被誉为“空中赵子龙”。1937年12月3日南京空战中，面对数十架敌机拼死鏖战，最终坠机殉国。家乡芦山县以其姓名命名乐以琴路，路旁即为乐以琴故居。"
+    },
+    "modern_status": "位于四川省雅安市芦山县城，路侧保留乐以琴故居四合院，芦山县博物馆另设乐以琴陈列室供瞻仰。",
+    "sources": [
+      "中华英烈网《铭记历史 缅怀先烈丨空中赵子龙乐以琴：凌云壮志 精忠报国》 https://www.chinamartyrs.gov.cn/x_xwzx/zhzx/202507/t20250728_505024.html",
+      "光明网《空中赵子龙乐以琴：凌云壮志 精忠报国》 https://news.gmw.cn/2025-07/27/content_38176314.htm",
+      "四川省情网《空中赵子龙乐以琴》 http://scdfz.sc.gov.cn/whzh/slzc1/content_181516"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 四川省雅安市芦山县"
+  },
+  {
+    "id": "sichuan-xindu-mingzhang-road",
+    "modern_name": "铭章路",
+    "former_name": "铭章路",
+    "category": "街道",
+    "province": "四川省",
+    "city": "成都市",
+    "coordinates": [
+      104.1547,
+      30.8259
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "王铭章",
+      "birth_year": 1893,
+      "death_year": 1938,
+      "sacrifice_age": 45,
+      "title": "国民革命军第122师师长（追赠陆军上将）",
+      "force": "国民革命军第41军",
+      "sacrifice_date": "1938年3月17日",
+      "battle": "山东滕县保卫战殉国",
+      "story": "王铭章，四川新都人，川军名将。1938年3月台儿庄战役序幕的滕县保卫战中，他率第122师三千将士死守孤城，浴血巷战，城破后身中数弹壮烈殉国，为汤恩伯、孙连仲部合围日军矶谷师团赢得了宝贵时间。家乡新都人民为纪念他，除修建铭章中学（今新都一中前身）外，还在城区修建了铭章路。"
+    },
+    "modern_status": "位于四川省成都市新都区桂湖街道城区，为沿用至今的城区道路（沿街门址如铭章路18号、28号、39号），邻近新都一中（原铭章中学）。",
+    "sources": [
+      "黄埔军校同学会《王铭章》英烈祠词条（载家乡新都修建铭章中学与铭章路） http://www.huangpu.org.cn",
+      "360地图《铃木豪爵售后服务中心(铭章路店)：成都市新都区桂湖街道铭章路18号》 https://m.map.360.cn/?pid=43aaa7134eb4418b",
+      "企查查工商注册地址记录（新都区桂湖街道铭章路） https://www.qcc.com"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 四川省成都市新都区"
+  },
+  {
+    "id": "sichuan-yibin-yiman-avenue",
+    "modern_name": "一曼大道",
+    "former_name": "一曼大道",
+    "category": "街道",
+    "province": "四川省",
+    "city": "宜宾市",
+    "coordinates": [
+      104.5432,
+      28.7266
+    ],
+    "renamed_year": 2021,
+    "hero": {
+      "name": "赵一曼",
+      "birth_year": 1905,
+      "death_year": 1936,
+      "sacrifice_age": 31,
+      "title": "东北人民革命军第三军第二团政治委员",
+      "force": "东北抗联",
+      "sacrifice_date": "1936年8月2日",
+      "battle": "哈东反“讨伐”作战负伤被俘，珠河（今黑龙江尚志市）就义",
+      "story": "赵一曼原名李坤泰，四川宜宾人，1931年九一八事变后赴东北领导抗日，任东北人民革命军第三军二团政委，1935年11月负伤被俘，1936年8月2日在珠河就义，年仅31岁。2021年，宜宾叙州区在城北新区新建联通高新区与城北新区的主干道，以赵一曼名字命名为一曼大道，沿线配建一曼公园、一曼剧场。"
+    },
+    "modern_status": "位于四川省宜宾市叙州区城北新区，为联通宜宾高新区与城北新区的新建城市主干道，2021年进入试通车阶段，沿线设有一曼公园、一曼剧场等赵一曼纪念配套。",
+    "sources": [
+      "中国新闻网·四川《宜宾叙州：三束鲜花献英烈 红色精神在奋进热土延续》 http://www.sc.chinanews.com.cn/bwbd/2021-10-01/156325.html",
+      "中华英烈网《【四川】四川宜宾：赓续抗战精神血脉 创新青少年思政教育实践》 https://www.chinamartyrs.gov.cn/x_xwzx/gdyw/202508/t20250827_509303.html",
+      "宜宾市文化广播电视和旅游局《“我的身份证上有你的名字”——关于一曼的故事》 http://wglyj.yibin.gov.cn/zzzq/gzdt/202204/t20220422_1722176.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 四川省宜宾市叙州区"
+  },
+  {
+    "id": "sichuan-yibin-yiman-village",
+    "modern_name": "一曼村",
+    "former_name": "一曼村（赵一曼故居所在地原村落）",
+    "category": "乡镇与村落",
+    "province": "四川省",
+    "city": "宜宾市",
+    "coordinates": [
+      104.5021,
+      29.121
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "赵一曼",
+      "birth_year": 1905,
+      "death_year": 1936,
+      "sacrifice_age": 31,
+      "title": "东北人民革命军第三军第二团政治委员",
+      "force": "东北抗联",
+      "sacrifice_date": "1936年8月2日",
+      "battle": "哈东反“讨伐”作战负伤被俘，珠河（今黑龙江尚志市）就义",
+      "story": "赵一曼原名李坤泰，四川宜宾人，1931年九一八事变后赴东北领导抗日，任东北人民革命军第三军二团政委，在哈东打击日伪。1935年11月作战负伤被俘，受尽酷刑坚贞不屈，1936年8月2日在珠河（今黑龙江尚志）就义，年仅31岁。她的出生地、故居所在地今属宜宾市翠屏区白花镇一曼村。"
+    },
+    "modern_status": "今属四川省宜宾市翠屏区白花镇一曼村，为赵一曼故居所在地、全国红色美丽村庄建设试点村，村内建有一曼广场、一曼小学等纪念设施。",
+    "sources": [
+      "人民日报《民生周刊·一曼村的变与不变》 http://paper.people.com.cn/mszk/html/2022-07/04/content_25929965.htm",
+      "宜宾市翠屏区人民政府《翠屏区这个村上榜啦！四川首批30个红色美丽村庄建设试点名单公布》 https://www.cuiping.gov.cn/cpwl/lyjd/202206/t20220623_1742063.html",
+      "宜宾市文化广播电视和旅游局《“我的身份证上有你的名字”——关于一曼的故事》 http://wglyj.yibin.gov.cn/zzzq/gzdt/202204/t20220422_1722176.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 四川省宜宾市翠屏区"
+  },
+  {
+    "id": "shaanxi-xian-quanzhong-village",
+    "modern_name": "权中村",
+    "former_name": "权中村",
+    "category": "乡镇与村落",
+    "province": "陕西省",
+    "city": "西安市",
+    "coordinates": [
+      109.3091,
+      34.5669
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "许权中",
+      "birth_year": 1894,
+      "death_year": 1943,
+      "sacrifice_age": 49,
+      "title": "抗日同盟军军长、中共地下抗日工作者",
+      "force": "察哈尔民众抗日同盟军（后从事地下抗日统战）",
+      "sacrifice_date": "1943年12月9日",
+      "battle": "从事抗日统战工作期间在陕西眉县被国民党特务暗杀",
+      "story": "许权中，陕西临潼人，1933年任察哈尔民众抗日同盟军军长，率部对日作战、收复察东失地，同盟军失败后长期从事地下抗日统战工作。1943年12月9日，在陕西眉县开展抗日活动途中遭国民党特务暗杀牺牲。家乡临潼交口街道的权中村与权中小学均以其命名，权中小学即由他1933年创办的民生小学沿革而来。"
+    },
+    "modern_status": "今属陕西省西安市临潼区交口街道，村内权中小学为公办小学，校前立有许权中烈士纪念碑，习仲勋1949年12月9日为题词“为人民解放事业而牺牲的烈士永垂不朽”。",
+    "sources": [
+      "陕西党建网《闪亮的坐标》 http://www.sx-dj.gov.cn/dylt/dscq/2110931674261123074.html",
+      "西安新闻网《红色地标 初心见证》 https://www.xiancn.com/xzt/content/2021-07/01/content_6271282_2.htm",
+      "西安市临潼区人民政府2023年中小学校名录（交口街办权中小学、权中村） http://www.lintong.gov.cn"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 陕西省西安市临潼区"
+  }
+]

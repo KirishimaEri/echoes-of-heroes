@@ -1,0 +1,781 @@
+[
+  {
+    "id": "jilin-detai-jie",
+    "modern_name": "德泰街",
+    "former_name": "文化东街",
+    "category": "街道",
+    "province": "吉林省",
+    "city": "延边朝鲜族自治州延吉市",
+    "coordinates": null,
+    "renamed_year": 2022,
+    "hero": {
+      "name": "王德泰",
+      "birth_year": null,
+      "death_year": 1936,
+      "sacrifice_age": 29,
+      "title": "东北抗联第二军军长、第一路军副总司令",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1936年11月7日",
+      "battle": "濛江县（今靖宇县）小汤河战斗中牺牲",
+      "story": "王德泰是东北抗联第二军军长、第一路军副总司令，与杨靖宇共同领导南满、东满游击战争，1936年11月7日在濛江县小汤河战斗中壮烈牺牲，年仅29岁。2022年7月延吉市将文化东街更名为德泰街，以纪念这位东满抗日游击战争的杰出将领，德泰西街同为纪念性街路。"
+    },
+    "modern_status": "今吉林省延边朝鲜族自治州延吉市城区街路，2022年7月由文化东街更名，沿线建有王德泰相关纪念标识。",
+    "sources": [
+      "人民网吉林频道《延吉：德泰街，铭记抗联二军军长王德泰》2022-07-26 http://jl.people.com.cn/n2/2022/0726/c349771-40054538.html",
+      "中国吉林网《血色丰碑｜抗日英烈王德泰》 https://news.cnjiwang.com/jwyc/202507/3960384.html"
+    ]
+  },
+  {
+    "id": "jilin-hanzhang-dajie",
+    "modern_name": "翰章大街",
+    "former_name": "—",
+    "category": "街道",
+    "province": "吉林省",
+    "city": "延边朝鲜族自治州敦化市",
+    "coordinates": [
+      128.234,
+      43.3689
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "陈翰章",
+      "birth_year": 1913,
+      "death_year": 1940,
+      "sacrifice_age": 27,
+      "title": "东北抗联第一路军第三方面军总指挥",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1940年12月8日",
+      "battle": "镜泊湖地区战斗中被俘，誓死不降被残忍杀害",
+      "story": "陈翰章，1913年生于敦化，历任抗联五军二师参谋长、第一路军第三方面军总指挥，转战镜泊湖、敦化、宁安屡挫日伪军。1940年12月8日被俘，面对劝降誓死不从，被敌人剜目割首杀害，年仅27岁。敦化城区命名翰章大街纪念，其出生地半截河屯另于1948年改名翰章屯。"
+    },
+    "modern_status": "今吉林省延边朝鲜族自治州敦化市城区主干道，与翰章乡、陈翰章烈士陵园共同构成纪念体系。",
+    "sources": [
+      "央广网《你的快递地址里，也许有英雄的名字》2025-08-15 http://www.cnr.cn/js2014/jcdt/20250815/t20250815_527320580.shtml",
+      "新华网吉林《陈翰章：铁骨铸英魂的“书生战将”》 http://jl.xinhuanet.com/20250826/08847e0b45254446b65ed0b77be24969/c.html",
+      "中国吉林网《家乡人这样追思陈翰章将军》 https://news.cnjiwang.com/jwyc/202107/3411013.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 吉林省延边朝鲜族自治州敦化市"
+  },
+  {
+    "id": "jilin-jingyu-lu-tonghua",
+    "modern_name": "靖宇路",
+    "former_name": "—",
+    "category": "街道",
+    "province": "吉林省",
+    "city": "通化市东昌区",
+    "coordinates": [
+      125.9612,
+      41.7284
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "杨靖宇",
+      "birth_year": 1905,
+      "death_year": 1940,
+      "sacrifice_age": 35,
+      "title": "东北抗联第一路军总司令兼政委",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1940年2月23日",
+      "battle": "濛江县三道崴子突围，孤身奋战壮烈殉国",
+      "story": "杨靖宇，原名马尚德，1905年生于河南确山，东北抗联主要创建人之一，任第一路军总司令兼政委，长期在南满坚持抗日游击战争。1940年2月23日在濛江县三道崴子孤身与日军战斗壮烈殉国，年仅35岁。1954年通化杨靖宇烈士陵园在靖宇山动工修建，山下长路随之定名靖宇路，陵园即位于东昌区靖宇路888号。"
+    },
+    "modern_status": "今吉林省通化市东昌区通往杨靖宇烈士陵园（靖宇路888号）的城市道路，靖宇山上即杨靖宇烈士陵园暨东北抗日联军纪念馆。",
+    "sources": [
+      "中国共产党新闻网《杨靖宇烈士陵园》 http://cpc.people.com.cn/GB/64176/64180/2534487.html",
+      "中新网《杨靖宇和抗联精神在黑土地上传承不息》 https://www.chinanews.com.cn/sh/2024/09-18/10288120.shtml",
+      "通化市政府《东昌区：青山埋忠骨 千秋浩气存》 http://www.tonghua.gov.cn/zwgk/thlb/xqdt/202601/t20260113_762985.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 吉林省通化市东昌区"
+  },
+  {
+    "id": "liaoning-dengtiemei-lu",
+    "modern_name": "邓铁梅路",
+    "former_name": "—",
+    "category": "街道",
+    "province": "辽宁省",
+    "city": "丹东市凤城市",
+    "coordinates": [
+      124.0702,
+      40.4586
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "邓铁梅",
+      "birth_year": 1892,
+      "death_year": 1934,
+      "sacrifice_age": 43,
+      "title": "东北民众自卫军司令",
+      "force": "东北民众自卫军（辽南抗日义勇军）",
+      "sacrifice_date": "1934年9月28日",
+      "battle": "1934年5月被捕，关押奉天伪陆军监狱，狱中就义",
+      "story": "邓铁梅，1892年生，九一八事变后创建东北民众自卫军并任司令，转战凤城、岫岩、庄河、安东三角抗日区，重创日伪军。1934年5月因叛徒出卖被捕，关押奉天伪陆军监狱坚贞不屈，9月28日就义，时年43岁，被《八一宣言》称为民族英雄。凤城市以其名命名邓铁梅路。"
+    },
+    "modern_status": "今辽宁省丹东市凤城市城区道路，与苗可秀街丁字相交，凤凰山脚下建有邓铁梅、苗可秀纪念碑。",
+    "sources": [
+      "中共辽宁省委党史研究室《抗日英雄谱｜三角抗日区的领头人：邓铁梅将军》 http://www.lnds.com.cn/lnds/rdzt/fdlsxwzy/4975AB76CCFB4794BD48D6AE4B3ED1F2/index.shtml",
+      "辽宁日报《凤凰山麓的丰碑》 https://www.lnrbxmt.com/news_details.html?id=480801",
+      "央广网《你的快递地址里，也许有英雄的名字》2025-08-15"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 辽宁省丹东市凤城市"
+  },
+  {
+    "id": "liaoning-miaokexiu-jie",
+    "modern_name": "苗可秀街",
+    "former_name": "火车站站前街",
+    "category": "街道",
+    "province": "辽宁省",
+    "city": "丹东市凤城市",
+    "coordinates": [
+      124.0566,
+      40.4537
+    ],
+    "renamed_year": 1946,
+    "hero": {
+      "name": "苗可秀",
+      "birth_year": null,
+      "death_year": 1935,
+      "sacrifice_age": 29,
+      "title": "东北民众自卫军总参议、少年铁血军总司令",
+      "force": "东北民众自卫军、少年铁血军（辽南抗日义勇军）",
+      "sacrifice_date": "1935年7月25日",
+      "battle": "1935年6月21日被捕，7月25日就义于凤城南山沟",
+      "story": "苗可秀，辽宁本溪下马塘人，东北大学中文系毕业，任东北民众自卫军总参议，后组建少年铁血军任总司令，与邓铁梅并肩战斗于三角抗日区。1935年6月21日被俘，7月25日在凤城南山沟从容就义，年仅29岁。1946年凤城县政府将站前街命名为苗可秀街。"
+    },
+    "modern_status": "今辽宁省丹东市凤城市城区道路，与邓铁梅路丁字相交，1957年在就义地建有苗可秀纪念碑。",
+    "sources": [
+      "中国军网《苗可秀：令日寇闻风丧胆的辽南义勇军杰出领导人》 http://www.81.cn/yl_208589/16400201.html",
+      "中国军网《苗可秀》 http://www.81.cn/yljnt_208627/ylml/M_208642/7909166_2.html",
+      "辽宁日报《数十万义勇军以血肉搏寸土》 https://wap.lnrbxmt.com/news_details.html?id=464529"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 辽宁省丹东市凤城市"
+  },
+  {
+    "id": "heilongjiang-daqian-lu",
+    "modern_name": "大千路",
+    "former_name": "健康路",
+    "category": "街道",
+    "province": "黑龙江省",
+    "city": "哈尔滨市宾县",
+    "coordinates": [
+      127.478,
+      45.7584
+    ],
+    "renamed_year": 2021,
+    "hero": {
+      "name": "吕大千",
+      "birth_year": 1909,
+      "death_year": 1937,
+      "sacrifice_age": 28,
+      "title": "中共宾县代理特别支部书记",
+      "force": "东北抗联（地下党组织，支援抗联武装）",
+      "sacrifice_date": "1937年7月",
+      "battle": "因叛徒出卖被捕，在哈尔滨圈河就义",
+      "story": "吕大千，又名吕树俊，1909年生于宾县，1933年起任中共宾县中学支部书记、宾县特支副书记，团结各界支援抗联、搜集情报、筹集子弹。1937年5月因叛徒出卖被捕，审讯中夺刀冲向日本警长，同年7月在哈尔滨圈河就义，年仅28岁。2021年宾县将健康路更名大千路。"
+    },
+    "modern_status": "今黑龙江省哈尔滨市宾县宾州镇道路，毗邻大千中学与吕大千烈士纪念馆，全长300米。",
+    "sources": [
+      "哈尔滨日报《英雄为名 山河为证——解码哈尔滨40处红色地标》2025-11-05",
+      "中国军网《吕大千》 http://www.81.cn/yljnt_208627/ylml/L_208641/7941742.html",
+      "东北网《吕大千烈士纪念馆六月对公众开放》 http://m.dbw.cn/heilongjiang/system/2021/05/31/058654098.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省哈尔滨市宾县"
+  },
+  {
+    "id": "heilongjiang-jiazhou-lu",
+    "modern_name": "甲洲路",
+    "former_name": "—",
+    "category": "街道",
+    "province": "黑龙江省",
+    "city": "哈尔滨市巴彦县",
+    "coordinates": [
+      127.376,
+      46.0828
+    ],
+    "renamed_year": 2018,
+    "hero": {
+      "name": "张甲洲",
+      "birth_year": 1907,
+      "death_year": 1937,
+      "sacrifice_age": 30,
+      "title": "巴彦东北抗日游击队（人民义勇军）司令",
+      "force": "东北抗日联军（巴彦抗日游击队）",
+      "sacrifice_date": "1937年8月",
+      "battle": "在富顺屯突围战斗中牺牲",
+      "story": "张甲洲，1907年生于巴彦，北大、清华肄业，1930年入党。九一八事变后回东北组建巴彦抗日游击队并任司令，是党在东北最早独立领导的抗日武装之一，转战松花江两岸。1937年8月在富顺屯突围战斗中牺牲，年仅30岁。2018年巴彦县正式命名甲洲路，现为国防教育一条街。"
+    },
+    "modern_status": "今黑龙江省哈尔滨市巴彦县巴彦镇西郊道路，全长两千余米，沿线分布烈士纪念馆、张甲洲公园与红军小学。",
+    "sources": [
+      "巴彦县人民政府《青史耀长街｜巴彦县甲洲路：一条“红街”连接历史与未来》 https://www.bayan.gov.cn/hebbyx/c105947/202507/c01_1069945.shtml",
+      "哈尔滨日报《英雄为名 山河为证——解码哈尔滨40处红色地标》2025-11-05"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省哈尔滨市巴彦县"
+  },
+  {
+    "id": "heilongjiang-leiyan-dajie",
+    "modern_name": "雷炎大街",
+    "former_name": "海伦镇东西大街",
+    "category": "街道",
+    "province": "黑龙江省",
+    "city": "绥化市海伦市",
+    "coordinates": [
+      126.9674,
+      47.461
+    ],
+    "renamed_year": 1988,
+    "hero": {
+      "name": "雷炎",
+      "birth_year": 1911,
+      "death_year": 1939,
+      "sacrifice_age": 28,
+      "title": "东北抗联龙南指挥部第四支队队长",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1939年2月17日",
+      "battle": "李老卓屯突围战，腰部中弹流血过多牺牲",
+      "story": "雷炎，原名李辉，1911年生于海伦。九一八事变后投身抗日，历任抗联三军留守团政治部主任、龙南指挥部第四支队长。1939年2月17日（除夕）率八十余骑兵宿营海伦李老卓屯，被七百余日伪军包围，突围中腰部中弹，因流血过多牺牲，年仅28岁。海伦将城区最繁华大街命名为雷炎大街。"
+    },
+    "modern_status": "今黑龙江省绥化市海伦市城区主干道，与雷炎公园相邻，街道以烈士名字永久纪念雷炎。",
+    "sources": [
+      "中国军网《中共抗战英烈：雷炎》 http://www.81.cn/yljnt_208627/ylml/L_208641/8020956_3.html",
+      "《龙江大地上以烈士命名的地方》",
+      "抖音百科《李雷炎》（1988年命名雷炎大街）"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省绥化市海伦市"
+  },
+  {
+    "id": "heilongjiang-lengyun-dajie",
+    "modern_name": "冷云大街",
+    "former_name": "—",
+    "category": "街道",
+    "province": "黑龙江省",
+    "city": "佳木斯市桦川县",
+    "coordinates": [
+      130.7191,
+      47.0217
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "冷云",
+      "birth_year": 1915,
+      "death_year": 1938,
+      "sacrifice_age": 23,
+      "title": "东北抗联第五军妇女团指导员（“八女投江”带头人）",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1938年10月",
+      "battle": "乌斯浑河阻击战，率七名女战士掩护主力突围，弹尽投江",
+      "story": "冷云，原名郑致民，1915年生于桦川县，早年在南门里小学任教，后参加抗联，任第五军妇女团指导员。1938年10月西征至乌斯浑河畔被千余日伪军包围，她率七名女战士掩护主力突围，弹尽后宁死不屈，跳入乌斯浑河殉国，史称“八女投江”。桦川县命名冷云大街纪念。"
+    },
+    "modern_status": "今黑龙江省佳木斯市桦川县城区街道，与冷云小学、冷云烈士纪念馆等共同构成冷云纪念体系。",
+    "sources": [
+      "央广军事《你的快递地址里，也许有英雄的名字·打卡冷云大街》2025-08-15 http://military.cnr.cn/nrjx/20250815/t20250815_527320580.shtml",
+      "中国共产党新闻网《冷云：带领战友书写壮烈的“八女投江”史诗》 https://cpc.people.com.cn/n1/2022/0415/c443712-32399688.html",
+      "桦川县人民政府《桦川县历史文化简介》 http://www.huachuan.gov.cn/hcx/c100019/201603/c04_229801.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省佳木斯市桦川县"
+  },
+  {
+    "id": "heilongjiang-shangzhi-lu",
+    "modern_name": "尚志路",
+    "former_name": "里仁街（中央大街至小北门段）",
+    "category": "街道",
+    "province": "黑龙江省",
+    "city": "哈尔滨市尚志市",
+    "coordinates": [
+      127.9572,
+      45.2316
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "赵尚志",
+      "birth_year": 1908,
+      "death_year": 1942,
+      "sacrifice_age": 34,
+      "title": "东北抗联第三军军长、北满抗联总司令、东北抗联总司令",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1942年2月12日",
+      "battle": "梧桐河战斗负伤被俘牺牲",
+      "story": "尚志市尚志路北起元宝纺织股份有限公司、南至中央大街，长2200米。该路1910年形成，1927年中央大街至小北门段称里仁街；新中国成立后，为纪念抗日民族英雄赵尚志将军而改称尚志路，与城内尚志公园、尚志小学等共同构成纪念赵尚志的地名体系。"
+    },
+    "modern_status": "今黑龙江省哈尔滨市尚志市城区主干道，沿途有尚志中学、尚志小学等纪念设施。",
+    "sources": [
+      "哈尔滨日报《英雄为名 山河为证——解码哈尔滨40处红色地标》2025-11-05",
+      "中共哈尔滨市委宣传部相关红色地名录"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省哈尔滨市尚志市"
+  },
+  {
+    "id": "heilongjiang-yachen-lu",
+    "modern_name": "雅臣路",
+    "former_name": "—",
+    "category": "街道",
+    "province": "黑龙江省",
+    "city": "哈尔滨市五常市",
+    "coordinates": [
+      127.1645,
+      44.9186
+    ],
+    "renamed_year": 2004,
+    "hero": {
+      "name": "汪雅臣",
+      "birth_year": 1911,
+      "death_year": 1941,
+      "sacrifice_age": 30,
+      "title": "东北抗日联军第十军军长",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1941年1月29日",
+      "battle": "五常蛤蜊河子突围战，被日军包围牺牲",
+      "story": "汪雅臣，1911年生于山东蓬莱，幼年随母闯关东至黑龙江。九一八事变后在五常密林组织抗日武装，报号“双龙”，1935年入党，所部改编为抗联第十军并任军长。1941年1月29日在蛤蜊河子突围中被日军包围牺牲，年仅30岁。2004年五常市命名雅臣路。"
+    },
+    "modern_status": "今黑龙江省哈尔滨市五常市城区中部道路，长6280米，沿线另有雅臣中学、雅臣小学等纪念设施。",
+    "sources": [
+      "哈尔滨日报《英雄为名 山河为证——解码哈尔滨40处红色地标》2025-11-05",
+      "中华英烈网《汪雅臣》 https://www.chinamartyrs.gov.cn/x_xwzx/zhzx/202508/t20250813_507454.html",
+      "人民网文化频道《抗联第10军汪雅臣余部深山游击5年》 http://culture.people.com.cn/n/2015/0612/c172318-27146663.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省哈尔滨市五常市"
+  },
+  {
+    "id": "heilongjiang-yiman-lu",
+    "modern_name": "一曼路",
+    "former_name": "珠河县城小北门",
+    "category": "街道",
+    "province": "黑龙江省",
+    "city": "哈尔滨市尚志市",
+    "coordinates": [
+      127.9661,
+      45.2183
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "赵一曼",
+      "birth_year": 1905,
+      "death_year": 1936,
+      "sacrifice_age": 31,
+      "title": "东北抗日联军第三军二团政委",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1936年8月2日",
+      "battle": "1935年11月作战负伤被俘，1936年8月2日在珠河县城小北门就义",
+      "story": "赵一曼，原名李坤泰，1905年生于四川宜宾，黄埔军校六期毕业。1931年九一八事变后被派往东北领导抗日斗争，1935年任抗联三军二团政委，同年11月作战负伤被俘，1936年8月2日在珠河县城小北门（今尚志市）就义，年仅31岁。其牺牲地小北门被尚志市政府命名为一曼路，路口建有一曼中学。"
+    },
+    "modern_status": "今黑龙江省哈尔滨市尚志市城区道路，赵一曼烈士就义地遗址即位于今一曼路一曼中学校门外北侧，市内另建有赵一曼纪念园。",
+    "sources": [
+      "中国新闻网（沈阳日报）《伪满报纸曾报道赵一曼：红枪白马猖獗于哈东地区》2015-06-11 http://www.chinanews.com.cn/m/cul/2015/06-11/7338233.shtml",
+      "中国军网《赵一曼：甘将热血沃中华》 http://www.81.cn/yl_208589/"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省哈尔滨市尚志市"
+  },
+  {
+    "id": "jilin-changrong-cun",
+    "modern_name": "长荣村",
+    "former_name": "庙沟村",
+    "category": "乡镇与村落",
+    "province": "吉林省",
+    "city": "延边朝鲜族自治州汪清县东光镇",
+    "coordinates": [
+      130.0884,
+      43.2156
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "童长荣",
+      "birth_year": 1907,
+      "death_year": 1934,
+      "sacrifice_age": 27,
+      "title": "中共东满特委书记、东满抗日游击队主要创建者",
+      "force": "东北抗日联军（东满游击队）",
+      "sacrifice_date": "1934年3月21日",
+      "battle": "汪清县小汪清（今东光镇）突围转移途中病逝于战斗岗位",
+      "story": "童长荣，1907年生，安徽枞阳人，1925年入党，任中共东满特委书记，是东满抗日游击队主要创建者，在汪清建立游击根据地，团结朝鲜族群众武装抗日。1934年3月21日在汪清小汪清突围转移途中伤病交加牺牲，年仅27岁。当地将庙沟村命名为长荣村。"
+    },
+    "modern_status": "今吉林省延边朝鲜族自治州汪清县东光镇长荣村，村内建有童长荣烈士陵园与纪念碑，红色纪念体系完整。",
+    "sources": [
+      "新华网《童长荣：白山黑水间谱写青春壮歌》2025-08-27 http://www.news.cn/20250827/28d49d97403a4bf7aa3f6596125d300c/c.html",
+      "吉林省人民政府《汪清县：赓续红色血脉 谱写乡村振兴新篇章》 https://www.jl.gov.cn/yaowen/202508/t20250813_3489489.html",
+      "中国青年报《抗日英烈童长荣：宁为抗日而死 不为惜生而生》 https://zqb.cyol.com/pad/content/202506/24/content_412646.html",
+      "汪清县人民政府《童长荣烈士纪念馆完成升级改造重新对外开放》 http://www.wangqing.gov.cn/wqxzfxxgkw/gzbm/cyqrmfkbgs/xxgkml/202407/t20240704_462143.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 吉林省延边朝鲜族自治州汪清县"
+  },
+  {
+    "id": "liaoning-shangzhi-cun",
+    "modern_name": "尚志村",
+    "former_name": "喇嘛沟村",
+    "category": "乡镇与村落",
+    "province": "辽宁省",
+    "city": "朝阳市朝阳县尚志乡",
+    "coordinates": [
+      120.3442,
+      41.1053
+    ],
+    "renamed_year": 1997,
+    "hero": {
+      "name": "赵尚志",
+      "birth_year": 1908,
+      "death_year": 1942,
+      "sacrifice_age": 34,
+      "title": "东北抗联第三军军长、北满抗联总司令、东北抗联总司令",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1942年2月12日",
+      "battle": "梧桐河战斗负伤被俘牺牲",
+      "story": "尚志村位于朝阳县尚志乡，原名喇嘛沟村，是赵尚志将军的出生地。1997年4月王伦沟乡更名尚志乡的同时，喇嘛沟村随之命名为尚志村，与尚志乡一同永久纪念抗日民族英雄赵尚志。村中保留赵尚志故居，邻近赵尚志将军纪念馆与陵园。"
+    },
+    "modern_status": "今辽宁省朝阳市朝阳县尚志乡尚志村，赵尚志出生地，周边为赵尚志将军纪念园与爱国主义教育示范基地。",
+    "sources": [
+      "央视网《抗日英雄谱：驰骋抗日战场的名将——赵尚志》2005-06-21",
+      "朝阳市人民政府《朝阳红色文化概述》 https://chaoyang.gov.cn/html/CYSZF/202212/0168679378048864.html",
+      "辽宁日报《地名里那些名人与人名》2021-12-22"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 辽宁省朝阳市朝阳县"
+  },
+  {
+    "id": "liaoning-shangzhi-xiang",
+    "modern_name": "尚志乡",
+    "former_name": "王伦沟乡",
+    "category": "乡镇与村落",
+    "province": "辽宁省",
+    "city": "朝阳市朝阳县",
+    "coordinates": null,
+    "renamed_year": 1997,
+    "hero": {
+      "name": "赵尚志",
+      "birth_year": 1908,
+      "death_year": 1942,
+      "sacrifice_age": 34,
+      "title": "东北抗联第三军军长、北满抗联总司令、东北抗联总司令",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1942年2月12日",
+      "battle": "梧桐河战斗负伤被俘牺牲",
+      "story": "赵尚志，1908年生于朝阳县王伦沟乡喇嘛沟村（今尚志乡尚志村），东北抗联重要创建人和领导人之一。1942年2月12日在袭击梧桐河警察分驻所途中被敌特偷袭负伤，被俘八小时后牺牲，年仅34岁。1997年4月，辽宁省将王伦沟乡更名为尚志乡，以纪念这位出生于此的抗日民族英雄，乡内建有赵尚志将军纪念馆与陵园。"
+    },
+    "modern_status": "今辽宁省朝阳市朝阳县下辖尚志乡，为赵尚志将军出生地，建有赵尚志将军纪念馆、陵园和尚志公园。",
+    "sources": [
+      "辽宁日报《地名里那些名人与人名》 http://epaper.lnd.com.cn/lnrbepaper/pad/con/202112/22/content_137249.html",
+      "辽宁省人民政府《抗战英雄浩气长存｜赵尚志·雪葬颅骨忠魂在》 https://www.ln.gov.cn/web/ywdt/zymtkln/2025070908523259012/index.shtml",
+      "朝阳市人民政府《朝阳红色文化概述》 https://chaoyang.gov.cn/html/CYSZF/202212/0168679378048864.html"
+    ]
+  },
+  {
+    "id": "heilongjiang-huitong-cun",
+    "modern_name": "会桐村",
+    "former_name": "长治屯（王生店屯）",
+    "category": "乡镇与村落",
+    "province": "黑龙江省",
+    "city": "哈尔滨市尚志市长寿乡",
+    "coordinates": [
+      127.8821,
+      45.2858
+    ],
+    "renamed_year": 1950,
+    "hero": {
+      "name": "王惠同",
+      "birth_year": 1912,
+      "death_year": 1935,
+      "sacrifice_age": 23,
+      "title": "东北抗联三军一师二团团长",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1935年11月15日",
+      "battle": "珠河左撇子沟（春秋岭）突围战，弹尽受伤被俘后牺牲",
+      "story": "王惠同（又作王惠桐、王会桐），1912年生，任抗联三军一师二团团长，与政治部主任赵一曼留在珠河以北游击。1935年11月15日在左撇子沟与三百余日伪军激战，突围时弹尽受伤被俘牺牲。1950年当地依冯仲云建议，将长治屯更名为会桐村。"
+    },
+    "modern_status": "今黑龙江省哈尔滨市尚志市长寿乡下辖村，距乡政府驻地约2公里，村名纪念抗联三军二团团长王惠同。",
+    "sources": [
+      "哈尔滨日报《英雄为名 山河为证——解码哈尔滨40处红色地标》2025-11-05",
+      "HRB蓝网《壮士浴血左撇子沟 英名永存冰城大地》 https://www.hrbtv.net/folder137/2025-09-09/1078341.html",
+      "黑龙江省委史志研究室《“万民永忆女先锋”》 https://www.hljszw.org.cn/news/2382.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 黑龙江省哈尔滨市尚志市"
+  },
+  {
+    "id": "heilongjiang-jingfu-cun",
+    "modern_name": "敬夫村",
+    "former_name": "—",
+    "category": "乡镇与村落",
+    "province": "黑龙江省",
+    "city": "佳木斯市桦川县悦来镇",
+    "coordinates": [
+      130.7264,
+      47.0184
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "赵敬夫",
+      "birth_year": 1916,
+      "death_year": 1940,
+      "sacrifice_age": 24,
+      "title": "东北抗联三路军第三支队政治委员",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1940年7月26日",
+      "battle": "德都县朝阳山保卫三路军总指挥部战斗，掩护李兆麟突围后中弹牺牲",
+      "story": "赵敬夫，原名白长岭，1916年生于桦川县，1935年入党，历任抗联三军五师宣传科长、三路军三支队政委。1940年7月26日在德都朝阳山战斗中，率教导队掩护总指挥李兆麟突围，又返回阵地组织撤退，中弹牺牲，年仅24岁。家乡桦川悦来镇命名敬夫村纪念。"
+    },
+    "modern_status": "今黑龙江省佳木斯市桦川县悦来镇下辖村，村名纪念赵敬夫烈士，当地建有相关纪念设施。",
+    "sources": [
+      "中国军网《赵敬夫：“奋斗！冲锋！为革命，流尽血”》 http://www.81.cn/yl_208589/16388795.html",
+      "龙江先锋网《抗日英雄赵敬夫和他的〈远征歌〉》 https://www.ljxfw.gov.cn/hljDdsh/detail.html?infoId=8C8E1D73E4093C8FF9E8F5E455CCBD87",
+      "东北网《英烈就在我们身边》2015-04-03 http://heilongjiang.dbw.cn/system/2015/04/03/056432722.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省佳木斯市桦川县"
+  },
+  {
+    "id": "heilongjiang-mingjiu-xiang",
+    "modern_name": "明久乡",
+    "former_name": "金山堡屯",
+    "category": "乡镇与村落",
+    "province": "黑龙江省",
+    "city": "绥化市肇东市",
+    "coordinates": [
+      125.5319,
+      46.1102
+    ],
+    "renamed_year": 1946,
+    "hero": {
+      "name": "姚明久",
+      "birth_year": 1911,
+      "death_year": 1941,
+      "sacrifice_age": 30,
+      "title": "北满抗日救国总会“三肇”抗日救国会会长",
+      "force": "东北抗联（地下抗日救国组织）",
+      "sacrifice_date": "1941年3月22日",
+      "battle": "三肇地区地下抗日救国活动，被捕后狱中就义",
+      "story": "姚明久，1911年生于双城，后居肇东金山堡屯。1940年参与成立北满抗日救国总会金山分会，任“三肇”抗日救国会会长，秘密发展会员、宣传抗日。1941年2月被捕，狱中不屈，3月22日在肇州城南门外就义。1946年金山堡屯更名明久村，1956年设明久乡。"
+    },
+    "modern_status": "今黑龙江省绥化市肇东市下辖明久乡，乡政府驻明久村，村内建有姚明久烈士纪念碑。",
+    "sources": [
+      "人民网黑龙江频道《红色基因滋养乡村沃土（地名中的抗战记忆）》2025-05-06 http://hlj.people.com.cn/n2/2025/0506/c220005-41217978.html",
+      "中共黑龙江省委史志研究室《姚明久烈士纪念碑》 https://www.hljszw.org.cn/news/2522.html",
+      "《龙江大地上以烈士命名的地方》（黑龙江省巴彦县兴隆中学）"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 黑龙江省绥化市肇东市"
+  },
+  {
+    "id": "heilongjiang-shangzhi-cun",
+    "modern_name": "尚志村",
+    "former_name": "东北区",
+    "category": "乡镇与村落",
+    "province": "黑龙江省",
+    "city": "哈尔滨市尚志市苇河镇",
+    "coordinates": [
+      128.3886,
+      44.9626
+    ],
+    "renamed_year": 1946,
+    "hero": {
+      "name": "赵尚志",
+      "birth_year": 1908,
+      "death_year": 1942,
+      "sacrifice_age": 34,
+      "title": "东北抗联第三军军长、北满抗联总司令、东北抗联总司令",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1942年2月12日",
+      "battle": "袭击鹤立县梧桐河警察分驻所途中被敌特偷袭负伤被俘，八小时后牺牲",
+      "story": "赵尚志，1908年生，辽宁朝阳人，抗联重要创建人之一，曾任三军军长、北满抗联总司令，纵横松花江两岸百余战。1942年2月12日袭击梧桐河警察分驻所途中被敌特偷袭负伤，被俘八小时后牺牲，年仅34岁。1946年苇河当地将东北区更名为尚志村。"
+    },
+    "modern_status": "今黑龙江省哈尔滨市尚志市苇河镇下辖村，2001年与建政村合并仍称尚志村，村名纪念抗日民族英雄赵尚志。",
+    "sources": [
+      "哈尔滨日报《英雄为名 山河为证——解码哈尔滨40处红色地标》2025-11-05",
+      "人民网党史频道《赵尚志 牺牲40年复党籍》 https://cpc.people.com.cn/GB/33840/2544041.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省哈尔滨市尚志市"
+  },
+  {
+    "id": "heilongjiang-shaowen-xiang",
+    "modern_name": "绍文乡",
+    "former_name": "刘黄毛子屯",
+    "category": "乡镇与村落",
+    "province": "黑龙江省",
+    "city": "齐齐哈尔市富裕县",
+    "coordinates": [
+      124.8968,
+      47.5337
+    ],
+    "renamed_year": 1947,
+    "hero": {
+      "name": "田绍文",
+      "birth_year": 1907,
+      "death_year": 1942,
+      "sacrifice_age": 35,
+      "title": "东北抗联六军三师八团排长",
+      "force": "东北抗日联军",
+      "sacrifice_date": null,
+      "battle": "潜入富裕县开展抗日活动，被捕后就义",
+      "story": "田绍文，1907年生，辽宁兴城人。1931年随舅父参加抗日武装，1937年加入东北抗联六军三师八团，升任排长。1941年率小队潜入富裕县开展抗日活动，1942年被捕后在齐齐哈尔就义，就义时高呼抗战必胜。1947年当地将其居住的刘黄毛子屯命名为绍文村，后设区、设乡沿用其名。"
+    },
+    "modern_status": "今黑龙江省齐齐哈尔市富裕县下辖绍文乡，2022年借全国红色美丽村庄建设机遇发展红色文旅。",
+    "sources": [
+      "人民日报《不忘英雄名 聚力谋振兴（地名中的抗战记忆）》2025-06-17",
+      "黑龙江省人民政府《红色基因滋养乡村沃土》 https://www.hlj.gov.cn/hlj/c107856/202506/c00_31849881.shtml",
+      "中国军网英烈库"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 黑龙江省齐齐哈尔市富裕县"
+  },
+  {
+    "id": "heilongjiang-shuanglong-cun",
+    "modern_name": "双龙村",
+    "former_name": "蛤蜊河子村",
+    "category": "乡镇与村落",
+    "province": "黑龙江省",
+    "city": "哈尔滨市五常市沙河子镇",
+    "coordinates": [
+      127.5759,
+      44.5523
+    ],
+    "renamed_year": 1946,
+    "hero": {
+      "name": "汪雅臣",
+      "birth_year": 1911,
+      "death_year": 1941,
+      "sacrifice_age": 30,
+      "title": "东北抗日联军第十军军长",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1941年1月29日",
+      "battle": "五常蛤蜊河子突围战牺牲",
+      "story": "1946年五常解放后，当地人民为缅怀抗日将领汪雅臣将军及其“双龙队”，将沙河子镇蛤蜊河子村更名为双龙村。汪雅臣早年组织抗日武装报号“双龙”，后任东北抗联第十军军长，1941年1月29日在蛤蜊河子突围中被日军包围壮烈牺牲。村名既纪念将军本人，也纪念其威震山林的“双龙”抗日武装。"
+    },
+    "modern_status": "今黑龙江省哈尔滨市五常市沙河子镇下辖村，位于镇政府驻地西北13公里处，村民世代传诵汪雅臣将军事迹。",
+    "sources": [
+      "中华英烈网《汪雅臣》 https://www.chinamartyrs.gov.cn/x_xwzx/zhzx/202508/t20250813_507454.html",
+      "哈尔滨日报《英雄为名 山河为证——解码哈尔滨40处红色地标》2025-11-05",
+      "人民网文化频道2015-06-12"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省哈尔滨市五常市"
+  },
+  {
+    "id": "heilongjiang-taihe-cun",
+    "modern_name": "太和村",
+    "former_name": "—",
+    "category": "乡镇与村落",
+    "province": "黑龙江省",
+    "city": "七台河市新兴区",
+    "coordinates": null,
+    "renamed_year": null,
+    "hero": {
+      "name": "杨太和",
+      "birth_year": 1904,
+      "death_year": 1935,
+      "sacrifice_age": 31,
+      "title": "东北抗日同盟军第四军第一师师长",
+      "force": "东北抗日联军（抗联四军）",
+      "sacrifice_date": "1935年9月",
+      "battle": "赴依兰五道河子参会途中于勃利县缸窑沟遇敌，掩护部队突围中弹牺牲",
+      "story": "杨太和，1904年生于吉林市，幼年迁居密山。早年组织抗日武装，历任抗日救国游击军团长、东北抗日同盟军第四军一师师长。1935年9月率队赴依兰五道河子参会，途经勃利缸窑沟与敌军遭遇，他命令部队转移，率几名战士双手持枪掩护，激战中中弹牺牲。当地以其名命名太和村。"
+    },
+    "modern_status": "今黑龙江省七台河市新兴区红旗镇下辖太和村，村名纪念抗联四军一师师长杨太和。",
+    "sources": [
+      "中国军网《杨太和》 http://www.81.cn/yljnt_208627/ylml/Y_208629/7913328.html",
+      "人民网党史频道《中共抗战英烈：杨太和》 http://dangshi.people.com.cn/BIG5/n/2014/0325/c85037-24729400.html",
+      "《黑龙江省红色地名目录》黑龙江省民政厅"
+    ]
+  },
+  {
+    "id": "heilongjiang-wenjun-cun",
+    "modern_name": "文俊村",
+    "former_name": "俊兴村",
+    "category": "乡镇与村落",
+    "province": "黑龙江省",
+    "city": "佳木斯市郊区",
+    "coordinates": [
+      130.0733,
+      46.9536
+    ],
+    "renamed_year": 1946,
+    "hero": {
+      "name": "张文俊",
+      "birth_year": null,
+      "death_year": 1936,
+      "sacrifice_age": 36,
+      "title": "中共汤原县格节河区委书记",
+      "force": "东北抗联（地下党组织）",
+      "sacrifice_date": "1936年秋",
+      "battle": "地下抗日活动被捕，在佳木斯宪兵队受刑后被活活打死",
+      "story": "张文俊任中共汤原县格节河区委书记，在基层秘密发动群众、支援抗联武装。1936年秋被莲江口宪兵分队抓捕，押解至佳木斯宪兵军营，受尽酷刑却始终未暴露地下党组织与党员秘密，日本宪兵束手无策，将其活活打死，牺牲时年仅36岁。1946年人民政府将俊兴村更名为文俊村，永久纪念这位抗日地下工作者。"
+    },
+    "modern_status": "今黑龙江省佳木斯市郊区望江镇下辖文俊村，村名承载张文俊烈士的抗日事迹。",
+    "sources": [
+      "黑龙江省民政厅《“记忆红”系列之——传讲红色地名故事（第3期）》 https://mzt.hlj.gov.cn/mzt/109909/202311/c00_31684556.shtml",
+      "《黑龙江省红色地名目录》黑龙江省民政厅 https://mzt.hlj.gov.cn/mzt/109909/202308/c00_31655684.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省佳木斯市郊区"
+  },
+  {
+    "id": "heilongjiang-yingshan-cun",
+    "modern_name": "英山村",
+    "former_name": "南马场屯",
+    "category": "乡镇与村落",
+    "province": "黑龙江省",
+    "city": "牡丹江市宁安市",
+    "coordinates": [
+      129.5701,
+      44.0863
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "朴英山",
+      "birth_year": null,
+      "death_year": 1944,
+      "sacrifice_age": null,
+      "title": "东北抗联第五军副官、抗联教导旅侦察员",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1944年6月",
+      "battle": "奉命返回宁安、穆棱、东宁一带侦察，在宁安南马场被俘遭杀害",
+      "story": "朴英山，朝鲜族，中共党员，抗联第五军副官，后编入抗联教导旅。他凭借熟悉敌后的优势，多次带队返回东北，在宁安、穆棱、东宁、珲春一带搜集日伪军部署与特务网点情报。1944年6月在宁安南马场活动时被俘，惨遭杀害。当地将南马场屯更名为英山村。"
+    },
+    "modern_status": "今黑龙江省牡丹江市宁安市卧龙朝鲜族乡下辖英山村，村名永久纪念抗联侦察英雄朴英山。",
+    "sources": [
+      "东北烈士纪念馆《朴英山所部使用的电台和密码本》 https://www.jn1948.cn/news/672.html",
+      "东宁市人民政府《重走抗联路 寻找永不消逝的电波》2025-05-23 https://dongning.gov.cn/mdjdnsrmzf/c102673/202505/c03_1006358.shtml",
+      "《黑龙江省红色地名目录》黑龙江省民政厅"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省牡丹江市宁安市"
+  },
+  {
+    "id": "heilongjiang-zhongliang-cun",
+    "modern_name": "忠良村",
+    "former_name": "短岗屯",
+    "category": "乡镇与村落",
+    "province": "黑龙江省",
+    "city": "齐齐哈尔市克东县",
+    "coordinates": [
+      126.4761,
+      48.1504
+    ],
+    "renamed_year": 1945,
+    "hero": {
+      "name": "赵忠良",
+      "birth_year": 1922,
+      "death_year": 1945,
+      "sacrifice_age": 23,
+      "title": "东北抗联二路军某部侦察排长",
+      "force": "东北抗日联军",
+      "sacrifice_date": "1945年7月20日",
+      "battle": "北安越狱后在克东短岗屯开展地下工作，再次被捕就义",
+      "story": "赵忠良，1922年生，抗联二路军侦察排长，多次完成侦察任务。1945年7月11日与于天放一同从北安监狱越狱，转移到克东县短岗屯隐蔽并秘密工作，不久被汉奸告密再次被捕，7月20日被日寇杀害。光复后克东县将短岗屯命名为忠良村以纪念。"
+    },
+    "modern_status": "今黑龙江省齐齐哈尔市克东县玉岗镇下辖村，村内立有赵忠良烈士纪念设施。",
+    "sources": [
+      "克东县人民政府《赵忠良》 https://www.kedong.gov.cn/kedong/c100872/201606/c02_6325632d7f7248cda150e6ab4ac49d03.shtml",
+      "《黑龙江省红色地名目录》黑龙江省民政厅 https://mzt.hlj.gov.cn/mzt/109909/202308/c00_31655684.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 黑龙江省齐齐哈尔市克东县"
+  }
+]

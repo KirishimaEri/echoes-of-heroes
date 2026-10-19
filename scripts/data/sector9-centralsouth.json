@@ -1,0 +1,184 @@
+[
+  {
+    "id": "guangdong-jiaoling-jinyuan-avenue",
+    "modern_name": "晋元大道",
+    "former_name": "晋元大道",
+    "category": "街道",
+    "province": "广东省",
+    "city": "梅州市",
+    "coordinates": [
+      116.1421,
+      24.5881
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "谢晋元",
+      "birth_year": 1905,
+      "death_year": 1941,
+      "sacrifice_age": 36,
+      "title": "第八十八师第五二四团团长（追赠陆军少将）",
+      "force": "国民革命军第88师",
+      "sacrifice_date": "1941年4月24日",
+      "battle": "淞沪会战四行仓库保卫战；孤军营内被叛兵刺杀",
+      "story": "谢晋元，广东蕉岭人，黄埔四期毕业。1937年淞沪会战中率一营官兵坚守四行仓库，孤军浴血四昼夜，即“八百壮士”保卫战。撤围后退入上海公共租界孤军营羁留四年，严拒日伪诱降，1941年4月24日在营内被叛兵刺杀殉难。家乡蕉岭兴建晋元大道、晋元大桥、晋元中学、谢晋元纪念亭等设施。"
+    },
+    "modern_status": "位于广东省梅州市蕉岭县三圳镇（三圳镇政府驻地临晋元大道），沿线设有晋元大道游憩茶廊；县城另建有晋元大桥、晋元中学、谢晋元纪念馆与纪念园。",
+    "sources": [
+      "蕉岭县人民政府《刘鸿涛率队调研百千万工程工作：三圳镇招福村晋元大道游憩茶廊》 https://www.jiaoling.gov.cn/mzqlgfz/gkmlpt/content/2/2802/post_2802279.html",
+      "中国新闻网《抗日名将谢晋元故居挂牌成全国重点文物保护单位》 https://www.chinanews.com.cn/cul/2013/12-06/5591777.shtml",
+      "南方+《寻访梅州名人故居：谢晋元故居，一门五杰捍山河》 https://static.nfapp.southcn.com/content/202006/17/c3656021.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 广东省梅州市蕉岭县"
+  },
+  {
+    "id": "hubei-yicheng-zizhi-road",
+    "modern_name": "宜城自忠路",
+    "former_name": "交通路",
+    "category": "街道",
+    "province": "湖北省",
+    "city": "襄阳市",
+    "coordinates": null,
+    "renamed_year": 1992,
+    "hero": {
+      "name": "张自忠",
+      "birth_year": 1891,
+      "death_year": 1940,
+      "sacrifice_age": 49,
+      "title": "第三十三集团军总司令（追赠陆军上将）",
+      "force": "国民革命军第33集团军",
+      "sacrifice_date": "1940年5月16日",
+      "battle": "枣宜会战宜城南瓜店殉国",
+      "story": "张自忠将军在枣宜会战中身中七弹，于湖北宜城南瓜店（今襄阳宜城长山一带）壮烈殉国，是抗战期间牺牲于疆场的军衔最高将领之一。将军殉国地就在宜城，1992年4月26日宜城市政协常委会提议，将张自忠将军纪念馆左侧的交通路更名为自忠路，路长约2.5公里，穿城而过，以永志将军功勋。"
+    },
+    "modern_status": "位于湖北省襄阳市宜城市城区，紧邻张自忠将军纪念馆，沿线为居民区与商业街，通往长山张自忠将军殉国处纪念园，长年供市民瞻仰缅怀。",
+    "sources": [
+      "楚都宜城网（宜城市政府门户）《张自忠将军与宜城》 http://www.yichengnews.com/news/ycyw/202405/t4697452.shtml",
+      "人民网《忠勇铸造民族魂——记抗战英烈张自忠》 http://politics.people.com.cn/n/2015/0529/c70731-27077679.html",
+      "宜城市人民政府《张自忠将军与宜城》 http://www.ych.gov.cn/xxgk/bmptlj/bm/va/fdzdgknr/qtzdgknr_18348/202406/t20240603_3619065.shtml"
+    ]
+  },
+  {
+    "id": "hunan-liling-zuoquan-road",
+    "modern_name": "左权路",
+    "former_name": "左权路（城区分左权东路、西路、南路、北路）",
+    "category": "街道",
+    "province": "湖南省",
+    "city": "株洲市",
+    "coordinates": null,
+    "renamed_year": null,
+    "hero": {
+      "name": "左权",
+      "birth_year": 1905,
+      "death_year": 1942,
+      "sacrifice_age": 37,
+      "title": "国民革命军第八路军副参谋长（追赠陆军中将）",
+      "force": "八路军",
+      "sacrifice_date": "1942年5月25日",
+      "battle": "山西辽县十字岭反日军扫荡突围战",
+      "story": "左权，湖南醴陵人，黄埔一期毕业，后入苏联伏龙芝军事学院深造，抗战全面爆发后协助朱德、彭德怀指挥八路军挺进华北，是八路军在抗战中牺牲的最高级别将领。1942年5月25日，在山西辽县麻田十字岭掩护总部机关突围时，头部被日军炮弹破片击中牺牲。家乡醴陵城区将几条大道命名为左权东、西、南、北路，合称左权路。"
+    },
+    "modern_status": "位于湖南省株洲市醴陵市城区，左权路连通城市南北，周边建有左权将军相关纪念场所，是醴陵城区主干道之一。",
+    "sources": [
+      "党史频道-人民网《左权牺牲前仍背着留党察看处分》 http://dangshi.people.com.cn/n/2013/0402/c85037-20998128-2.html",
+      "中共湖南省委党史研究院《湖南抗日英烈·左权》 http://www.hndsyjy.cn/content/2015/08/27/8826462.html"
+    ]
+  },
+  {
+    "id": "hubei-enshi-hegongwei-village",
+    "modern_name": "何功伟村",
+    "former_name": "方家坝村",
+    "category": "乡镇与村落",
+    "province": "湖北省",
+    "city": "恩施土家族苗族自治州",
+    "coordinates": [
+      109.446,
+      30.3189
+    ],
+    "renamed_year": 2000,
+    "hero": {
+      "name": "何功伟",
+      "birth_year": 1915,
+      "death_year": 1941,
+      "sacrifice_age": 26,
+      "title": "中共鄂西特委书记",
+      "force": "中共鄂西地下党（鄂西抗日游击队）",
+      "sacrifice_date": "1941年11月17日",
+      "battle": "从事抗日地下工作期间被捕，在恩施方家坝五道涧被国民党杀害",
+      "story": "何功伟1915年生于湖北咸宁，1936年入党。1938年武汉沦陷后，他指挥游击队在鄂西密林中伏击日寇，1940年任中共鄂西特委书记，坚持抗日地下斗争。1941年1月因叛徒出卖被捕，11月17日在恩施方家坝五道涧就义，年仅26岁。2000年方家坝村更名为何功伟村。"
+    },
+    "modern_status": "今属湖北省恩施土家族苗族自治州恩施市小渡船街道，村内建有恩施烈士陵园、何功伟囚居旧址与烈士就义处，组建有“何功伟民兵连”，为鄂西重要红色教育基地。",
+    "sources": [
+      "新华网《100级台阶的生死抉择：26岁烈士何功伟“绝不回头”》 http://www.xinhuanet.com/20260930/fbc997dddab04f5fbb0ed3a9ad2d4ab6/c.html",
+      "中华人民共和国国防部（中国国防报）《湖北省恩施市“何功伟民兵连”：以英雄之名 传红色薪火》 http://www.mod.gov.cn/gfbw/gfdy/16398727.html",
+      "中华英烈网《“江姐式女英雄”刘惠馨烈士传略》（载原方家坝村改何功伟村） https://www.chinamartyrs.gov.cn/x_xwzx/zhzx/202107/t20210715_48802.html",
+      "恩施州人民政府《恩施市何功伟民兵连荣膺2025年度荆楚楷模》 http://www.enshi.gov.cn/xw/xsdt/202512/t20251220_1766275.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 湖北省恩施土家族苗族自治州恩施市"
+  },
+  {
+    "id": "hubei-wuhan-chongjie-village",
+    "modern_name": "崇杰村",
+    "former_name": "崇杰村",
+    "category": "乡镇与村落",
+    "province": "湖北省",
+    "city": "武汉市",
+    "coordinates": [
+      114.3878,
+      31.2579
+    ],
+    "renamed_year": 1966,
+    "hero": {
+      "name": "杜崇杰",
+      "birth_year": 1920,
+      "death_year": 1942,
+      "sacrifice_age": 22,
+      "title": "黄陂县抗日民主政府第五区区长",
+      "force": "新四军",
+      "sacrifice_date": "1942年9月",
+      "battle": "黄陂柏叶事件（碾子湾）被日伪杀害",
+      "story": "杜崇杰，湖北黄陂人，青年时代投身抗日，任黄陂县抗日民主政府第五区区长，深入敌后发动群众、组织抗日武装，坚持敌后游击斗争。1942年9月在柏叶事件（碾子湾）中被日伪逮捕，坚贞不屈、英勇就义。1966年，当地人民将烈士长眠的行政村命名为崇杰村，这也是黄陂区唯一以抗日烈士命名的行政村。"
+    },
+    "modern_status": "今属武汉市黄陂区姚家集街道，村内建有杜崇杰烈士陵园，由村民世代义务守护，成为黄陂区爱国主义教育场所。",
+    "sources": [
+      "湖北省退役军人事务厅《柏叶山下的接力守护》 https://va.hubei.gov.cn/bmdt/mtbd/202604/t20260427_5923423.shtml",
+      "新华网湖北频道《五十九载义务守护烈士墓，72岁老人终圆见恩人心愿》 http://hb.news.cn/20250612/73a9222543394cb9843ef06cef7fbf69/c.html",
+      "中国军网《柏叶山下的接力守护》 http://www.81.mil.cn/dy_208579/16457437.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 湖北省武汉市黄陂区"
+  },
+  {
+    "id": "hubei-yingcheng-jiwei-village",
+    "modern_name": "季伟村",
+    "former_name": "季伟村（原葛蓬岗乡/马旺乡，1940年改名季伟乡）",
+    "category": "乡镇与村落",
+    "province": "湖北省",
+    "city": "孝感市",
+    "coordinates": [
+      113.544,
+      30.8036
+    ],
+    "renamed_year": 1940,
+    "hero": {
+      "name": "季伟",
+      "birth_year": 1914,
+      "death_year": 1940,
+      "sacrifice_age": 26,
+      "title": "中共应城县委妇女部部长兼第一区区委书记",
+      "force": "八路军（抗大四期毕业，转战敌后）",
+      "sacrifice_date": "1940年9月14日",
+      "battle": "应城湖区掩护同志转移遭日伪包围牺牲",
+      "story": "季伟原名王德英，重庆丰都人，1938年赴延安抗大学习并入党，毕业后赴应城沦陷区开展抗日工作，任县委妇女部部长，组织三万余妇救会员、动员四十名青年参军。1940年9月14日夜，她掩护同志突围时被日伪军包围，腿部中弹后为拒俘咬断舌头，失血牺牲。9月18日，应城县委将牺牲地马旺乡（葛蓬岗）更名季伟乡。"
+    },
+    "modern_status": "今属湖北省孝感市应城市义和镇，历经季伟公社、季伟乡、季伟管理区，2000年改季伟村沿用至今，村内建有季伟烈士陵园，为应城市文物保护单位与青少年爱国主义教育基地。",
+    "sources": [
+      "丰都新闻网《85年！湖北一地何以丰都籍烈士命名？》 http://www.gcfd.cn/politicsNews/detail/5000474073?columnId=4501",
+      "湖北文艺网《廿六芳华殉家国 一寸丹心照千秋——在季伟村追忆抗日巾帼英烈季伟》 https://www.hbwy.org.cn/c/2026/08/21/160417.shtml",
+      "荆楚网《应城：跨越大半个世纪 抗战烈士季伟终与亲人重逢》 http://m.cnhubei.com/content/2025-08/29/content_19457380.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 湖北省孝感市应城市"
+  }
+]

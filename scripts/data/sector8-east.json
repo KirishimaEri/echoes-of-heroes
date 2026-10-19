@@ -1,0 +1,2363 @@
+[
+  {
+    "id": "jiangsu-jiashu-qu-historical",
+    "modern_name": "嘉树区",
+    "former_name": "原车桥、泾口部分（1945年3月设嘉树区，1957年4月撤区建乡）",
+    "category": "历史曾用县名",
+    "province": "江苏省",
+    "city": "淮安市",
+    "coordinates": null,
+    "renamed_year": 1945,
+    "hero": {
+      "name": "王嘉树",
+      "birth_year": 1920,
+      "death_year": 1943,
+      "sacrifice_age": 23,
+      "title": "淮安泾口区民兵大队长（曾任苏嘴区区长）",
+      "force": "地方抗日武装",
+      "sacrifice_date": "1943年9月16日",
+      "battle": "西岗村活动时被内奸密报、伪军包围，搏斗中断腿受刀壮烈牺牲",
+      "story": "王嘉树，1920年生于四川乐山盐商家庭，1938年5月入党，抗大一分校毕业后任河北《冀南日报》特派员，旋调华中主编《老百姓报》。1942年调淮安苏嘴区任区长，1943年春到敌占区泾口区任民兵大队长，动员民众、发展武装、瓦解伪军，为开辟该区奠定基础。1943年9月16日夜在西岗村过夜，被混进区队的内奸张兆荣密报，伪军营长夏桂五率七八十人包围，他率民兵英勇反抗，寡不敌众，断腿又受数刀壮烈牺牲，年仅23岁。1945年3月淮安县抗日民主政府从原车桥、泾口划出部分成立嘉树区纪念烈士，区名沿用至20世纪50年代中期撤区建乡。"
+    },
+    "modern_status": "嘉树区为1945年3月设置、1957年4月撤销的历史行政区，今其地属淮安市淮安区复兴镇一带，王嘉树牺牲地为复兴镇任桥村，墓在田桥村。",
+    "sources": [
+      "中共乐山市委党史和地方志研究室《【抗战中的乐山】一腔热血洒淮土——抗日英雄王嘉树》 https://www.leshan.gov.cn/lsswszf/dszl/7faab90347664ed3b69fc2f29.html",
+      "《淮安区报》《英雄喋血西岗村 浩气长存嘉树区——纪念王嘉树烈士牺牲80周年》 https://mobile.epaper.routeryun.com/index.php/home/article/index/appkey/62/date/2023-11-02/aid/7912330.html",
+      "人民网江苏《淮安区红色资源打底 下好宜居宜业“一盘棋”》 http://js.people.com.cn/n2/2021/0507/c360302-34711580.html"
+    ]
+  },
+  {
+    "id": "shanghai-zizhong-road",
+    "modern_name": "自忠路",
+    "former_name": "白尔路、西门路",
+    "category": "街道",
+    "province": "上海市",
+    "city": "上海市",
+    "coordinates": [
+      121.4768,
+      31.2189
+    ],
+    "renamed_year": 1946,
+    "hero": {
+      "name": "张自忠",
+      "birth_year": 1891,
+      "death_year": 1940,
+      "sacrifice_age": 49,
+      "title": "国民革命军第三十三集团军总司令兼第五十九军军长，追授陆军上将",
+      "force": "国民革命军",
+      "sacrifice_date": "1940年5月16日",
+      "battle": "枣宜会战南瓜店阻击战",
+      "story": "张自忠，1891年生，西北军名将，台儿庄会战屡建战功。1940年5月枣宜会战中率部渡襄河截击日军，在南瓜店被围，身中数弹壮烈牺牲，为抗战中殉国的最高级别将领之一，周恩来称其“忠义之志，壮烈之气，直可以为中国抗战军人之魂”。1946年上海将筑于1901年的白尔路、西门路改名自忠路，1949年曾复名西门路，1985年再次恢复自忠路至今。"
+    },
+    "modern_status": "今上海市黄浦区自忠路，东起西藏南路、西至重庆南路，全长约1045米，紧邻新天地。",
+    "sources": [
+      "新民晚报《自忠路上的墓志铭》 https://paper.xinmin.cn/html/xmwb/2020-06-14/11/72259.html",
+      "澎湃新闻《老城遗珍·马路的故事｜上海西门外的自忠路》 https://m.thepaper.cn/baijiahao_13449114",
+      "腾讯网/新民视频《1分钟了解上海和抗战英雄有关的马路：自忠路》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 上海市黄浦区"
+  },
+  {
+    "id": "anhui-chenhu-community",
+    "modern_name": "陈户社区",
+    "former_name": "陈护（胡村乡/陈护乡）",
+    "category": "街道",
+    "province": "安徽省",
+    "city": "滁州市",
+    "coordinates": [
+      117.6819,
+      32.386
+    ],
+    "renamed_year": 1942,
+    "hero": {
+      "name": "陈护",
+      "birth_year": 1918,
+      "death_year": 1940,
+      "sacrifice_age": 22,
+      "title": "新四军第四支队十六团团部干事",
+      "force": "新四军",
+      "sacrifice_date": "1940年",
+      "battle": "定远张桥抗日工作（被叛徒出卖杀害）",
+      "story": "陈护，1918年生，外地来皖东的新四军四支队十六团团部干事，在定远张桥一带开展抗日工作。1940年被叛徒出卖杀害。1942年秋定远县将胡村乡改名陈护乡，后当地百姓叫白为陈户，今张桥镇陈户社区沿用。"
+    },
+    "modern_status": "今定远县张桥镇陈户社区，原名陈护，以烈士陈护命名。",
+    "sources": [
+      "政协定远县委员会《陈户取名于烈士陈护》 https://www.dyxzx.gov.cn/content/detail/668659197fac9a764b8b4567.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 安徽省滁州市定远县"
+  },
+  {
+    "id": "anhui-dafang-road",
+    "modern_name": "大方路",
+    "former_name": "（新杭镇街道无名路）",
+    "category": "街道",
+    "province": "安徽省",
+    "city": "宣城市",
+    "coordinates": [
+      119.5657,
+      31.0701
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "郑大方",
+      "birth_year": 1921,
+      "death_year": 1944,
+      "sacrifice_age": 23,
+      "title": "新四军第六师十六旅四十八团三营教导员",
+      "force": "新四军",
+      "sacrifice_date": "1944年3月29日",
+      "battle": "广德杭村伏击战（歼敌缴获日式九二步兵炮）",
+      "story": "郑大方，1921年生于上海，1939年入党，任新四军六师十六旅四十八团三营教导员。1944年3月日军4000余人扫荡郎广根据地，3月29日杭村伏击战中，他率一个排冲在前面白刃格斗，歼敌百余、缴获日式九二步兵炮，胸部中弹牺牲，年仅23岁。广德新杭镇街道以其名命名大方路。"
+    },
+    "modern_status": "今广德市新杭镇大方路，路旁有郑大方烈士陵墓，当地以烈士之名设立助学奖励基金十三载。",
+    "sources": [
+      "宣城市委党史地方志室《为国捐躯的新四军烈士郑大方》 https://dsfz.xuancheng.gov.cn/News/show/1128975.html",
+      "广德市人民政府《全省首创！以烈士之名捐资助学十三载》 https://www.guangde.gov.cn/News/show/1466805.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 安徽省宣城市广德市"
+  },
+  {
+    "id": "anhui-guohua-road",
+    "modern_name": "国华路",
+    "former_name": "广德经济开发区主干道（命名为国华路）",
+    "category": "街道",
+    "province": "安徽省",
+    "city": "宣城市",
+    "coordinates": [
+      119.4705,
+      30.9015
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "饶国华",
+      "birth_year": 1894,
+      "death_year": 1937,
+      "sacrifice_age": 43,
+      "title": "第145师中将师长",
+      "force": "国民革命军（川军第二十一集团军）",
+      "sacrifice_date": "1937年11月30日",
+      "battle": "广德保卫战十字铺指挥部饮弹殉国",
+      "story": "饶国华，1894年生，川军第145师中将师长。1937年11月淞沪会战后日军三路攻南京，广德为南京外围屏障，他率部千里驰援，11月23日起在誓节渡依托阵地顽强阻击，写下“誓与广德共存亡”训令。11月30日防线被突破，他在十字铺临时指挥部写下绝命书后饮弹殉国，毛泽东称其为全中国人“崇高伟大的模范”。广德经济开发区将贯穿城区东西的5.7公里主干道命名为国华路。"
+    },
+    "modern_status": "今安徽省广德市经济开发区国华路，全长5.7公里双向四车道，串联40余家企业的城市主干道。",
+    "sources": [
+      "宣城市退役军人事务局《行走国华路：追寻英雄足迹 传承抗战精神》 http://tyjr.xuancheng.gov.cn/News/show/1674848.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 安徽省宣城市广德市"
+  },
+  {
+    "id": "anhui-zhuying-bridge",
+    "modern_name": "朱英桥",
+    "former_name": "叶集二道河木桥",
+    "category": "街道",
+    "province": "安徽省",
+    "city": "六安市",
+    "coordinates": null,
+    "renamed_year": null,
+    "hero": {
+      "name": "朱英",
+      "birth_year": null,
+      "death_year": 1938,
+      "sacrifice_age": null,
+      "title": "国民革命军第七十一军第三十六师机枪连连长（营长）",
+      "force": "国民革命军",
+      "sacrifice_date": "1938年9月",
+      "battle": "武汉会战叶集（叶家集）二道河桥阻击战",
+      "story": "朱英，国民革命军71军36师机枪连连长（营长），1938年9月武汉会战叶集阻击战中率全营守二道河桥，挥大刀率机枪连与日寇肉搏近两小时，歼敌百余，朱英与全营官兵全部战死，为宋希濂部阻击11天、组织武汉会战赢得时间。战后当地在其殉难桥畔建朱英桥、朱英保纪念。"
+    },
+    "modern_status": "今六安市叶集区，朱英桥、朱英保为叶集阻击战纪念地名，当地建有朱英烈士纪念设施。",
+    "sources": [
+      "安徽党史方志《叶集阻击战烈士朱英》 http://www.anhuids.gov.cn/Home/Content/13315?ClassId=6582",
+      "六安市叶集区人民政府《叶集概况·抗日战斗遗址朱英桥》 https://www.ahyeji.gov.cn/zjyj/"
+    ]
+  },
+  {
+    "id": "jiangsu-baiguo-community",
+    "modern_name": "白果社区",
+    "former_name": "白果乡（今冈西镇白果社区）",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "盐城市",
+    "coordinates": [
+      119.9148,
+      33.5475
+    ],
+    "renamed_year": 1942,
+    "hero": {
+      "name": "白果",
+      "birth_year": 1919,
+      "death_year": 1941,
+      "sacrifice_age": 22,
+      "title": "盐城县十四区区委书记、民运队长",
+      "force": "新四军第三师",
+      "sacrifice_date": "1941年8月",
+      "battle": "西吉庄尖墩反扫荡断后掩护群众撤退溺水牺牲",
+      "story": "白果，原名邓延熙，1919年生于山东聊城，抗大毕业后随黄克诚部挺进盐阜，历任三师政治部宣传队队长、七旅二十一团三营教导员，1941年3月调任盐城县十四区区委书记。1941年8月日伪军向西吉庄、尖墩一带扫荡，他指挥区队突围，亲自断后掩护干部群众撤退，撤至尖墩五岔口渡河时溺水牺牲，年仅22岁。1942年命名白果乡，今为冈西镇白果社区，建有白果烈士陵园。"
+    },
+    "modern_status": "今江苏省建湖县冈西镇白果社区，冈西镇最繁华区域，建有白果烈士陵园与汉白玉雕像。",
+    "sources": [
+      "中共江苏省委新闻网（新华日报）《“生于聊城，死于盐城，两城人民悼烈士”》 https://www.zgjssw.gov.cn/shixianchuanzhen/yancheng/202508/t20250809_8511706.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省盐城市建湖县"
+  },
+  {
+    "id": "jiangsu-chuanqing-community",
+    "modern_name": "川青社区",
+    "former_name": "北港乡（川青乡、川青镇）",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.6558,
+      33.0147
+    ],
+    "renamed_year": 1945,
+    "hero": {
+      "name": "徐川青",
+      "birth_year": 1916,
+      "death_year": 1944,
+      "sacrifice_age": 28,
+      "title": "高邮北港乡抗日民主政府负责人",
+      "force": "新四军",
+      "sacrifice_date": "1944年3月27日",
+      "battle": "高邮沙家大圩/北港反扫荡战斗",
+      "story": "徐川青，1916年生，江苏崇明（今上海）人，任高邮北港乡抗日民主政府负责人，领导乡民兵配合主力反扫荡。1944年3月27日沙家大圩战斗中牺牲。1945年春高邮县抗日民主政府将北港乡更名川青乡，后改川青镇，2000年并入临泽镇，今为临泽镇川青社区；临泽至川青的五里桥亦改称川青桥。"
+    },
+    "modern_status": "今高邮市临泽镇川青社区，保留川青邮政支局与川青桥纪念。",
+    "sources": [
+      "学习强国《江苏高邮川青桥：以英烈之名镌刻光荣》 https://xuexi.cn/lgpage/detail/index.html?id=16368248757398104148",
+      "今日高邮《他们永远被铭记》 http://www.gytoday.cn/wy/wx/2023-10-26/90009.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市高邮市"
+  },
+  {
+    "id": "jiangsu-cunliang-bridge",
+    "modern_name": "存良大桥",
+    "former_name": "（柳西村/存良村）",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": null,
+    "renamed_year": null,
+    "hero": {
+      "name": "夏存良",
+      "birth_year": 1910,
+      "death_year": 1944,
+      "sacrifice_age": 34,
+      "title": "宝应柳堡乡民兵模范队中队长",
+      "force": "新四军（地方民兵）",
+      "sacrifice_date": "1944年3月29日",
+      "battle": "柳堡车桥战役后反扫荡阻击战",
+      "story": "夏存良，1910年生，宝应柳堡乡民兵模范队中队长，带领“十八勇士”民兵抗击日伪军。1944年3月29日反扫荡战斗中牺牲。原柳西村一度命名存良村，当地建有存良大桥、存良河以志纪念。"
+    },
+    "modern_status": "今宝应县柳堡镇存良大桥、存良河一带，为夏存良烈士纪念地名。",
+    "sources": [
+      "学习强国《宝应柳堡：民兵十八勇士夏存良》 https://xuexi.cn/lgpage/detail/index.html?id=383654956394411126",
+      "宝应县红色地名志"
+    ]
+  },
+  {
+    "id": "jiangsu-fengwei-road",
+    "modern_name": "凤威路",
+    "former_name": "（无名街巷）",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "无锡市",
+    "coordinates": [
+      120.4131,
+      31.6142
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "陈凤威",
+      "birth_year": 1907,
+      "death_year": 1942,
+      "sacrifice_age": 35,
+      "title": "中共锡北工委书记、江抗独立支队参谋长",
+      "force": "新四军（江南抗日义勇军）",
+      "sacrifice_date": "1942年10月14日",
+      "battle": "无锡钱家庄顾巷浜口突围战",
+      "story": "陈凤威，无锡人，无锡地区抗日武装组织者，任中共锡北工委书记，领导江抗独立支队在锡北坚持敌后游击战。1942年10月14日在钱家庄顾巷浜口遭日军袭击，激战中壮烈牺牲。无锡城区以其名字命名凤威路，是无锡唯一以抗日烈士名字命名的道路。"
+    },
+    "modern_status": "今无锡市城区凤威路，为纪念陈凤威烈士而命名。",
+    "sources": [
+      "无锡市档案史志馆《陈凤威》 http://daj.wuxi.gov.cn/doc/2015/06/26/2427248.shtml",
+      "江南时报《前行的星光——陈凤威烈士在无锡奋斗的岁月》 https://www.jntimes.cn/jnwm/202508/t20250826_8515874.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省无锡市锡山区"
+  },
+  {
+    "id": "jiangsu-guosheng-road",
+    "modern_name": "国生路",
+    "former_name": "郑庠村（1958年改名国生村，2006年通路命名国生路）",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "镇江市",
+    "coordinates": [
+      119.3647,
+      31.9811
+    ],
+    "renamed_year": 2006,
+    "hero": {
+      "name": "萧国生",
+      "birth_year": null,
+      "death_year": 1939,
+      "sacrifice_age": 23,
+      "title": "新四军第一支队第二团政治处主任",
+      "force": "新四军",
+      "sacrifice_date": "1939年3月7日",
+      "battle": "丹徒上下会战斗，掩护团直机关突围",
+      "story": "萧国生，14岁参加革命、17岁入党，新四军第一支队二团政治处主任，全军政治工作模范。1939年3月7日，日军2000余步骑兵与3000余伪军合围上会、下会的二团一部，他拒绝先行转移，亲率一个连坚守阻击、掩护团直机关突围，身中数弹牺牲，年仅23岁。1952年句容县政府在郑庠村建墓立碑，1958年郑庠村改名国生村，2006年通向白兔集镇的道路命名为国生路。"
+    },
+    "modern_status": "今江苏省句容市白兔镇国生路，路旁建有萧国生烈士陵园，陵园内葬有上下会战斗牺牲的58位烈士，由当地第二代守墓人常年看护。",
+    "sources": [
+      "中国江苏网·交汇点《大地英名｜从“国生村”到“国生路”，他的精神烛照未来》 http://jsnews.jschina.com.cn/jsyw/202508/t20250801_s688ccdb0e4b0a4a27e84cf6d.shtml",
+      "中国共产党新闻网《新四军模范政工萧国生（铭记历史 缅怀先烈·抗日英雄）》 http://cpc.people.com.cn/n1/2025/0723/c443712-40527619.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省镇江市句容市"
+  },
+  {
+    "id": "jiangsu-hetao-road",
+    "modern_name": "鹤涛路",
+    "former_name": "无",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "南通市",
+    "coordinates": [
+      120.8385,
+      32.0837
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "单鹤涛",
+      "birth_year": null,
+      "death_year": 1944,
+      "sacrifice_age": 27,
+      "title": "城闸区陈村乡第一任新四军乡长",
+      "force": "新四军地方政权",
+      "sacrifice_date": "1944年4月",
+      "battle": "秘密抗日活动暴露后被日伪军拘捕牺牲",
+      "story": "单鹤涛，1938年日军入侵南通时，他创办“单氏学塾”，在传授文化知识的同时弘扬爱国思想，带领学生秘密参加抗日活动。后出任城闸区陈村乡第一任新四军乡长，在敌占区坚持基层抗日政权建设。1944年4月，他不幸被日伪军拘捕，遭受折磨后牺牲，年仅27岁。为纪念烈士，幸福街道将学校旁一条道路命名为鹤涛路，与共和国同龄的鹤涛小学亦以其名字命名，操场东侧革命英烈纪念碑背面镌刻着包括单鹤涛在内的60位烈士英名。"
+    },
+    "modern_status": "今江苏省南通市崇川区幸福街道鹤涛路，路旁为鹤涛小学，校内立革命英烈纪念碑，以烈士单鹤涛命名并传承其爱国精神。",
+    "sources": [
+      "人民网江苏《行进中国｜他们的名字，我们的“幸福路”》 http://js.people.com.cn/n2/2026/0628/c360303-41623287.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省南通市崇川区"
+  },
+  {
+    "id": "jiangsu-jiaqi-road",
+    "modern_name": "家齐路",
+    "former_name": "（规划新建道路）",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "南京市",
+    "coordinates": [
+      118.9659,
+      31.8627
+    ],
+    "renamed_year": 2020,
+    "hero": {
+      "name": "陶家齐",
+      "birth_year": 1890,
+      "death_year": 1943,
+      "sacrifice_age": 53,
+      "title": "新四军第一支队湖熟情报站站长、江宁县赤山区区长",
+      "force": "新四军",
+      "sacrifice_date": "1943年11月12日",
+      "battle": "江宁县湖熟抗日情报工作（赤山伏击战情报来源）",
+      "story": "陶家齐，南京江宁人，任新四军第一支队湖熟情报站站长，后任抗日民主政府江宁县赤山区区长，1940年赤山伏击战的重要情报即由他提供，此战日军伤亡惨重，陈毅专电祝贺。1943年9月4日因汉奸出卖遭日军围捕，11月12日傍晚与妻子一同被日军用长刀残忍杀害，牺牲时幼子尚不满周岁。2019年湖熟街道提议将墓地附近规划新路命名为家齐路，2020年获南京市地名委员会批复。"
+    },
+    "modern_status": "位于南京市江宁区湖熟街道陶家齐烈士墓地附近，已列为江宁区红色地名。",
+    "sources": [
+      "中共江苏省委新闻网/新华日报《江苏以烈士命名的社区、村庄、道路等有数百处》 https://www.zgjssw.gov.cn/yaowen/202304/t20230404_7889979.shtml",
+      "新华报业网《这些抗日英烈，在江苏的地名里永生》 http://jres2023.xhby.net/index/202207/t20220707_7608637.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省南京市江宁区"
+  },
+  {
+    "id": "jiangsu-shuguang-community",
+    "modern_name": "曙光社区",
+    "former_name": "仁水乡（1944年改名曙光乡，今四明镇曙光社区）",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "盐城市",
+    "coordinates": [
+      120.1639,
+      33.8551
+    ],
+    "renamed_year": 1944,
+    "hero": {
+      "name": "戴曙光",
+      "birth_year": 1911,
+      "death_year": 1944,
+      "sacrifice_age": 33,
+      "title": "射阳县七区区长兼武装大队长",
+      "force": "新四军（地方抗日武装）",
+      "sacrifice_date": "1944年5月30日",
+      "battle": "赴绝龙港谈判遭伪匪蒋信富伏兵伏击牺牲",
+      "story": "戴曙光，1911年生，早年在上海参加地下抗日工作，1937年回国，1940年参加革命，历任阜宁干校大队长、县政府科长，1943年初任射阳县七区区长兼武装大队长，献枪建武装、切断公路袭击伪军。敌收买伪匪蒋信富诈降约其赴绝龙港，1944年5月30日夜赴约遭伏兵伏击，胸口中弹牺牲。1944年7月7日射阳县政府将仁水乡改名曙光乡。"
+    },
+    "modern_status": "今江苏省射阳县四明镇曙光社区，由原曙光乡沿革而来，社区延续烈士英名，传承其以身许国精神。",
+    "sources": [
+      "射阳县人民政府《以身许国 为民捐躯——戴曙光烈士革命事迹》 http://www.sheyang.gov.cn/art/2015/9/1/art_12099_2783912.html",
+      "复旦大学档案馆《戴曙光》 http://www.fda.fudan.edu.cn/93/be/c17445a168894/page.htm"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 江苏省盐城市射阳县"
+  },
+  {
+    "id": "jiangsu-shuhong-road",
+    "modern_name": "曙红路",
+    "former_name": "汤沟乡（抗日政府改名曙红乡，今汤沟村曙红路）",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "连云港市",
+    "coordinates": [
+      119.1521,
+      34.1515
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "汤曙红",
+      "birth_year": 1915,
+      "death_year": 1939,
+      "sacrifice_age": 24,
+      "title": "八路军山东纵队陇海游击支队第三团团长",
+      "force": "八路军",
+      "sacrifice_date": "1939年7月17日",
+      "battle": "被国民党顽固派诱杀于汤沟乡公所",
+      "story": "汤曙红，1915年生，沭阳汤沟（今灌南）人，抗战爆发后回乡救亡，1938年建民众武装抗日救亡大队，1939年4月任八路军陇海游击支队三团团长，火烧义泽桥、五里槐伏击歼敌63人。顽固派夏铸禹、王叙五设陷阱，1939年7月17日夜他到汤沟乡公所谈判即被王叙五心腹周法乾杀害。抗日政府将汤沟乡改名曙红乡。"
+    },
+    "modern_status": "今江苏省灌南县汤沟镇汤沟村曙红路，路旁建有汤曙红烈士陵园，为灌南县重点文物保护单位。",
+    "sources": [
+      "中共宿迁市委党史工作办公室《汤曙红——陇海游击支队三团团长》 http://szb.suqian.gov.cn/sqsz/dsrw/202107/9effe6d13ace4f559d3bc0f8b1b1cdf4.shtml",
+      "灌南县人民政府《关于划定汤沟镇汤曙红烈士陵园保护范围的公告》 http://www.guannan.gov.cn/gnzx/gsgg/content/5ed65708-6f93-488d-8e79-7827acb42e05.htm"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省连云港市灌南县"
+  },
+  {
+    "id": "jiangsu-wanglong-bridge",
+    "modern_name": "王龙桥",
+    "former_name": "丹徒镇江边无名小桥",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "镇江市",
+    "coordinates": null,
+    "renamed_year": null,
+    "hero": {
+      "name": "王龙",
+      "birth_year": 1908,
+      "death_year": 1945,
+      "sacrifice_age": 37,
+      "title": "中国共产党任命的镇江市首任市长",
+      "force": "新四军",
+      "sacrifice_date": "1945年9月7日",
+      "battle": "丹徒镇江边处理伪军投诚途中遭遇顽化伪军",
+      "story": "王龙，江苏江阴人，1945年任中国共产党任命的镇江市第一任市长。是年9月，一支伪军携械出城拟向新四军投诚，王龙前往丹徒江边受降，途中与大批顽化伪军遭遇被捕，面对枪口凛然高呼“中国共产党万岁”，牺牲于丹徒镇江边芦滩。解放后将其殉难处附近小桥命名为王龙桥，1985年镇江市政府又在桥畔修建王龙亭。"
+    },
+    "modern_status": "位于镇江东郊丹徒镇西侧，桥旁建有王龙亭，为镇江市区抗战纪念地名。",
+    "sources": [
+      "中共江苏省委新闻网《烈士后代深情缅怀中共首任镇江市市长王龙》 https://www.zgjssw.gov.cn/yaowen/202508/t20250803_8510045.shtml",
+      "《镇江市志·烈士墓园·王龙纪念亭》 http://szb.zhenjiang.cn/szb/htmA/fangzhi/zj/1502.htm",
+      "新华报业网《这些抗日英烈，在江苏的地名里永生》 http://jres2023.xhby.net/index/202207/t20220707_7608637.shtml"
+    ]
+  },
+  {
+    "id": "jiangsu-xuefeng-levee",
+    "modern_name": "雪枫堤",
+    "former_name": "淮河四河里围堤",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "宿迁市",
+    "coordinates": null,
+    "renamed_year": 1945,
+    "hero": {
+      "name": "彭雪枫",
+      "birth_year": 1907,
+      "death_year": 1944,
+      "sacrifice_age": 37,
+      "title": "新四军第四师师长兼政治委员",
+      "force": "新四军",
+      "sacrifice_date": "1944年9月11日",
+      "battle": "河南夏邑八里庄战斗（此前1943年秋率部淮河抢险筑堤）",
+      "story": "彭雪枫，1907年生，新四军四师师长兼政委。1943年秋淮河暴涨，四河里围堤将决口，彭雪枫亲率干部战士跳河排成人墙抢险十余小时，保住2万百姓家园与3万亩良田，四师又苦战将40华里淮河大堤加高拓宽。1944年9月11日八里庄战斗中流弹牺牲。淮北苏皖边区行政公署1945年1月5日将该淮河大堤命名为雪枫堤，2021年入选江苏省第二批100个红色地名。"
+    },
+    "modern_status": "今泗洪县双沟镇（原四河乡）境内20公里雪枫堤，环四河里区域绿树成堤，为省级红色地名。",
+    "sources": [
+      "中共江苏省委新闻网/新华日报《江苏以烈士命名的社区、村庄、道路等有数百处》 https://www.zgjssw.gov.cn/yaowen/202304/t20230404_7889979.shtml",
+      "新华报业网《这些抗日英烈，在江苏的地名里永生》 http://jres2023.xhby.net/index/202207/t20220707_7608637.shtml"
+    ]
+  },
+  {
+    "id": "jiangsu-yaohua-community",
+    "modern_name": "耀华社区",
+    "former_name": "后胡村（耀华乡）",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "南京市",
+    "coordinates": [
+      119.007,
+      31.9025
+    ],
+    "renamed_year": 1949,
+    "hero": {
+      "name": "张耀华",
+      "birth_year": 1915,
+      "death_year": 1944,
+      "sacrifice_age": 29,
+      "title": "江宁县赤山区地方武装负责人",
+      "force": "新四军",
+      "sacrifice_date": "1944年4月",
+      "battle": "江宁县赤山区反日伪包围战",
+      "story": "张耀华，江苏洪泽人，1937年参加新四军，被派到江宁县赤山区负责地方武装工作，深受百姓拥护，当地传唱“耀华大叔爱人民，同心去打鬼子兵”。1941年夏到赤山区领导抗日救亡。1944年4月，驻地村庄因叛徒告密被日伪军包围，张耀华主动要求断后掩护，不幸牺牲，年仅29岁。1949年江宁县人民政府在其战斗牺牲地设耀华乡，后历经耀华生产大队、行政村演变至今为耀华社区。"
+    },
+    "modern_status": "今南京市江宁区湖熟街道耀华社区，沿用“耀华”村名七十余年，每年清明组织群众为张耀华烈士扫墓。",
+    "sources": [
+      "中共江苏省委新闻网/新华日报《江苏以烈士命名的社区、村庄、道路等有数百处》 https://www.zgjssw.gov.cn/yaowen/202304/t20230404_7889979.shtml",
+      "新华报业网《这些抗日英烈，在江苏的地名里永生》 http://jres2023.xhby.net/index/202207/t20220707_7608637.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省南京市江宁区"
+  },
+  {
+    "id": "jiangsu-zhongmin-bridge",
+    "modern_name": "重民桥",
+    "former_name": "高桥渡口",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "南京市",
+    "coordinates": [
+      118.8522,
+      31.7471
+    ],
+    "renamed_year": 1981,
+    "hero": {
+      "name": "邓振询",
+      "birth_year": 1904,
+      "death_year": 1943,
+      "sacrifice_age": 39,
+      "title": "苏皖区委副书记、苏南军政委员会书记（又名邓仲铭、邓重民）",
+      "force": "新四军",
+      "sacrifice_date": "1943年8月3日",
+      "battle": "江宁禄口冯潭庄夜渡秦淮河转移",
+      "story": "邓振询，江西兴国人，工人运动领袖，参加长征，时任苏南军政委员会书记、苏皖区委副书记。1943年8月3日随新四军六师十六旅四十六团宿营江宁禄口冯潭庄，遇敌情连夜转移，夜渡秦淮河高桥渡口时落水殉难，年仅39岁。后人在其殉难渡口建重民桥（取其别名邓重民），竹山公园另立仲铭亭、仲铭桥以志纪念。"
+    },
+    "modern_status": "今南京市江宁区禄口街道冯潭庄高桥渡口一带有重民桥，竹山公园建有仲铭亭、仲铭桥纪念设施。",
+    "sources": [
+      "人民网党史频道《中共抗战英烈：邓振询》 http://dangshi.people.com.cn/n/2014/0325/c85037-24732316.html",
+      "中国军网《邓振询：“革命生死为大众”的优秀党员》 http://www.81.cn/yljnt_208627/ylml/D/9428010_2.html",
+      "南京市江宁区人民政府《邓仲铭亭》 http://www.jiangning.gov.cn/zjjn/jngk/jnww/201712/t20171215_189035.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省南京市江宁区"
+  },
+  {
+    "id": "jiangsu-zuwang-community",
+    "modern_name": "祖望社区",
+    "former_name": "无（幸福街道社区，以宋祖望命名）",
+    "category": "街道",
+    "province": "江苏省",
+    "city": "南通市",
+    "coordinates": [
+      120.8436,
+      32.084
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "宋祖望",
+      "birth_year": null,
+      "death_year": 1941,
+      "sacrifice_age": null,
+      "title": "中共南通刘桥区委书记",
+      "force": "中国共产党地方党组织与工人武装",
+      "sacrifice_date": "1941年4月9日",
+      "battle": "争取国民党杂牌武装联合抗日时遇害",
+      "story": "宋祖望由普通学徒成长为南通工人武装的领导者，1938年12月加入中国共产党，后担任中共南通刘桥区委书记，致力发展壮大抗日队伍，在敌后秘密组织群众、争取武装力量联合抗日。1941年4月9日，他在争取一支国民党杂牌武装参加抗日的工作中不幸遇害。为纪念这位抗日英烈，南通市崇川区幸福街道将其工作地所在社区命名为祖望社区，社区内设有幸福街道红色记忆馆，成为当地开展红色教育的重要阵地。"
+    },
+    "modern_status": "今江苏省南通市崇川区幸福街道祖望社区，以烈士宋祖望命名，社区内设幸福街道红色记忆馆，常年开展红色研学活动。",
+    "sources": [
+      "人民网江苏《行进中国｜他们的名字，我们的“幸福路”》 http://js.people.com.cn/n2/2026/0628/c360303-41623287.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省南通市崇川区"
+  },
+  {
+    "id": "jiangxi-anbao-avenue",
+    "modern_name": "安宝大道",
+    "former_name": "（新建主干道）",
+    "category": "街道",
+    "province": "江西省",
+    "city": "南昌市",
+    "coordinates": [
+      115.934,
+      28.5201
+    ],
+    "renamed_year": 2017,
+    "hero": {
+      "name": "陈安宝",
+      "birth_year": 1891,
+      "death_year": 1939,
+      "sacrifice_age": 48,
+      "title": "国民革命军第二十九军军长，追赠陆军上将",
+      "force": "国民革命军",
+      "sacrifice_date": "1939年5月6日",
+      "battle": "南昌会战龙里张阵地阻击战",
+      "story": "陈安宝，1891年生，浙江黄岩人，国民革命军29军军长。1939年5月南昌会战中率部坚守龙里张阵地，5月6日双方白刃战，陈安宝赴前线督战途中遭日机空袭腹部中弹，壮烈殉国，为南昌会战殉国最高将领，追赠上将。2017年7月南昌县建成命名安宝大道，沿线有安宝一路、安宝二路。"
+    },
+    "modern_status": "今南昌市南昌县莲塘安宝大道，东北起莲塘南大道、西南至迎宾中大道，全长1157米。",
+    "sources": [
+      "江西大江网《英雄之名 铸就赣鄱“脊梁路”·安宝大道》 https://jiangxi.jxnews.com.cn/system/2025/09/20/020989296.shtml",
+      "国防部《抗日名将陈安宝：铁骨铮铮真善夫》 http://www.mod.gov.cn/gfbw/gfjy_index/16399732.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江西省南昌市南昌县"
+  },
+  {
+    "id": "zhejiang-dafu-road",
+    "modern_name": "达夫路",
+    "former_name": "市心路、市心北路",
+    "category": "街道",
+    "province": "浙江省",
+    "city": "杭州市",
+    "coordinates": [
+      119.9592,
+      30.0508
+    ],
+    "renamed_year": 2015,
+    "hero": {
+      "name": "郁达夫",
+      "birth_year": 1896,
+      "death_year": 1945,
+      "sacrifice_age": 49,
+      "title": "中华全国文艺界抗敌协会理事、海外抗日宣传战士",
+      "force": "抗日文化战线（海外抗日）",
+      "sacrifice_date": "1945年8月29日",
+      "battle": "苏门答腊南洋抗日（被日本宪兵秘密杀害）",
+      "story": "郁达夫，1896年生，富阳人，作家，中华全国文艺界抗敌协会理事，辗转上海、武汉、福州、南洋从事抗日救国宣传。新加坡沦陷后化名赵廉流亡苏门答腊，以日侨翻译身份掩护当地人和华侨，营救军民并搜集日军罪行证据。1945年8月29日被日本宪兵秘密杀害于丛林。2015年富阳撤市设区时，市民投票将市心路、市心北路改名达夫路。"
+    },
+    "modern_status": "今杭州市富阳区达夫路，南起富春街、北至大桥路小垄桥头，附近有郁达夫公园、郁达夫故居。",
+    "sources": [
+      "杭州市民政局《富阳名人名路｜寻访英烈地名 感受革命精神》 https://mz.hangzhou.gov.cn/art/2022/9/16/art_1530899_58932893.html",
+      "央视网《是文人是战士 郁达夫的笔尖抗战》 https://news.cctv.cn/2025/06/23/ARTIo4e3DeeLzDPQNn93mUb0250623.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 浙江省杭州市富阳区"
+  },
+  {
+    "id": "zhejiang-xuemian-road",
+    "modern_name": "学勉路",
+    "former_name": "枫桥旧路（解放后枫桥命名学勉路）",
+    "category": "街道",
+    "province": "浙江省",
+    "city": "绍兴市",
+    "coordinates": [
+      120.423,
+      29.791
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "朱学勉",
+      "birth_year": null,
+      "death_year": 1944,
+      "sacrifice_age": null,
+      "title": "金萧支队第一大队大队长",
+      "force": "新四军浙东游击纵队金萧支队",
+      "sacrifice_date": "1944年5月27日",
+      "battle": "诸暨墨城坞枯竹尖阻击战抗击汪伪独立第四旅牺牲",
+      "story": "朱学勉，知识分子出身，陕北公学毕业后从事抗日工作，1943年12月新四军浙东游击纵队金萧支队成立，任第一大队大队长。1944年5月27日，日伪军千余人进犯，他率一大队抢占墨城坞枯竹尖制高点，多次打退敌人冲锋，胸部中弹壮烈牺牲。1945年7月金萧支队诸暨办事处将枫桥忠义中学改名学勉公学，解放后枫桥又命名学勉路，并建学勉中学纪念烈士。"
+    },
+    "modern_status": "今浙江省诸暨市枫桥镇学勉路，邻近学勉中学与金萧支队纪念馆，为纪念朱学勉烈士的城市道路。",
+    "sources": [
+      "宁波史志网《宁波党史人物·朱学勉》 http://www.cnbsz.org.cn/art/2009/6/24/art_10637_615912.html",
+      "绍兴网《金萧支队纪念馆：追忆金萧烽火 传承不朽精神》 http://www.shaoxing.com.cn/p/2889427.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 浙江省绍兴市诸暨市"
+  },
+  {
+    "id": "fujian-zhixiong-pass",
+    "modern_name": "志雄关",
+    "former_name": "寨上关（1943年福建省政府改名志雄关）",
+    "category": "街道",
+    "province": "福建省",
+    "city": "福州市",
+    "coordinates": null,
+    "renamed_year": 1943,
+    "hero": {
+      "name": "郭志雄",
+      "birth_year": null,
+      "death_year": 1941,
+      "sacrifice_age": 35,
+      "title": "装备团副团长",
+      "force": "国民革命军（福建抗日装备团）",
+      "sacrifice_date": "1941年5月25日",
+      "battle": "大湖战役双髻山争夺战夺关牺牲",
+      "story": "郭志雄，归国华侨，1941年4月福州沦陷后任装备团副团长。5月25日凌晨，他率20多人敢死队占领寨上关，在夺取双髻山时遭日军重机枪扫射，身中数弹壮烈牺牲，年仅35岁。战后大湖山巅立大湖抗日阵亡将士纪念塔，1943年福建省政府将宋代五县寨关隘寨上关改名志雄关，以纪念这位殉国的华侨军官。"
+    },
+    "modern_status": "今福建省闽侯县大湖乡志雄关，为雪峰山城旅游度假区红色遗址，建有大湖抗日英雄纪念塔。",
+    "sources": [
+      "闽侯县人民政府《刻进闽侯地名的名字·志雄关》 http://www.minhou.gov.cn/xjwz/zwgk/gzdt/mhxw/202606/t20260629_5339247.htm",
+      "闽侯县人民政府《铭记！闽侯人民用热血书写的闽侯抗战史》 http://www.minhou.gov.cn/xjwz/mlmh/rwls/gjmr/202509/t20250909_5075572.htm"
+    ]
+  },
+  {
+    "id": "fujian-zifang-road",
+    "modern_name": "子芳路",
+    "former_name": "石狮城区主干道（命名为子芳路）",
+    "category": "街道",
+    "province": "福建省",
+    "city": "泉州市",
+    "coordinates": [
+      118.6409,
+      24.7419
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "李子芳",
+      "birth_year": 1910,
+      "death_year": 1942,
+      "sacrifice_age": 32,
+      "title": "新四军政治部组织部长",
+      "force": "新四军",
+      "sacrifice_date": "1942年春夏之交",
+      "battle": "皖南事变被俘，上饶集中营石底监狱撤退前被国民党杀害",
+      "story": "李子芳，1910年5月生于石狮永宁岑兜村，菲律宾归侨，走完长征，1937年10月任新四军政治部组织部长。1941年皖南事变中带病突围被俘，关押上饶集中营石底监狱，秘密成立党支部领导狱中斗争与越狱。1942年春夏之交日军进攻浙赣线，国民党集中营撤退前将其残忍杀害。石狮城区主干道命名子芳路，家乡岑兜村改名紫英村谐音“子英”。"
+    },
+    "modern_status": "今福建省石狮市子芳路，石狮最繁华的城市主干道之一，路旁建有李子芳烈士纪念馆。",
+    "sources": [
+      "中新网福建《李子芳：归侨赤子丹心 不改革命本色》 https://www.fj.chinanews.com.cn/news/fj_tzyw/2021/2021-07-20/487561.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 福建省泉州市石狮市"
+  },
+  {
+    "id": "anhui-jingbo-village",
+    "modern_name": "静波村",
+    "former_name": "（静波农业社/静波村）",
+    "category": "乡镇与村落",
+    "province": "安徽省",
+    "city": "滁州市",
+    "coordinates": [
+      118.4672,
+      32.6256
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "侯静波",
+      "birth_year": 1922,
+      "death_year": 1940,
+      "sacrifice_age": 18,
+      "title": "新四军山头乡指导员（女）",
+      "force": "新四军",
+      "sacrifice_date": "1940年11月2日",
+      "battle": "来安杨郢民运工作（被叛变民兵引伪军杀害）",
+      "story": "侯静波，女，1922年生，新四军战士，任来安山头乡指导员，深入群众做民运工作。1940年11月2日被叛变民兵引入伪军埋伏杀害。建国后当地建静波农业社，后为杨郢乡静波村。"
+    },
+    "modern_status": "今来安县杨郢乡静波村，以烈士侯静波命名。",
+    "sources": [
+      "滁州文明网《革命英烈侯静波》 http://chz.wenming.cn/wmsj/202003/t20200326_6374764.shtml",
+      "来安县人民政府《杨郢乡红色村名》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 安徽省滁州市来安县"
+  },
+  {
+    "id": "anhui-wenfu-village",
+    "modern_name": "文甫村",
+    "former_name": "宋庙乡土营村（文甫乡）",
+    "category": "乡镇与村落",
+    "province": "安徽省",
+    "city": "淮北市",
+    "coordinates": null,
+    "renamed_year": null,
+    "hero": {
+      "name": "陈文甫",
+      "birth_year": 1894,
+      "death_year": 1940,
+      "sacrifice_age": 46,
+      "title": "新四军第六支队八团副团长",
+      "force": "新四军",
+      "sacrifice_date": "1940年3月17日",
+      "battle": "濉溪王浅孜战斗",
+      "story": "陈文甫，1894年生，新四军第六支队八团副团长，在濉溪一带开辟豫皖苏边抗日根据地。1940年3月17日王浅孜战斗中率部阻击来犯日伪军，壮烈牺牲。宋庙乡土营村一度命名文甫乡、文甫村，其事迹载入淮北红色地名志与濉溪县党史。"
+    },
+    "modern_status": "今濉溪县百善镇宋庙一带，文甫村名与陈文甫烈士事迹载入淮北红色地名志。",
+    "sources": [
+      "濉溪县人民政府《红色辉山·文甫村地名故事》 https://www.sxx.gov.cn/xwzx/ztzl/sxyl/lsyml/60445831.html",
+      "淮北市党史地方志《陈文甫烈士传》"
+    ]
+  },
+  {
+    "id": "anhui-xiangyang-street",
+    "modern_name": "向阳街道",
+    "former_name": "长河乡（向阳乡）",
+    "category": "乡镇与村落",
+    "province": "安徽省",
+    "city": "宣城市",
+    "coordinates": [
+      118.8692,
+      30.891
+    ],
+    "renamed_year": 1955,
+    "hero": {
+      "name": "张企衡",
+      "birth_year": 1921,
+      "death_year": 1945,
+      "sacrifice_age": 24,
+      "title": "宣城抗日游击队员（化名“向阳”）",
+      "force": "新四军",
+      "sacrifice_date": "1945年深秋",
+      "battle": "宣城洪林桥林家岗伏击牺牲",
+      "story": "张企衡，1921年生，祖籍江苏常州，1937年抗战爆发后投身革命，化名“向阳”，在宣城坚持抗日游击斗争。1945年深秋在洪林桥林家岗伏击战中牺牲。1955年冬宣城县人民政府将长河乡更名向阳乡，今为宣州区向阳街道。"
+    },
+    "modern_status": "今宣城市宣州区向阳街道，由长河乡改名沿用“向阳”之名。",
+    "sources": [
+      "安徽省民政厅《弘扬红色地名 传承红色文化——向阳：战斗在宣城的故事》 http://mz.ah.gov.cn/ztzl/hyhsdmcchswh/xcs/120733881.html",
+      "宣城市委党史地方志室《向阳乡地名故事》 https://dsfz.xuancheng.gov.cn/News/show/1669593.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 安徽省宣城市宣州区"
+  },
+  {
+    "id": "anhui-zhifan-village",
+    "modern_name": "志凡村",
+    "former_name": "屯仓乡（志凡乡）",
+    "category": "乡镇与村落",
+    "province": "安徽省",
+    "city": "滁州市",
+    "coordinates": [
+      118.4867,
+      32.5958
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "陈志凡",
+      "birth_year": 1919,
+      "death_year": 1940,
+      "sacrifice_age": 21,
+      "title": "来安屯仓乡抗日民运干部",
+      "force": "新四军",
+      "sacrifice_date": "1940年7月1日",
+      "battle": "屯仓地主武装暴乱（被国民党顽固派杀害）",
+      "story": "陈志凡，1919年生，来安屯仓乡抗日民运干部，深入农村发动群众建立抗日农会。1940年7月1日屯仓高塘郢反动地主武装暴乱中，遭国民党顽固派杀害。屯仓乡后改名志凡乡，今杨郢乡志凡村沿用其名，铭记这位早期牺牲的皖东抗日青年干部。"
+    },
+    "modern_status": "今来安县杨郢乡志凡村，以烈士陈志凡命名。",
+    "sources": [
+      "来安县人民政府《大刘郢红色村庄与杨郢乡红色村名》 https://www.laian.gov.cn/gkxx/lsrw/278021041.html",
+      "来安县地方志《志凡村地名故事》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 安徽省滁州市来安县"
+  },
+  {
+    "id": "jiangsu-anbao-village-haimen",
+    "modern_name": "庵宝村",
+    "former_name": "（1952年命名庵宝村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "南通市",
+    "coordinates": [
+      121.3362,
+      31.9539
+    ],
+    "renamed_year": 1952,
+    "hero": {
+      "name": "樊庵宝",
+      "birth_year": 1919,
+      "death_year": 1943,
+      "sacrifice_age": 24,
+      "title": "海门反清乡游击队员、民兵号手",
+      "force": "新四军（地方民兵）",
+      "sacrifice_date": "1943年",
+      "battle": "海门常乐反清乡战斗",
+      "story": "樊庵宝，1919年生，海门常乐地区反“清乡”民兵号手，1943年日军与伪军大规模“清乡”时，他随民兵队伍参加阻击，吹号传令、配合主力袭扰敌人，战斗中中弹牺牲。1952年当地政府为永久纪念这位年轻民兵号手，将其家乡命名为庵宝村，村名沿用至今，成为海门反清乡斗争的一处红色记忆地名。"
+    },
+    "modern_status": "今南通市海门区常乐镇庵宝村，以烈士樊庵宝命名。",
+    "sources": [
+      "南通市海门区人民政府《常乐镇庵宝村：樊庵宝烈士》 http://www.haimen.gov.cn/hmsrmzf/shxw/content/a6bb8472-da6f-4a63-8f82-4e2052eaf45c.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省南通市海门区"
+  },
+  {
+    "id": "jiangsu-bangdao-village",
+    "modern_name": "邦道村",
+    "former_name": "信友乡（东南县委改名邦道乡，上世纪80年代恢复乡村建制为邦道村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "南通市",
+    "coordinates": [
+      121.5808,
+      31.8264
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "蔡邦道",
+      "birth_year": 1919,
+      "death_year": 1943,
+      "sacrifice_age": 26,
+      "title": "启西信友乡民兵大队骨干、东南警卫团战士",
+      "force": "新四军（东南警卫团）与地方民兵",
+      "sacrifice_date": "1943年9月",
+      "battle": "反“清乡”斗争，9月5日被捕受酷刑十九天后就义",
+      "story": "蔡邦道，1919年生于启东信友乡穷苦农家，1941年夏由地下党派入东南警卫团当兵，作战勇敢并加入中国共产党，1943年春反“清乡”被派回家乡开辟工作，宣传抗日、组建七八十人民兵大队，破公路、割电线、埋地雷、打伏击，使信友乡成为启西反清乡一面旗帜。1943年9月5日凌晨因伪保长告密被新港伪军包围，挥刀突围后被俘，敌人严刑拷打逼供党员、民兵名单，他咬破手指在墙上血书口号，十九天后英勇就义，年仅26岁。东南县委将信友乡改名邦道乡，80年代恢复乡村建制时群众一致定名邦道村，今属北新镇。"
+    },
+    "modern_status": "今江苏省南通市启东市北新镇邦道村，以反“清乡”烈士蔡邦道命名，2023—2026年启东市政府村庄规划、征地公告均列有该村。",
+    "sources": [
+      "中国军网（转启东日报）《蔡邦道：坚决抗敌，成为启西地区斗争的一面旗帜》 http://www.81.cn/yl_208589/16411382.html",
+      "启东市人民政府《北新镇邦道村等村庄规划编制项目市场询价公告》 http://www.qidong.gov.cn/qdsrmzf/cgqxj/content/ff48d6bf-2d5b-410a-879d-a5e0ac3c1bad.html",
+      "启东市人民政府《市政府关于同意北新镇安联村等20个村庄规划（2021—2035年）的批复》 http://www.qidong.gov.cn/qdsrmzf/upload/44ea42d0-9fa5-497c-9fd3-93d75b14ddae.pdf"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省南通市启东市"
+  },
+  {
+    "id": "jiangsu-baomin-village",
+    "modern_name": "保民村",
+    "former_name": "占先乡（新中国成立后改名保民村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "南通市",
+    "coordinates": [
+      121.4801,
+      31.9486
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "季保民",
+      "birth_year": 1924,
+      "death_year": 1944,
+      "sacrifice_age": 20,
+      "title": "占先乡民兵（后加入新四军）",
+      "force": "新四军地方民兵",
+      "sacrifice_date": "1944年5月",
+      "battle": "因叛徒出卖在三阳镇被捕，坚贞不屈牺牲",
+      "story": "季保民，1924年3月生，1943年19岁成为海门县海中区占先乡民兵，不久加入新四军。1944年5月因汉奸出卖，他在海门县三阳镇被捕，面对毒刑拷打始终不吐露组织秘密，在家乡占先乡英勇牺牲，年仅20岁。新中国成立后，当地将其所在占先乡更名为保民村以示纪念，今属海门区悦来镇，为海启第一支部诞生地。"
+    },
+    "modern_status": "今江苏省南通市海门区悦来镇保民村，以烈士季保民命名，传承海启红色支部传统。",
+    "sources": [
+      "南通市海门区人民政府《保民村村史简介》 http://www.haimen.gov.cn/hmsrmzf/tpxw/content/4de30f47-5ee2-4f2d-9324-b8cefc85068e.htm",
+      "我苏网《踏着英雄的足迹 海门悦来镇保民村》 http://www.ourjiangsu.com/wap/a/20190614/1560493747954.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省南通市海门区"
+  },
+  {
+    "id": "jiangsu-bingwen-village",
+    "modern_name": "秉文村",
+    "former_name": "毗卢庵（1942年命名秉文乡，今钟庄街道秉文村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "盐城市",
+    "coordinates": [
+      119.8243,
+      33.5288
+    ],
+    "renamed_year": 1942,
+    "hero": {
+      "name": "方秉文",
+      "birth_year": 1921,
+      "death_year": 1941,
+      "sacrifice_age": 20,
+      "title": "十二区民运队长兼区委书记",
+      "force": "中国共产党地方抗日组织",
+      "sacrifice_date": "1941年7月",
+      "battle": "毗卢庵遭敌三路偷袭，掩护同志撤退腹部中弹牺牲",
+      "story": "方秉文，1921年生于淮阴王营镇，1939年2月入党，1940年受派至盐城秘密发展党员，新四军八路军会师后任十二区民运队长兼区委书记。1941年7月，土匪头子孙景辉向日伪告密，50余名敌人分三路偷袭区政府驻地毗卢庵，他掩护其他同志撤退，依托地形周旋时腹部中弹壮烈牺牲，年仅20岁。1942年建阳县委、县政府在牺牲地召开追悼大会，命名秉文乡，今为钟庄街道秉文村。"
+    },
+    "modern_status": "今江苏省建湖县钟庄街道秉文村，烈士事迹由专职宣讲员讲述，陆庄烈士陵园内立有纪念碑。",
+    "sources": [
+      "建湖县人民政府《英雄之名耀乡土 精神之火燃新篇（秉文村）》 https://www.jianhu.gov.cn/art/2025/8/22/art_12509_4359997.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 江苏省盐城市建湖县"
+  },
+  {
+    "id": "jiangsu-boqin-village",
+    "modern_name": "伯勤村",
+    "former_name": "（伯勤乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.566,
+      32.7173
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "毛伯勤",
+      "birth_year": 1924,
+      "death_year": 1944,
+      "sacrifice_age": 20,
+      "title": "高邮二区民兵中队长",
+      "force": "新四军",
+      "sacrifice_date": "1944年5月13日",
+      "battle": "高邮戴家舍袭击战",
+      "story": "毛伯勤，1924年生，高邮二区民兵中队长，率民兵配合主力袭扰日伪据点。1944年5月13日在戴家舍袭击战中英勇牺牲。当地以其名命名伯勤乡，今卸甲镇伯勤村沿用其名。"
+    },
+    "modern_status": "今高邮市卸甲镇伯勤村，以烈士毛伯勤命名。",
+    "sources": [
+      "今日高邮《红色记忆：以烈士命名的高邮村镇》 http://www.gytoday.cn/tb/2018-12-19/35491.html",
+      "《高邮革命烈士传》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 江苏省扬州市高邮市"
+  },
+  {
+    "id": "jiangsu-changrong-town",
+    "modern_name": "昌荣镇",
+    "former_name": "唐子镇",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "泰州市",
+    "coordinates": [
+      120.0927,
+      32.944
+    ],
+    "renamed_year": 1943,
+    "hero": {
+      "name": "严昌荣",
+      "birth_year": 1914,
+      "death_year": 1943,
+      "sacrifice_age": 30,
+      "title": "新四军第一师三旅七团团长",
+      "force": "新四军",
+      "sacrifice_date": "1943年9月",
+      "battle": "攻打兴化县唐子镇日军据点",
+      "story": "严昌荣，湖北松滋人，红军出身，时任新四军一师三旅七团团长。1943年9月率部攻打兴化县唐子镇日伪据点，为掩护部队进攻亲自操作掷弹筒轰击敌堡，掷弹筒意外爆炸，不幸壮烈牺牲，时年30岁。同年兴化县抗日政府将唐子镇易名昌荣镇，以烈士英名铭刻千年古镇。"
+    },
+    "modern_status": "今江苏省兴化市昌荣镇，镇区建有严昌荣烈士纪念碑与严昌荣红色景区，为兴化全市唯一以英雄之名命名的乡镇。",
+    "sources": [
+      "兴化市人民政府《兴化昌荣，千年古镇因您而易名》 https://www.xinghua.gov.cn/xwzx/xhxc/art/2025/art_620e3343ea644148a2ed13a643532858.html",
+      "央视网《地名中的抗战记忆 江苏兴化昌荣镇——铁骨铸丰碑》 https://news.cctv.cn/2025/05/14/ARTITaBdst4DeCZj9eRyKWDN250514.shtml",
+      "新华报业网《这些抗日英烈，在江苏的地名里永生》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 江苏省泰州市兴化市"
+  },
+  {
+    "id": "jiangsu-chaofu-village",
+    "modern_name": "朝福村",
+    "former_name": "青港村（1945年1月改名朝福村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "盐城市",
+    "coordinates": [
+      120.6969,
+      32.6659
+    ],
+    "renamed_year": 1945,
+    "hero": {
+      "name": "王朝福",
+      "birth_year": 1921,
+      "death_year": 1944,
+      "sacrifice_age": 23,
+      "title": "青港村民兵中队长",
+      "force": "新四军地方民兵",
+      "sacrifice_date": "1944年12月27日",
+      "battle": "李堡战斗三里庙伏击，掩护战友被捕后被活埋杀害",
+      "story": "王朝福，1921年生于东台唐洋高中乡青港村，15岁参加革命，1942年入党，历任青港村民兵中队副队长、队长。1944年12月27日新四军攻克李堡，新婚第三天的他主动请缨深入角斜敌占区三里庙一线伏击，目标暴露后掩护13名战友脱险，寡不敌众被捕，严守秘密不畏酷刑，三日后被敌人活埋至颈部铲下头颅，年仅23岁。1945年1月唐洋区委将青港村改名朝福村。"
+    },
+    "modern_status": "今江苏省东台市唐洋镇朝福村，方塘河畔立王朝福烈士墓，村名沿用至今。",
+    "sources": [
+      "盐城新闻网《烈士命名镇村行（52）东台市唐洋镇朝福村 新婚烈士主动请缨打伏击》 http://www.ycnews.cn/2019/04-25/n1K6Lok5.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省盐城市东台市"
+  },
+  {
+    "id": "jiangsu-chengyi-village",
+    "modern_name": "承仪村",
+    "former_name": "西万乡（1944年6月改承仪乡，今承仪村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.8232,
+      32.3599
+    ],
+    "renamed_year": 1944,
+    "hero": {
+      "name": "栾承仪",
+      "birth_year": 1921,
+      "death_year": 1944,
+      "sacrifice_age": 23,
+      "title": "西万乡民兵大队长、指导员",
+      "force": "新四军地方民兵",
+      "sacrifice_date": "1944年",
+      "battle": "大桥镇东岳庙集会遭敌陷阱，掩护战友突围牺牲",
+      "story": "栾承仪，1921年生于江都浦头，1942年入党，任西万乡民兵大队长、指导员，率民兵多次打击日伪军，曾设计擒敌扣住日军商船物资，被群众称“栾大胆”。1944年在大桥镇东岳庙集会追踪日伪军时落入陷阱，为掩护战友撤退打光子弹被俘，被敌人砍头悬于刁铺桥头，年仅23岁。1944年6月江都县抗日民主政府参政会改西万乡为承仪乡，今为浦头镇承仪村。"
+    },
+    "modern_status": "今江苏省扬州市江都区浦头镇承仪村，村头建有栾承仪烈士墓，以烈士英名命名。",
+    "sources": [
+      "中国军网（学习强国）《栾承仪：铁血英魂撼山河》 http://www.81.cn/yljnt_208627/ylml/L_208641/16210860.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市江都区"
+  },
+  {
+    "id": "jiangsu-chengzhong-village",
+    "modern_name": "诚忠村",
+    "former_name": "（诚忠乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.4462,
+      33.1587
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "叶诚忠",
+      "birth_year": 1919,
+      "death_year": 1944,
+      "sacrifice_age": 25,
+      "title": "新四军第六师十八旅五十二团一营副营长",
+      "force": "新四军",
+      "sacrifice_date": "1944年1月5日",
+      "battle": "宝应大官庄战斗",
+      "story": "叶诚忠，1919年生，福建周宁人，任新四军六师十八旅五十二团一营副营长。1944年1月5日宝应大官庄战斗中率部冲锋，壮烈牺牲。当地将其战斗地命名为诚忠乡，今小官庄镇诚忠村沿用其名。"
+    },
+    "modern_status": "今宝应县小官庄镇诚忠村，以烈士叶诚忠命名。",
+    "sources": [
+      "宝应县人民政府《为烈士寻迹·诚忠村》 http://baoying.yangzhou.gov.cn/zfxxgk/xjbmxxgk/byxtyjrswj/fdgkzdnr/ywgz/art/2026/art_07cec2bc4283487ba56b2e780a3f9575.html",
+      "中共宝应县委《闽东抗日英雄叶诚忠在宝应》 http://www.baoying.gov.cn/html/1618/2018-07-30/content-6580.html",
+      "中国新闻网《“沙家浜”叶排长原型32岁牺牲》 https://www.chinanews.com.cn/cul/2014/03-11/5936997.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市宝应县"
+  },
+  {
+    "id": "jiangsu-chentao-town",
+    "modern_name": "陈涛镇",
+    "former_name": "戴滩村（1959年改陈涛村、设陈涛乡，2011年改陈涛镇）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "盐城市",
+    "coordinates": [
+      119.968,
+      34.046
+    ],
+    "renamed_year": 1959,
+    "hero": {
+      "name": "陈涛",
+      "birth_year": null,
+      "death_year": 1941,
+      "sacrifice_age": 21,
+      "title": "阜宁县政府所属二区工委书记",
+      "force": "中国共产党地方抗日组织",
+      "sacrifice_date": "1941年9月4日",
+      "battle": "戴滩村遭伪军包围奋起还击牺牲",
+      "story": "陈涛，安徽霍邱人，1939年初参加革命，1940年5月入党，到苏北盐阜区从事民运，1941年春任阜宁县二区工委书记，在郭集、王油坊一带抗日。1941年9月4日与青年队长张崇山等到戴滩村，因叛徒出卖遭伪军包围，奋起还击，敌众我寡，21岁牺牲。党和政府将戴滩村改陈涛村，设陈涛乡，2011年撤乡建陈涛镇。"
+    },
+    "modern_status": "今江苏省滨海县陈涛镇，镇内建有陈涛烈士陵园与英雄广场，竖立陈涛烈士半身铜像，“陈涛粉丝”为当地国家地理标志产品。",
+    "sources": [
+      "中华英烈网《128处！这座城以地名缅怀英烈（陈涛镇）》 https://www.chinamartyrs.gov.cn/x_xwzx/zhzx/202311/t20231110_92199.html",
+      "陈涛镇政务服务网《辖区简介》 https://bhctz.jszwfw.gov.cn/index.html",
+      "滨海县融媒体中心《陈涛镇：巾帼英烈浩气存》 http://www.zghhzx.net/detailed/cxjianseh/village/2025/08/06/70477.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 江苏省盐城市滨海县"
+  },
+  {
+    "id": "jiangsu-daoming-village",
+    "modern_name": "道明村",
+    "former_name": "（道明乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "淮安市",
+    "coordinates": [
+      119.1363,
+      33.8482
+    ],
+    "renamed_year": 1943,
+    "hero": {
+      "name": "王道明",
+      "birth_year": 1907,
+      "death_year": 1940,
+      "sacrifice_age": 33,
+      "title": "八路军陇海游击支队第八团营长",
+      "force": "八路军",
+      "sacrifice_date": "1940年2月9日",
+      "battle": "涟水洪码战斗",
+      "story": "王道明，1907年生，八路军陇海游击支队第八团营长，率部在涟水北部敌后抗击日伪。1940年2月9日洪码战斗中壮烈牺牲。1943年涟水县人民政府将其家乡命名为道明乡，新中国成立后经区划调整为道明村。"
+    },
+    "modern_status": "今涟水县成集镇道明村，村中立有“浩气长存”烈士碑。",
+    "sources": [
+      "江苏民政厅/交汇点《大地英名｜涟水道明村：“红铜钢”的枪声从未远去》 http://mzt.jiangsu.gov.cn/art/2025/8/13/art_55087_11622500.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省淮安市涟水县"
+  },
+  {
+    "id": "jiangsu-denghua-village",
+    "modern_name": "邓华村",
+    "former_name": "北草乡（改名邓华乡，今丁沟镇邓华村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.7111,
+      32.579
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "邓华",
+      "birth_year": 1915,
+      "death_year": 1943,
+      "sacrifice_age": 28,
+      "title": "江都独立团二连连长",
+      "force": "新四军",
+      "sacrifice_date": "1943年9月7日",
+      "battle": "北草村战斗指挥围攻伪军大院时牺牲",
+      "story": "邓华，1915年生，无锡人。1942年日伪顽大清乡，部队转移苏北，一部留江都组江都独立团，邓华任二连连长，把新连练成全县有名的爱民能战连队。1943年9月7日北草村战斗，伪军王剑斋率五六百人抢劫，邓华率二、七连出击，扑向院外草堆指挥时被墙头敌步枪手击中牺牲。江都县委将北草乡改名邓华乡。"
+    },
+    "modern_status": "今江苏省扬州市江都区丁沟镇邓华村，村名由新四军烈士邓华而来，铭记其能战爱民的连队作风。",
+    "sources": [
+      "江都党建《红色江都｜以烈士命名的地名——邓华村》 http://zzb.jiangdu.gov.cn/bwcxljsm/hsyh/art/2019/art_8b898397bf6f47389e45861e91930f55.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市江都区"
+  },
+  {
+    "id": "jiangsu-fengyang-village",
+    "modern_name": "凤阳村",
+    "former_name": "博爱乡、三合乡、习正乡、芳霖乡（凤阳乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "南通市",
+    "coordinates": null,
+    "renamed_year": null,
+    "hero": {
+      "name": "张凤阳",
+      "birth_year": 1907,
+      "death_year": 1943,
+      "sacrifice_age": 36,
+      "title": "海门芳霖乡乡长",
+      "force": "新四军（抗日民主政权）",
+      "sacrifice_date": "1943年10月13日",
+      "battle": "海门反清乡（被捕遭毒杀）",
+      "story": "张凤阳，1907年生，海门芳霖乡乡长，在1943年日伪军大规模反“清乡”中坚持乡村抗日政权工作。同年10月13日被捕，遭敌人毒杀牺牲。解放后当地将博爱、三合、习正、芳霖四乡合并命名凤阳乡，今海门凤阳村沿用其名，以铭记这位宁死不屈的基层抗日乡长。"
+    },
+    "modern_status": "今南通市海门区凤阳村，由四乡合并并以烈士张凤阳命名。",
+    "sources": [
+      "南通市海门区人民政府《凤阳村：张凤阳烈士》 https://www.haimen.gov.cn/hmsrmzf/shxw/content/af4bc3b9-662b-416f-b9fe-d6f73fb014bc.html"
+    ]
+  },
+  {
+    "id": "jiangsu-fuqi-village",
+    "modern_name": "富旗村",
+    "former_name": "钱家灶一带（以烈士命名富旗村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "盐城市",
+    "coordinates": [
+      120.428,
+      32.8286
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "施富旗",
+      "birth_year": 1922,
+      "death_year": 1944,
+      "sacrifice_age": 22,
+      "title": "苏中军区第二军分区独立团三营八连连长",
+      "force": "新四军苏中军区",
+      "sacrifice_date": "1944年12月20日",
+      "battle": "钱家灶区委会议遭日伪军包围，掩护区干部突围牺牲",
+      "story": "施富旗，1922年生于上海崇明，1938年16岁参加新四军，任苏中军区第二军分区独立团三营八连连长。1944年12月20日，海丰区委在钱家灶（今东台镇）开会，因叛徒告密会场遭70余名日伪军包围，他组织区干部突围转移，自己断后掩护，激战中牺牲，年仅22岁。家乡所在村以其名命名为富旗村。"
+    },
+    "modern_status": "今江苏省东台市东台镇富旗村，村东建有施富旗烈士陵园，以烈士英名命名。",
+    "sources": [
+      "盐城新闻网《烈士命名镇村行㊺ 东台市东台镇富旗村：传承红色基因 践行绿色发展》 http://www.ycnews.cn/ycyw/2019/04-13/Qr2N4ZrR.html",
+      "最高人民检察院《守护烽火印记 传承红色根脉（富旗村以施富旗命名）》 https://www.spp.gov.cn/spp/zdgz/202606/t20260629_730712.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省盐城市东台市"
+  },
+  {
+    "id": "jiangsu-guanqin-village",
+    "modern_name": "贯勤村",
+    "former_name": "（卓贯勤命名）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "宿迁市",
+    "coordinates": [
+      118.5902,
+      34.1527
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "卓贯勤",
+      "birth_year": 1901,
+      "death_year": 1943,
+      "sacrifice_age": 42,
+      "title": "沭阳颜集乡抗日自卫队骨干",
+      "force": "新四军（地方抗日武装）",
+      "sacrifice_date": "1943年农历三月十九日",
+      "battle": "沭阳颜集反扫荡掩护群众（引爆手榴弹）",
+      "story": "卓贯勤，1901年生，沭阳颜集地区抗日自卫队骨干，平日护乡安民、战时配合主力袭扰日伪。1943年农历三月十九日反扫荡中，为掩护群众安全转移，他拉响手榴弹与敌同归于尽。今颜集镇贯勤村以其名命名，传承其舍身护民的抗日精神。"
+    },
+    "modern_status": "今沭阳县颜集镇贯勤村，以烈士卓贯勤命名。",
+    "sources": [
+      "沭阳县人民政府《颜集镇贯勤村：卓贯勤烈士》 http://www.shuyang.gov.cn/syyjz/zdgz/202408/e64f9d77a4744e769016d6286978bd7b.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省宿迁市沭阳县"
+  },
+  {
+    "id": "jiangsu-guishan-village",
+    "modern_name": "桂山村",
+    "former_name": "凌葛庄（改名桂山村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "泰州市",
+    "coordinates": [
+      120.2214,
+      33.0176
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "沈桂山",
+      "birth_year": 1920,
+      "death_year": 1943,
+      "sacrifice_age": 23,
+      "title": "基干民兵大队长",
+      "force": "地方抗日民兵武装",
+      "sacrifice_date": "1943年10月7日",
+      "battle": "周家舍阻击战掩护兴化县委县政府转移，被捕被刺刀杀害",
+      "story": "沈桂山，1920年生，兴化凌葛庄人，1942年瞒着新婚妻子动员群众参加农抗会、民兵基干队，任基干民兵大队长。1943年10月7日，东台日伪军900余人分击合围，他与孙达元侦察发现敌军占周家舍，为掩护县委县政府转移奋力阻击，中弹被捕，面对刺刀怒吼县委所在，被连刺数刀杀害。家乡凌葛庄改名桂山村。"
+    },
+    "modern_status": "今江苏省兴化市合陈镇桂山村，村东建有沈桂山烈士墓陵，村史馆（沈桂山纪念馆）展示其鸣枪报信、掩护县委的抗日事迹。",
+    "sources": [
+      "兴化日报《走进桂山村》 http://m.epaper.xinghuanews.net/index.php/home/article/index/appkey/18/date/2025-05-23/aid/8874379.html",
+      "新华网江苏频道《兴化市钓鱼镇首期党员轮训班圆满结业（桂山村沈桂山烈士现场教学）》 http://www.js.xinhuanet.com/20260817/6505f4b090e5421dab022292d237d085/c.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省泰州市兴化市"
+  },
+  {
+    "id": "jiangsu-jianming-village",
+    "modern_name": "剑鸣村",
+    "former_name": "南丰乡北新建剑鸣乡",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.5551,
+      32.8417
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "恽剑鸣",
+      "birth_year": 1900,
+      "death_year": 1943,
+      "sacrifice_age": 43,
+      "title": "高邮一区副区长",
+      "force": "新四军",
+      "sacrifice_date": "1943年10月",
+      "battle": "高邮陆家庄遭遇日伪搏斗",
+      "story": "恽剑鸣，1900年生，任高邮一区副区长，坚持敌后抗日政权建设。1943年10月途经陆家庄时遭遇日伪军，搏斗中壮烈牺牲。当地在南丰乡北新建剑鸣乡，今三垛镇剑鸣村沿用其名。"
+    },
+    "modern_status": "今高邮市三垛镇剑鸣村，以烈士恽剑鸣命名。",
+    "sources": [
+      "高邮日报《以烈士命名的高邮村镇》 http://epaper.gytoday.cn/html/2021-05/21/content_37323_13406830.htm",
+      "今日高邮《红色记忆：以烈士命名的高邮村镇》 http://www.gytoday.cn/tb/2018-12-19/35491.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市高邮市"
+  },
+  {
+    "id": "jiangsu-jiexun-village",
+    "modern_name": "杰勋村",
+    "former_name": "朱南荡（杰勋乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "淮安市",
+    "coordinates": [
+      119.0834,
+      33.8373
+    ],
+    "renamed_year": 1953,
+    "hero": {
+      "name": "朱启勋",
+      "birth_year": null,
+      "death_year": 1939,
+      "sacrifice_age": 33,
+      "title": "陇海南进支队第八团二营营长（其妹朱启杰同时牺牲）",
+      "force": "八路军（陇海南进支队）",
+      "sacrifice_date": "1939年",
+      "battle": "宿迁陆集中心据点清除战",
+      "story": "朱启勋，涟水成集朱南荡人，1939年6月参加陇海南进支队第八团任二营营长。在清除日军宿迁陆集中心据点的战斗中右腹中弹，坚持率队突围，壮烈牺牲，年仅33岁。其妹朱启杰1940年在袁圩被日伪军包围被俘杀害，年仅28岁。1953年涟水县政府将家乡命名为杰勋乡、杰勋村，并改小洋河为杰勋河，兄妹合祀于成集烈士陵园。"
+    },
+    "modern_status": "今涟水县成集镇杰勋村，村名合记朱启勋、朱启杰兄妹，成集烈士陵园建有兄妹烈士碑。",
+    "sources": [
+      "中国军网《朱启勋：抗日英雄盘肠大战、气贯长虹》 http://www.81.cn/yl_208589/16377975.html",
+      "新华报业网《这些抗日英烈，在江苏的地名里永生》 http://jres2023.xhby.net/index/202207/t20220707_7608637.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省淮安市涟水县"
+  },
+  {
+    "id": "jiangsu-jingan-village",
+    "modern_name": "景安村",
+    "former_name": "景安区/景安乡/景安镇（烈士陵村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "南通市",
+    "coordinates": [
+      120.8114,
+      32.4468
+    ],
+    "renamed_year": 1944,
+    "hero": {
+      "name": "吴景安",
+      "birth_year": null,
+      "death_year": 1944,
+      "sacrifice_age": null,
+      "title": "新四军第一师三旅七团三营副营长",
+      "force": "新四军",
+      "sacrifice_date": "1944年6月22日",
+      "battle": "如东耙齿凌战役",
+      "story": "吴景安，新四军一师三旅七团三营副营长。1944年6月22日耙齿凌战役中，七团歼敌、打响反“扩展清乡”第一枪，战斗中吴景安等93名英烈牺牲。战斗所在地区被命名为景安区，后沿革为景安乡、景安镇，2023年烈士陵村恢复更名为景安村，建有耙齿凌战役烈士陵园。"
+    },
+    "modern_status": "今如东县河口镇景安村，耙齿凌战役烈士陵园保存于村内。",
+    "sources": [
+      "南通史志网《耙齿凌战役烈士陵园》 https://www.ntszw.gov.cn/?c=index&a=show&id=2085",
+      "如东县人民政府《河口镇景安村更名由来》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省南通市如东县"
+  },
+  {
+    "id": "jiangsu-jingbo-village-siyang",
+    "modern_name": "静波村",
+    "former_name": "史楼村、爱民村",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "宿迁市",
+    "coordinates": [
+      118.6184,
+      33.8864
+    ],
+    "renamed_year": 2000,
+    "hero": {
+      "name": "丁静波",
+      "birth_year": 1913,
+      "death_year": 1940,
+      "sacrifice_age": 27,
+      "title": "泗阳县五区区委书记（八路军五纵队派任）",
+      "force": "八路军（第五纵队）",
+      "sacrifice_date": "1940年11月12日",
+      "battle": "泗阳五区护粮反扫荡（在王集镇东老刘圩被顽固派杀害）",
+      "story": "丁静波，1913年生，由八路军第五纵队派任泗阳县五区区委书记，与区长曹光正组织民兵对抗顽军抢粮、为百姓护粮。1940年11月遭王光夏顽固派武装勾结日伪土匪重兵包围被捕，11月12日在王集镇东老刘圩刑场高呼口号英勇就义，年仅27岁。2000年史楼村、爱民村合并命名静波村。"
+    },
+    "modern_status": "今泗阳县王集镇（原三庄乡）静波村，以烈士丁静波命名。",
+    "sources": [
+      "新华报业网《大地英名｜“龙潭虎穴”中“种下”红色村庄（丁静波）》 https://www.xhby.net/content/s688db957e4b09ac140bc08ad.html",
+      "中国老区网《军民一条心 道口破重围》 http://www.zhongguolaoqu.com/index.php?a=show&c=index&catid=23&id=82594&m=content"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省宿迁市泗阳县"
+  },
+  {
+    "id": "jiangsu-jinxi-village",
+    "modern_name": "锦西村",
+    "former_name": "陆桥村（大陆乡/锦西乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.6315,
+      32.4843
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "谈锦西",
+      "birth_year": null,
+      "death_year": 1943,
+      "sacrifice_age": null,
+      "title": "江都大陆乡党支部书记、乡民兵武装组织者",
+      "force": "新四军",
+      "sacrifice_date": "1943年10月14日",
+      "battle": "江都大陆乡抗日群众工作（被捕不屈）",
+      "story": "谈锦西，江都大陆乡人，1940年春加入新四军，发动群众抗捐抗税，发展党员、建立支部，组织农抗会、妇抗会与民兵队伍。1943年10月6日因叛徒告密被捕，临刑前痛斥敌人，被日伪军以刺刀戳杀，身中23刀壮烈牺牲。大陆乡一度改名锦西乡，今江都区丁伙镇陆桥村更名为锦西村以纪念。"
+    },
+    "modern_status": "今扬州市江都区丁伙镇锦西村，原名陆桥村，以烈士谈锦西命名。",
+    "sources": [
+      "新华报业网《这些抗日英烈，在江苏的地名里永生》 http://jres2023.xhby.net/index/202207/t20220707_7608637.shtml",
+      "扬州市江都区地方志《谈锦西烈士传》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市江都区"
+  },
+  {
+    "id": "jiangsu-jiyun-village",
+    "modern_name": "介云村",
+    "former_name": "（介云村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "南通市",
+    "coordinates": [
+      121.3959,
+      31.8716
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "龚介云",
+      "birth_year": 1925,
+      "death_year": 1944,
+      "sacrifice_age": 19,
+      "title": "海门抗日独立营战士",
+      "force": "新四军（地方抗日独立营）",
+      "sacrifice_date": "1944年秋",
+      "battle": "海门临江地区袭扰日伪战斗",
+      "story": "龚介云，1925年生，海门临江地区抗日独立营战士，年仅19岁。1944年秋随独立营夜袭当面日伪据点，战斗持续至次日天明，独立营成功打击当面之敌，龚介云等8名英雄在战斗中全部壮烈牺牲。当地将村庄命名为介云村以纪念。"
+    },
+    "modern_status": "今南通市海门区临江镇（临江新区）介云村，村名源自烈士龚介云，建有红色教育阵地。",
+    "sources": [
+      "南通市海门区人民政府《临江镇介云村：传承英烈精神 闯出发展新路》 http://www.haimen.gov.cn/hmsrmzf/shxw/content/e1411cbd-1908-4529-b79a-f6a1f32e4148.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省南通市海门区"
+  },
+  {
+    "id": "jiangsu-longchang-village",
+    "modern_name": "隆昌村",
+    "former_name": "（隆昌乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "连云港市",
+    "coordinates": null,
+    "renamed_year": 1949,
+    "hero": {
+      "name": "潘隆昌",
+      "birth_year": 1911,
+      "death_year": 1943,
+      "sacrifice_age": 32,
+      "title": "新四军/八路军连级指挥员",
+      "force": "新四军（八路军）",
+      "sacrifice_date": "1943年6月",
+      "battle": "灵璧小官庄战斗",
+      "story": "潘隆昌，1911年生，在淮北敌后坚持抗战，1943年6月灵璧小官庄战斗中牺牲，烈士遗体原葬安徽宿县。1949年灌云县将其家乡命名为隆昌乡，后沿革为南岗乡隆昌村。"
+    },
+    "modern_status": "今灌云南岗乡隆昌村，以烈士潘隆昌命名。",
+    "sources": [
+      "连云港市退役军人事务局《致敬抗战英雄——潘隆昌》 http://tyjrswj.lyg.gov.cn/tyjrswj/dxfcl/content/a6fee69b-248d-4a72-947d-69ca44ebaf64.html",
+      "连云港市退役军人事务局《隆昌村地名由来》 http://tyjrswj.lyg.gov.cn/tyjrswj/dxfcl/content/3cc4b129-e802-4633-8048-66c80ddeb514.html"
+    ]
+  },
+  {
+    "id": "jiangsu-masai-village",
+    "modern_name": "马赛村",
+    "former_name": "吕庄乡（马赛乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "泰州市",
+    "coordinates": [
+      120.2129,
+      32.5453
+    ],
+    "renamed_year": 1945,
+    "hero": {
+      "name": "马赛",
+      "birth_year": null,
+      "death_year": 1945,
+      "sacrifice_age": null,
+      "title": "紫石县白米区区委书记兼游击队政委",
+      "force": "新四军",
+      "sacrifice_date": "1945年5月25日",
+      "battle": "姜堰吕庄乡新区开辟反遭遇战",
+      "story": "马赛，1944年11月调紫石县，任白米区区委书记兼游击队政委，带警卫班开辟新区，镇压汉奸、相机打击日军配合主力反扫荡。1945年5月25日晚在吕庄乡与国民政府税警团遭遇，负伤后因流血过多牺牲。紫石县抗日民主政府将吕庄乡命名为马赛乡，今姜堰区娄庄镇马赛村沿用其名。"
+    },
+    "modern_status": "今泰州市姜堰区娄庄镇马赛村，以烈士马赛命名。",
+    "sources": [
+      "南通史志网《马塞（马赛）烈士传》 https://www.ntszw.gov.cn/?a=show&c=index&id=1089",
+      "学习强国《姜堰马赛村：红色记忆》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省泰州市姜堰区"
+  },
+  {
+    "id": "jiangsu-mingjiu-village",
+    "modern_name": "鸣九村",
+    "former_name": "白马村（礼义乡改鸣九乡，今阿湖镇鸣九村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "徐州市",
+    "coordinates": [
+      118.5813,
+      34.3271
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "任鸣九",
+      "birth_year": null,
+      "death_year": 1942,
+      "sacrifice_age": null,
+      "title": "沙河区区长",
+      "force": "地方抗日民主政权",
+      "sacrifice_date": "1942年7月20日",
+      "battle": "征粮返回途中遇袭牺牲",
+      "story": "任鸣九，抗战时期任新沂沙河区区长，在敌后根据地征粮筹款、动员群众支援抗日武装。1942年7月20日征粮返回途中遭遇敌人袭击牺牲。政府将礼义乡改鸣九乡、白马村改鸣九村，村名沿用至今，位于今新沂市阿湖镇。"
+    },
+    "modern_status": "今江苏省新沂市阿湖镇鸣九村，村域发展稻虾共作生态农业，烈士英名一直留存于村名之中。",
+    "sources": [
+      "澎湃新闻·新沂发布《您可能不知道，新沂这些地名来自英烈……》 https://m.thepaper.cn/baijiahao_4453955",
+      "区划地名网·新沂市行政村名录 http://www.xzqh.org/html/show/js/5642.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省徐州市新沂市"
+  },
+  {
+    "id": "jiangsu-mingpu-village",
+    "modern_name": "明甫村",
+    "former_name": "阚圩村（白露乡改明甫乡，今时集镇明甫村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "徐州市",
+    "coordinates": [
+      118.5148,
+      34.227
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "阚明甫",
+      "birth_year": null,
+      "death_year": 1942,
+      "sacrifice_age": null,
+      "title": "宋山区中队长、白露乡乡长",
+      "force": "地方抗日武装",
+      "sacrifice_date": "1942年9月底",
+      "battle": "营救战友时弹尽被俘，宁死不屈牺牲",
+      "story": "阚明甫，抗战时期任新沂宋山区中队长、白露乡乡长，坚持敌后抗日动员与武装斗争。1942年9月底营救战友战斗中弹尽被俘，坚贞不屈赴死。县政府改白露乡为明甫乡，烈士家乡阚圩村改明甫村，今属新沂市时集镇。"
+    },
+    "modern_status": "今江苏省新沂市时集镇明甫村，行政村建制保留，以烈士英名铭记其宁死不屈的抗日气节。",
+    "sources": [
+      "澎湃新闻·新沂发布《您可能不知道，新沂这些地名来自英烈……》 https://m.thepaper.cn/baijiahao_4453955",
+      "区划地名网·新沂市时集镇行政村名录 https://www.xzqh.org/html/show/js/5642.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省徐州市新沂市"
+  },
+  {
+    "id": "jiangsu-shiming-village",
+    "modern_name": "世明村",
+    "former_name": "高庄村（1943年改世明村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "盐城市",
+    "coordinates": [
+      119.5756,
+      33.8438
+    ],
+    "renamed_year": 1943,
+    "hero": {
+      "name": "童世明",
+      "birth_year": 1912,
+      "death_year": 1943,
+      "sacrifice_age": 31,
+      "title": "新四军第三师八旅二十二团副团长",
+      "force": "新四军",
+      "sacrifice_date": "1943年3月19日",
+      "battle": "阜宁单家港战斗指挥撤退时中弹牺牲",
+      "story": "童世明，原名童锡福，1912年12月生，河南商城人，新四军三师八旅二十二团副团长。1943年3月19日阜宁单家港战斗，指挥所部毙敌340余人，下午敌援军赶到，指挥部队和群众转移撤退时中弹牺牲，年仅31岁。1943年6月1日阜宁县抗日民主政府公祭，将高庄村改世明村，单家港小学改世明小学，筑世明墓。"
+    },
+    "modern_status": "今江苏省阜宁县羊寨镇世明村，由原高庄村改名，村内建有世明墓与烈士纪念设施，为苏北抗日根据地以烈士命名的地名之一。",
+    "sources": [
+      "人民网·党史频道《抗日英烈童世明的生前身后事》 http://dangshi.people.com.cn/n1/2016/0513/c85037-28347100.html",
+      "盐城新闻网《江苏阜宁：英雄的名字 闪亮的“坐标”》 https://www.ycnews.cn/2024/05-29/xDLP07lD.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省盐城市阜宁县"
+  },
+  {
+    "id": "jiangsu-teping-village",
+    "modern_name": "特平村",
+    "former_name": "湖公乡（特平乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.5192,
+      32.7352
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "陈特平",
+      "birth_year": 1916,
+      "death_year": 1944,
+      "sacrifice_age": 28,
+      "title": "中共江都县委宣传部长、高邮二区区委副书记",
+      "force": "新四军",
+      "sacrifice_date": "1944年1月8日",
+      "battle": "高邮二区抗日工作（被捕遭活埋）",
+      "story": "陈特平，浙江人，曾任中共江都县委宣传部长，后调任高邮二区区委副书记，在高邮、江都一带开辟抗日根据地。1944年1月8日被捕，遭敌人活埋，英勇牺牲。湖公乡改名特平乡，今车逻镇特平村沿用其名。"
+    },
+    "modern_status": "今高邮市车逻镇特平村，以烈士陈特平命名。",
+    "sources": [
+      "今日高邮《红色记忆：以烈士命名的高邮村镇》 http://www.gytoday.cn/tb/2018-12-19/35491.html",
+      "《高邮革命烈士传》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市高邮市"
+  },
+  {
+    "id": "jiangsu-wenjun-village",
+    "modern_name": "文俊村",
+    "former_name": "（文俊村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "淮安市",
+    "coordinates": [
+      119.2061,
+      33.8229
+    ],
+    "renamed_year": 1946,
+    "hero": {
+      "name": "顾文俊",
+      "birth_year": 1919,
+      "death_year": 1942,
+      "sacrifice_age": 23,
+      "title": "淮河大队排长",
+      "force": "八路军（淮河大队）",
+      "sacrifice_date": "1942年",
+      "battle": "宿迁战斗",
+      "story": "顾文俊，1919年生，淮河大队排长，在苏北敌后坚持抗日游击战争。1942年宿迁战斗中率部阻击日伪军，英勇牺牲，年仅23岁。1946年当地为缅怀烈士，将其家乡命名为文俊村，与振丰村同处今涟水经济开发区，村名一直沿用，成为当地进行革命传统教育的红色地名。"
+    },
+    "modern_status": "今涟水县经济开发区文俊村，以烈士顾文俊命名。",
+    "sources": [
+      "《涟水日报》《振丰村和文俊村的来历》 https://mobile.epaper.routeryun.com/index.php/home/article/index/appkey/125/date/2021-10-27/page/1010729/aid/4671307.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省淮安市涟水县"
+  },
+  {
+    "id": "jiangsu-xikang-village",
+    "modern_name": "锡康村",
+    "former_name": "吕四压头补乡（今吕四港镇锡康村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "南通市",
+    "coordinates": [
+      121.5604,
+      32.0227
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "丁锡康",
+      "birth_year": 1921,
+      "death_year": 1944,
+      "sacrifice_age": 23,
+      "title": "吕四区游击营机枪组长",
+      "force": "地方抗日游击武装",
+      "sacrifice_date": "1944年",
+      "battle": "蒿枝港朱家店阻击战掩护地下党组织会议牺牲",
+      "story": "丁锡康，1921年12月生，启东吕四人，1943年参加新四军吕四区游击营，历任班长、机枪组长，多次乔装潜入日伪据点摸哨奇袭。1944年蒿枝港朱家店阻击战，为掩护地下党组织会议挺身而出阻击日军，腹部中弹肠子流出仍塞回包扎冲锋，牺牲后日军连刺十八刺刀，年仅23岁。家乡命名锡康村。"
+    },
+    "modern_status": "今江苏省启东市吕四港镇锡康村（川港居四组），村内建有锡康村革命烈士墓，传承英烈精神推进乡村振兴。",
+    "sources": [
+      "南通文明网《赓续英烈志 奋进新锡康——忆丁锡康烈士 看家乡换新颜》 http://www.ntwenming.com/content/2026-05/21/content_36818813.htm",
+      "抖音百科《丁锡康（1944年启东吕四蒿枝港朱家店战斗牺牲）》 https://m.baike.com/wiki/丁锡康/1684202"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省南通市启东市"
+  },
+  {
+    "id": "jiangsu-yangjiang-village",
+    "modern_name": "杨蒋村",
+    "former_name": "柳沟乡（杨蒋乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.3999,
+      33.1874
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "杨玉祥",
+      "birth_year": null,
+      "death_year": null,
+      "sacrifice_age": null,
+      "title": "宝应小官庄武工队员（与蒋德才同时牺牲）",
+      "force": "新四军",
+      "sacrifice_date": null,
+      "battle": "宝应小官庄抗日武工斗争",
+      "story": "杨玉祥、蒋德才均为宝应小官庄地区抗日武工队战士，在坚持敌后抗日活动中先后牺牲。解放后当地将柳沟乡以两位烈士之名合称为杨蒋乡，后经区划调整为小官庄镇杨蒋村，村名同时铭刻两位英烈。"
+    },
+    "modern_status": "今宝应县小官庄镇杨蒋村，以烈士杨玉祥、蒋德才合名命名。",
+    "sources": [
+      "宝应县退役军人事务局《小官庄镇杨蒋村地名由来》 http://baoying.yangzhou.gov.cn/zfxxgk/xjbmxxgk/byxtyjrswj/fdgkzdnr/ywgz/",
+      "宝应县红色地名志"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市宝应县"
+  },
+  {
+    "id": "jiangsu-yaonan-village",
+    "modern_name": "耀南村",
+    "former_name": "磐石庄",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "徐州市",
+    "coordinates": [
+      118.5492,
+      34.3062
+    ],
+    "renamed_year": 1943,
+    "hero": {
+      "name": "宋耀南",
+      "birth_year": 1913,
+      "death_year": 1943,
+      "sacrifice_age": 30,
+      "title": "新四军淮海军分区三支队七团团长",
+      "force": "新四军",
+      "sacrifice_date": "1943年8月29日",
+      "battle": "新沂桑墟据点攻坚战",
+      "story": "宋耀南，1913年生，新四军淮海军分区三支队七团团长。1943年7月20日率部攻坚桑墟日伪据点时重伤，8月29日牺牲，1943年9月出生地磐石庄改名耀南村，历经多次区划调整村名未变。2015年入选民政部第二批600名著名抗日英烈名录。"
+    },
+    "modern_status": "今新沂市高流镇耀南村，为新沂市唯一以抗日烈士英名命名的红色村庄，建有宋耀南烈士纪念设施。",
+    "sources": [
+      "学习强国《江苏新沂耀南村：以抗日烈士英名命名的红色村庄》 https://article.xuexi.cn/articles/index.html?art_id=5843791246808969951",
+      "中共宿迁市委党史工作办公室《新四军团长宋耀南》 http://szb.suqian.gov.cn/sqsz/szzz/201909/4a3f5d4035a949c287944a4d1ed50f9b.shtml"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省徐州市新沂市"
+  },
+  {
+    "id": "jiangsu-yili-village",
+    "modern_name": "益礼村",
+    "former_name": "黄田庄（1945年命名益礼庄）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "盐城市",
+    "coordinates": [
+      119.8444,
+      34.0639
+    ],
+    "renamed_year": 1945,
+    "hero": {
+      "name": "张益礼",
+      "birth_year": 1923,
+      "death_year": 1943,
+      "sacrifice_age": 20,
+      "title": "乡游击队员",
+      "force": "地方抗日武装（模范班）",
+      "sacrifice_date": "1943年9月",
+      "battle": "黄田庄反扫荡被俘后被日军杀害",
+      "story": "张益礼，1923年4月生于阜宁（今滨海）黄田庄贫苦农民家庭，1942年加入模范班任乡游击队员，张贴抗日标语、宣讲抗日政策、配合主力侦察。1943年8月日伪军突袭扫荡黄田庄，他掩护战友撤退被俘，遭严刑审讯不吐露情报，同年9月在东坎中市桥南龙王庙旁被杀害。1945年阜东县抗日民主政府将家乡命名益礼庄，授予模范公民称号。"
+    },
+    "modern_status": "今江苏省滨海县益礼村，村东头建有张益礼烈士墓，清明时节村民与少先队员自发祭扫，村文化广场设有红色宣讲阵地。",
+    "sources": [
+      "滨海县人民政府《益礼村：烈士家乡漾欢歌》 https://www.binhai.gov.cn/art/2025/10/23/art_11034_4374612.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省盐城市滨海县"
+  },
+  {
+    "id": "jiangsu-yitao-town",
+    "modern_name": "沂涛镇",
+    "former_name": "太平乡（沂涛乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "宿迁市",
+    "coordinates": [
+      119.1012,
+      34.0627
+    ],
+    "renamed_year": 1943,
+    "hero": {
+      "name": "朱沂涛",
+      "birth_year": 1907,
+      "death_year": 1943,
+      "sacrifice_age": 36,
+      "title": "沭阳太平乡抗日民主政府干部",
+      "force": "新四军（抗日民主政权）",
+      "sacrifice_date": "1943年农历九月二十六日",
+      "battle": "沭阳钱集战斗",
+      "story": "朱沂涛，1907年生，沭阳太平乡抗日民主政府干部，在乡内发动群众、组建民兵坚持敌后斗争。1943年农历九月二十六日钱集战斗中英勇牺牲。1943年底太平乡改名沂涛乡，1999年撤乡建镇为沂涛镇，为沭阳东部重镇，镇内建有朱沂涛烈士纪念设施。"
+    },
+    "modern_status": "今沭阳县沂涛镇，以烈士朱沂涛命名，镇内建有烈士纪念设施。",
+    "sources": [
+      "沭阳县人民政府《沂涛镇地名由来》",
+      "《沭阳县志·地名卷》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 江苏省宿迁市沭阳县"
+  },
+  {
+    "id": "jiangsu-youying-village",
+    "modern_name": "友映村",
+    "former_name": "郭桥乡（抗战胜利后改名友映乡，今夏集镇友映村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.5377,
+      33.0789
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "林友映",
+      "birth_year": 1915,
+      "death_year": 1942,
+      "sacrifice_age": 27,
+      "title": "新四军六师十八旅五十四团党委委员、一营政治委员",
+      "force": "新四军",
+      "sacrifice_date": "1942年4月8日",
+      "battle": "宝应郭桥（郭氏桥）反扫荡，掩护群众与部队撤退",
+      "story": "林友映，1915年生于菲律宾华侨商人家庭，祖籍广东，少年在上海读书。1937年八一三淞沪抗战爆发后毅然从军，1938年参加江南抗日义勇军并加入中国共产党。皖南事变后任新四军六师十八旅五十四团党委委员、一营政委，率部渡江开辟江都、高邮、宝应抗日根据地。1942年4月8日，日伪军百余人自王营窜郭桥扫荡抢粮，他率部包围伏击，敌增援赶到后果断压住火力掩护群众撤退，身负重伤仍坚守阵地，打光最后一颗子弹壮烈牺牲，时年27岁。抗战胜利后，上级政府将郭桥乡命名为友映乡，今为夏集镇友映村。"
+    },
+    "modern_status": "今江苏省扬州市宝应县夏集镇友映村，村名源自华侨抗日赤子林友映，集镇另有友映西路，烈士事迹陈列于宝应县革命烈士纪念馆。",
+    "sources": [
+      "宝应县人民政府《夏集镇友映村名称的由来：源自华侨赤子林友映》 http://www.baoying.gov.cn/html/1618/2018-11-19/content-6634.html",
+      "学习强国《江苏宝应郭氏桥：穿越历史 见证华侨赤子心》 https://www.xuexi.cn/lgpage/detail/index.html?id=6308588213947379558",
+      "宝应县人民政府《夏集镇郭桥村林友映烈士陵园保护范围公告》 http://baoying.yangzhou.gov.cn/xwzx/tzgg/art/2026/art_585b7be03b384b30bd2d468b9919f9b0.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市宝应县"
+  },
+  {
+    "id": "jiangsu-zengyu-village",
+    "modern_name": "曾钰村",
+    "former_name": "（曾钰乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.6882,
+      32.7521
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "胡曾钰",
+      "birth_year": 1923,
+      "death_year": 1942,
+      "sacrifice_age": 19,
+      "title": "新四军女战士、乡妇抗会干部",
+      "force": "新四军",
+      "sacrifice_date": "1942年11月8日",
+      "battle": "高邮汉留区抗日群众工作（反扫荡牺牲）",
+      "story": "胡曾钰，女，1923年生，投身新四军，在高邮汉留一带从事妇女抗日工作，组织妇抗会动员群众支援前线。1942年11月8日在反扫荡斗争中牺牲，年仅19岁。当地将其工作地命名为曾钰乡，今汤庄镇曾钰村沿用其名。"
+    },
+    "modern_status": "今高邮市汤庄镇曾钰村，以烈士胡曾钰命名。",
+    "sources": [
+      "今日高邮《红色记忆：以烈士命名的高邮村镇》 http://www.gytoday.cn/tb/2018-12-19/35491.html",
+      "《高邮革命烈士传》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 江苏省扬州市高邮市"
+  },
+  {
+    "id": "jiangsu-zhangxuan-village",
+    "modern_name": "张轩村",
+    "former_name": "马奔庄（张轩乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.5065,
+      32.8789
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "张轩",
+      "birth_year": 1923,
+      "death_year": 1943,
+      "sacrifice_age": 20,
+      "title": "高邮二区区委书记兼游击队指导员",
+      "force": "新四军",
+      "sacrifice_date": "1943年4月30日",
+      "battle": "高邮马奔庄遭遇战",
+      "story": "张轩，江苏高邮人，1940年参加革命，任高邮二区区委书记兼游击队指导员，领导群众开展抗日斗争。1943年4月30日在马奔庄遭日伪军包围，突围战斗中牺牲。当地政府将马奔庄一带命名为张轩乡，今龙虬镇张轩村沿用其名。"
+    },
+    "modern_status": "今高邮市龙虬镇张轩村，建有张轩烈士纪念设施。",
+    "sources": [
+      "扬州市退役军人事务局《张轩村：追寻烈士足迹》 http://tyjrswj.yangzhou.gov.cn/ztzl/sygz/sydt/art/2026/art_5c78c46ee93c4aa3a5d30852a555a7a1.html",
+      "今日高邮《红色记忆：以烈士命名的高邮村镇》 http://www.gytoday.cn/tb/2018-12-19/35491.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市高邮市"
+  },
+  {
+    "id": "jiangsu-zhenfeng-village",
+    "modern_name": "振丰村",
+    "former_name": "沙河乡陆庄",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "淮安市",
+    "coordinates": [
+      119.2343,
+      33.8084
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "汤振丰",
+      "birth_year": 1916,
+      "death_year": 1943,
+      "sacrifice_age": 27,
+      "title": "军田乡民兵中队长",
+      "force": "新四军（地方民兵）",
+      "sacrifice_date": "1943年6月",
+      "battle": "涟水陆庄反包围肉搏战",
+      "story": "汤振丰，1916年生，1940年参加革命，任军田乡民兵中队长。1943年6月，涟城日伪军300余人两路包围陆庄，汤振丰率民兵肉搏阻击，壮烈牺牲。抗战后当地将沙河乡陆庄命名为振丰村。"
+    },
+    "modern_status": "今涟水县经济开发区振丰村，以烈士汤振丰命名。",
+    "sources": [
+      "《涟水日报》《振丰村和文俊村的来历》 https://mobile.epaper.routeryun.com/index.php/home/article/index/appkey/125/date/2021-10-27/page/1010729/aid/4671307.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省淮安市涟水县"
+  },
+  {
+    "id": "jiangsu-zhengmao-village",
+    "modern_name": "正茂村",
+    "former_name": "二套乡（1943年更名正茂乡，今正茂村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "盐城市",
+    "coordinates": [
+      119.7187,
+      34.0437
+    ],
+    "renamed_year": 1943,
+    "hero": {
+      "name": "王正茂",
+      "birth_year": 1918,
+      "death_year": 1943,
+      "sacrifice_age": 25,
+      "title": "二套乡乡长兼党支部书记",
+      "force": "地方抗日民主政权",
+      "sacrifice_date": "1943年7月20日",
+      "battle": "被汉奸洪文喜诱至中山河偏僻处枪杀",
+      "story": "王正茂，1918年生，抗战爆发后被推选为四维乡农救会副会长，1941年任二套乡乡长兼党支部书记。1943年5月遭伪军突袭突围负伤，治愈返岗；日伪悬赏未果，买通土匪洪文喜，7月20日晚以购枪为借口将其诱至中山河偏僻处背后枪杀，年仅25岁。7月23日滨海一区区政府追悼会将二套乡更名正茂乡。"
+    },
+    "modern_status": "今江苏省响水县运河镇正茂村，村口建有王正茂烈士事迹陈列馆，村里以黄桃、冬瓜、毛豆为特色产业，红色基因融入乡村振兴。",
+    "sources": [
+      "响水县人民政府《正茂村：烽火岁月忆峥嵘 烈士精神耀沃野》 https://www.xiangshui.gov.cn/art/2025/9/20/art_9590_4367638.html",
+      "响水县人民政府《正茂村：赓续红色血脉 传承奋斗精神》 https://www.xiangshui.gov.cn/art/2024/1/25/art_9590_4139174.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省盐城市响水县"
+  },
+  {
+    "id": "jiangsu-zhiguang-village",
+    "modern_name": "志光村",
+    "former_name": "（志光乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.5198,
+      32.9717
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "陈志光",
+      "birth_year": 1923,
+      "death_year": 1942,
+      "sacrifice_age": 19,
+      "title": "新四军第六师十八旅指战员",
+      "force": "新四军",
+      "sacrifice_date": "1942年10月",
+      "battle": "高邮张家汉保卫战",
+      "story": "陈志光，1923年生，参加新四军六师十八旅，随部开辟高邮北部根据地。1942年10月张家汉保卫战中奋勇阻击来犯日伪军，壮烈牺牲。当地以其名命名志光乡，今周山镇志光村沿用其名。"
+    },
+    "modern_status": "今高邮市周山镇志光村，以烈士陈志光命名。",
+    "sources": [
+      "今日高邮《红色记忆：以烈士命名的高邮村镇》 http://www.gytoday.cn/tb/2018-12-19/35491.html",
+      "《高邮革命烈士传》"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市高邮市"
+  },
+  {
+    "id": "jiangsu-zhongcheng-village",
+    "modern_name": "忠诚村",
+    "former_name": "小李集（烈士生前村更名忠诚村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "淮安市",
+    "coordinates": [
+      119.4266,
+      33.7902
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "李忠诚",
+      "birth_year": null,
+      "death_year": 1942,
+      "sacrifice_age": 27,
+      "title": "秉同区区队长",
+      "force": "涟东抗日大队（地方抗日武装）",
+      "sacrifice_date": "1942年",
+      "battle": "鲁桥战斗突围中遭日军炮弹炸伤牺牲",
+      "story": "李忠诚，涟水小李集人，19岁参加涟东抗日大队，屡立战功，1940年任秉同区区队长。1942年鲁桥战斗，小分队被200余日伪军包围，他组织边打边突围，突围中遭日军炮弹炸伤，流血过多牺牲，时年27岁。上级将其生前村更名忠诚村，学校更名忠诚学校，村民小组更名忠诚小组。"
+    },
+    "modern_status": "今江苏省涟水县朱码街道忠诚村，以烈士李忠诚命名，忠诚学校、忠诚小组一并纪念其忠勇气节。",
+    "sources": [
+      "涟水县人民政府《朱码街道：讲抗战故事忆烈士伟绩》 http://www.lianshui.gov.cn/col/891_553562/art/o/17566560/1756694760354qhacfy2d.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省淮安市涟水县"
+  },
+  {
+    "id": "jiangsu-zhuqian-village",
+    "modern_name": "朱前村",
+    "former_name": "古桥乡（解放后改名朱前乡，今成集镇朱前村）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "淮安市",
+    "coordinates": [
+      119.0531,
+      33.8724
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "朱前",
+      "birth_year": 1916,
+      "death_year": 1944,
+      "sacrifice_age": 28,
+      "title": "光华乡指导员（曾任涟水县交通站站长、岔庙乡指导员）",
+      "force": "地方抗日政权与模范队",
+      "sacrifice_date": "1944年6月18日",
+      "battle": "颜老庄干部会议被叛徒告密遭土匪武装包围，毁党员名单、被俘受酷刑不屈就义",
+      "story": "朱前，原名朱贯义，1916年生于涟水县余圩乡农民家庭，1940年加入中国共产党，先后任涟水县交通站站长、岔庙乡指导员，后调任离土匪王培坤据点最近的光华乡指导员，摧毁伪乡政权、加强模范队与联防队，发动群众破路拆墙围困敌炮楼。1944年6月16日夜，他在颜老庄参加乡村干部会议，因叛徒告密被王培坤百余人包围，突围时跌塘被俘，途中急毁党员名单，受皮鞭、烙铁等酷刑始终不屈。6月18日晨被铡杀，年仅28岁。解放后涟水县委、县政府将古桥乡改名朱前乡，今为成集镇朱前村，2006年建六角纪念亭。"
+    },
+    "modern_status": "今江苏省淮安市涟水县成集镇朱前村，以烈士朱前命名，村内存烈士墓碑与2006年修建的六角纪念亭。",
+    "sources": [
+      "《淮安日报》《壮志未酬身先死 忠肝义胆永流芳（朱前）》 https://mobile.epaper.routeryun.com/index.php/home/article/index/appkey/112/date/2025-07-01/aid/8929675.html",
+      "抖音百科《朱前》 https://m.baike.com/wiki/%E6%9C%B1%E5%89%8D/9087430"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省淮安市涟水县"
+  },
+  {
+    "id": "jiangsu-zuquan-village",
+    "modern_name": "祖全村",
+    "former_name": "安乐桥（祖全乡）",
+    "category": "乡镇与村落",
+    "province": "江苏省",
+    "city": "扬州市",
+    "coordinates": [
+      119.4704,
+      33.162
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "陶祖全",
+      "birth_year": 1920,
+      "death_year": 1944,
+      "sacrifice_age": 24,
+      "title": "新四军第六师十八旅五十二团一营营长",
+      "force": "新四军",
+      "sacrifice_date": "1944年",
+      "battle": "宝应大官庄战斗",
+      "story": "陶祖全，1920年生，任新四军六师十八旅五十二团一营营长，与副营长叶诚忠并肩参加宝应大官庄战斗，1944年壮烈牺牲。当地将安乐桥一带命名为祖全乡，今小官庄镇祖全村沿用其名。"
+    },
+    "modern_status": "今宝应县小官庄镇祖全村，以烈士陶祖全命名。",
+    "sources": [
+      "宝应县退役军人事务局《小官庄镇祖全村：陶祖全烈士》",
+      "宝应县红色地名志"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 江苏省扬州市宝应县"
+  },
+  {
+    "id": "zhejiang-chenhong-village",
+    "modern_name": "陈洪村",
+    "former_name": "姚南紫龙庙一带（牺牲地命名陈洪村，今梨洲街道）",
+    "category": "乡镇与村落",
+    "province": "浙江省",
+    "city": "宁波市",
+    "coordinates": [
+      121.1963,
+      29.9722
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "陈洪",
+      "birth_year": 1906,
+      "death_year": 1943,
+      "sacrifice_age": 37,
+      "title": "中共四明地委书记",
+      "force": "中国共产党浙东抗日组织",
+      "sacrifice_date": "1943年11月26日",
+      "battle": "姚南紫龙庙转移途中遭遇“挺四”田岫山部中弹牺牲",
+      "story": "陈洪，原名陈鸿，1906年生于浙江浦江岩头陈镇，早年投身工人运动与抗日救亡，1943年春被派到浙东任中共四明地委书记，贯彻“坚持三北、开辟四明”方针，宣传组织群众开展抗日武装斗争。1943年11月26日，他率部向姚南紫龙庙转移，与“挺四”田岫山部遭遇中弹牺牲，年仅37岁。当地政府把牺牲地命名为陈洪村，今属余姚市梨洲街道。"
+    },
+    "modern_status": "今浙江省余姚市梨洲街道陈洪村，群山环抱，为四明山根据地以烈士命名的红色村庄。",
+    "sources": [
+      "宁波史志网《宁波党史人物·陈洪》 http://www.cnbsz.org.cn/art/2009/2/18/art_10637_615901.html",
+      "浙江在线金华频道《夜读党史482·陈洪：先人后己》 https://jinhua.zjol.com.cn/ydds/202412/t20241203_30685148.shtml",
+      "余姚日报《一组不能忘却的红色地名·陈洪》 http://eyyrb.yynews.com.cn/resfile/2023-03-19/03/yyrb20230319003v01n.pdf"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 浙江省宁波市余姚市"
+  },
+  {
+    "id": "zhejiang-xiafu-village",
+    "modern_name": "侠父村",
+    "former_name": "长澜村",
+    "category": "乡镇与村落",
+    "province": "浙江省",
+    "city": "绍兴市",
+    "coordinates": [
+      120.2715,
+      29.8868
+    ],
+    "renamed_year": 2006,
+    "hero": {
+      "name": "宣侠父",
+      "birth_year": 1899,
+      "death_year": 1938,
+      "sacrifice_age": 39,
+      "title": "中共早期统战工作者、著名抗日英烈名录入选者",
+      "force": "八路军（统战工作）",
+      "sacrifice_date": "1938年7月31日",
+      "battle": "西安抗日民族统一战线工作（被军统绑架杀害）",
+      "story": "宣侠父，1899年生，诸暨店口人，黄埔一期，长期从事党的统一战线工作，为抗日民族统一战线奔走，列入国家著名抗日英烈名录。1938年7月31日在西安被国民党军统绑架杀害。2006年家乡长澜村改名侠父村，村内保存宣侠父故居。"
+    },
+    "modern_status": "今诸暨市店口镇侠父村，杭坞山下红色村落，建有宣侠父故居纪念馆。",
+    "sources": [
+      "绍兴市人民政府《诸暨店口侠父村厚植红色文化传承红色基因》 https://www.sx.gov.cn/art/2025/8/18/art_1462938_59571619.html",
+      "求是网《祖国大地铭刻抗日英雄的名字》 https://www.qstheory.cn/20250728/1a61ac47e0e64893ddc850370f893dd/c.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 浙江省绍兴市诸暨市"
+  },
+  {
+    "id": "fujian-guoqiang-town",
+    "modern_name": "国强乡",
+    "former_name": "高坑乡",
+    "category": "乡镇与村落",
+    "province": "福建省",
+    "city": "漳州市",
+    "coordinates": [
+      117.2219,
+      24.2518
+    ],
+    "renamed_year": 1958,
+    "hero": {
+      "name": "赵国强",
+      "birth_year": null,
+      "death_year": 1945,
+      "sacrifice_age": null,
+      "title": "王涛支队一大队大队长",
+      "force": "闽南抗日挺进队（王涛支队）",
+      "sacrifice_date": "1945年7月20日",
+      "battle": "平和乌龙坑（三五村）反围攻战斗",
+      "story": "赵国强，1944年10月由闽西经济工作队编入王涛支队，参加闽粤边界抗日反顽游击战争，任一大队大队长。1945年7月初编入抗日挺进队，随支队长刘永生等东进闽南打击日军；7月20日在平和乌龙坑战斗中牺牲。1958年经平和县委批准，高坑乡改名国强乡，为漳州唯一以烈士名字命名的乡镇。"
+    },
+    "modern_status": "今漳州市平和县国强乡，乡政府驻高坑村，为革命老区乡，三五村（乌龙坑）为赵国强牺牲地。",
+    "sources": [
+      "漳州市人民政府《国强概况》 https://www.zhangzhou.gov.cn/cms/html/phxgqx/2011-03-18/1982366286.html",
+      "平和网《乌龙坑战斗》 https://www.fjph.com.cn/infodetail/207367",
+      "福建日报《平和县国强乡：寻找赵国强烈士后人》 https://fjrb.fjdaily.com/pc/con/202404/02/content_354770.html"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按所属政区治所示意，非地名精确点位 · 命中: 福建省漳州市平和县"
+  },
+  {
+    "id": "fujian-yufan-village",
+    "modern_name": "裕藩村",
+    "former_name": "盘团村（新中国成立后改名裕藩村）",
+    "category": "乡镇与村落",
+    "province": "福建省",
+    "city": "福州市",
+    "coordinates": [
+      119.8593,
+      25.5506
+    ],
+    "renamed_year": null,
+    "hero": {
+      "name": "周裕藩",
+      "birth_year": 1921,
+      "death_year": 1945,
+      "sacrifice_age": 25,
+      "title": "闽中沿海突击队指导员",
+      "force": "闽中沿海抗日突击队",
+      "sacrifice_date": "1945年2月1日",
+      "battle": "长乐东洛岛遣返俘虏暴动搏斗中牺牲",
+      "story": "周裕藩，1921年1月生于平潭流水镇盘团村，早年从事抗日宣传，1942年9月筹建闽中沿海突击队任指导员，是福建六支重要抗日武装之一，曾率队海上击毙日伪大队长、一日两捷威震闽中。1945年1月赴长乐东洛岛，击退国民党自卫队围攻并俘虏10余人；2月1日待遣返俘虏勾结渔霸夺枪暴动，他在搏斗中英勇牺牲，年仅25岁。家乡盘团村改名裕藩村。"
+    },
+    "modern_status": "今福建省平潭综合实验区流水镇裕藩村，建有周裕藩纪念馆与红色文化基地，滨海旅游渔村。",
+    "sources": [
+      "福建省退役军人事务厅《【八闽丰碑】抗日救亡，勇当先锋——周裕藩烈士》 https://tyjrswt.fujian.gov.cn/xwzx/sxdt/202210/t20221008_6011008.htm?type=bgxz",
+      "福建省人民政府《小渔村焕发新光彩（裕藩村）》 http://fj.gov.cn/zwgk/ztzl/sxzygwzxsgzx/sdjj/wvjj/202511/t20251130_7040400.htm",
+      "平潭综合实验区管委会《平潭周裕藩纪念馆项目一期完工》 https://www.pingtan.gov.cn/zwgk/yw/ptyw/202507/t20250701_99974.htm"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 福建省福州市平潭县"
+  },
+  {
+    "id": "fujian-yunhuo-village",
+    "modern_name": "运伙村",
+    "former_name": "五村合并（运伙区/运伙村）",
+    "category": "乡镇与村落",
+    "province": "福建省",
+    "city": "泉州市",
+    "coordinates": [
+      118.6462,
+      24.5905
+    ],
+    "renamed_year": 1947,
+    "hero": {
+      "name": "许运伙",
+      "birth_year": null,
+      "death_year": 1941,
+      "sacrifice_age": 29,
+      "title": "闽中地下党晋江沿海党组织负责人",
+      "force": "闽中抗日游击队（地下党）",
+      "sacrifice_date": "1941年10月31日",
+      "battle": "晋江吕宅村工作会议遭国民党税警袭击（掩护同志、保护文件）",
+      "story": "许运伙，中共泉州中心县委书记，在晋江沿海从事党的地下抗日工作。1941年10月31日在吕宅村召集工作会议时突遭国民党税警袭击，身中数弹、肠子流出仍全力阻击敌人，掩护同志撤离、保护机密文件，壮烈牺牲，终年29岁。1947年11月闽中地委将原沿海区命名为运伙区，新中国成立后晋江县将吕宅、石井、西尾、坑前、坑后五村合并命名为运伙村。"
+    },
+    "modern_status": "今福建省晋江市深沪镇运伙村，老区基点村，村委会前建有许运伙纪念亭与许运伙故居。",
+    "sources": [
+      "晋江市人民政府《【晋山晋水】运伙村(2)》 https://www.jinjiang.gov.cn/yxjj/szjj/jsjs/202311/t20231101_2959834.htm",
+      "泉州史志网《许运伙：不畏生死铸英魂 誓捐一生唤群黎》 http://qz.fjdsfzw.org.cn/2024-07-26/content_144218.html",
+      "泉州市纪委监委【泉州党员英烈谱】许运伙 http://www.qzcdi.gov.cn/content/2021-03/01/content_7078409.htm"
+    ],
+    "coordinate_source": "amap poiTips (GCJ-02)",
+    "coordinate_note": "amap poiTips (GCJ-02) 地理编码 · 2026-10-19 · 按今名与所属县市双重校验 · 命中: 福建省泉州市晋江市"
+  },
+  {
+    "id": "fujian-ziying-village",
+    "modern_name": "紫英村",
+    "former_name": "岑兜村（谐音改名紫英村）",
+    "category": "乡镇与村落",
+    "province": "福建省",
+    "city": "泉州市",
+    "coordinates": null,
+    "renamed_year": null,
+    "hero": {
+      "name": "李子芳",
+      "birth_year": 1910,
+      "death_year": 1942,
+      "sacrifice_age": 32,
+      "title": "新四军政治部组织部长",
+      "force": "新四军",
+      "sacrifice_date": "1942年春夏之交",
+      "battle": "皖南事变被俘，上饶集中营石底监狱被国民党杀害",
+      "story": "李子芳，石狮永宁岑兜村人，菲律宾归侨，走完长征后任新四军政治部组织部长。皖南事变被俘入狱，在石底监狱任秘密党支部书记坚持斗争，1942年春夏之交集中营撤退前被国民党杀害。家乡为纪念他，将岑兜村改名紫英村，取“子英”谐音，沿用至今；村中李子芳故居为石狮市级文保单位，2002年建李子芳烈士纪念馆。"
+    },
+    "modern_status": "今福建省石狮市永宁镇紫英村，村内存李子芳烈士故居与纪念馆，为爱国主义教育基地。",
+    "sources": [
+      "中新网福建《李子芳：归侨赤子丹心 不改革命本色》 https://www.fj.chinanews.com.cn/news/fj_tzyw/2021/2021-07-20/487561.html"
+    ]
+  }
+]
