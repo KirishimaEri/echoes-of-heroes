@@ -1,0 +1,84 @@
+name: Deploy to GitHub Pages
+
+# 本站是 `output: export` 的纯静态产物（见 next.config.ts），因此发布路径是
+# 「构建出 out/ → 作为 Pages 制品部署」，不需要服务器，也不需要 next start
+# （next start 与静态导出不兼容）。结构沿用 Next.js 官方模板
+# nextjs/deploy-github-pages，差别在于本仓库用 npm，且把 npm run check 设为
+# 构建前的强制门禁。
+#
+# 前置条件（一次性，仓库所有者操作）：
+#   Settings → Pages → Build and deployment → Source = GitHub Actions
+# 源仍是 gh-pages 分支时，deploy 作业会失败；届时线上页面仍由该分支提供。
+
+on:
+  push:
+    branches: [main]
+  # 允许在 Actions 页面手动触发一次发布
+  workflow_dispatch:
+
+# deploy-pages 需要 pages 写权限；id-token 用于向环境登记部署。
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时间只允许一次部署，且不取消进行中的部署——避免上一个构建的产物被
+# 半途覆盖，导致线上处于两种构建混杂的状态。
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  check:
+    name: 门禁 · 类型 / 规范 / 测试 / 数据不变量
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # next@16 的 engines 要求 node >=20.9.0
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # tsc --noEmit → eslint → node --test（视图模型与 epoch 不变量）
+      # → validate_data.js（sector 真源一致性与字段值域）
+      - run: npm run check
+
+  build:
+    name: 构建静态导出
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - uses: actions/configure-pages@v5
+
+      - run: npm run build
+
+      - name: 校验导出产物与数据集一致
+        run: node scripts/check_export.js
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    name: 发布到 Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
