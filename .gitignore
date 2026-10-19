@@ -59,3 +59,25 @@ next-env.d.ts
 
 # UI review screenshots (intermediate, regenerated on demand)
 /.uishots/
+
+# Local scratch: endpoint probes, one-off response dumps, and the HEAD snapshot
+# used to semantically diff places.json before committing. Nothing in the build
+# references them.
+/.tmp/
+
+# Static export bundles handed out as release attachments. Committing them would
+# bake ~800 KB of regenerable binary into every clone — run `npm run build` and
+# zip out/, or attach the archive to a GitHub Release.
+/echoes-of-heroes-v*-static.zip
+
+# Geocoding run caches: resumable and regenerable by re-running the resolvers.
+# The provenance that matters per record — source, date, which administration it
+# was verified against — already lives in coordinate_source / coordinate_note.
+/scripts/data/geocode_cache.json
+/scripts/data/geocode_web_cache.json
+
+# The expansion's regional shards and deduped output are superseded by
+# scripts/data/sector*.json (the archive's source of truth). Keep in history only
+# the curation report and the script that records its inclusion and dedupe rules.
+/data-expansion/new-places.json
+/data-expansion/partial-*.json

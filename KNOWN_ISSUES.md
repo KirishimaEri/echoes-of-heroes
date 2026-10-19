@@ -110,14 +110,75 @@ shanxi-caijiaya-village   heilongjiang-lengyun-village
   `江苏省/安徽省` @ `jiangsu-xuefeng-county`），已按 `split('/')` 处理，但筛选与统计
   口径需保持一致：全库去重后覆盖 **16** 个省级行政区。
 
-## 8. `[已知限制]` 无自动化质量保障
+## 8. `[已修复]` 自动化质量防线
 
-仓库目前没有测试、没有 JSON schema 校验、没有 CI。唯一的机械防线是
-`scripts/merge_places.js` 的字段存在性与 `id` 去重检查——第 2、3 条描述的问题
-正是从这道防线漏过去的（它不校验年份、枚举与恒等式）。
+原先仓库唯一的机械防线是 `scripts/merge_places.js` 的字段存在性与 `id` 去重检查，
+第 2、3 条描述的问题正是从这道防线漏过去的（它不校验年份、枚举与恒等式）。现在：
 
-- **应做**：运行时 schema 校验 + 上述不变式 + 一个 `tsc / eslint / validate-data /
-  build` 四步 GitHub Actions。
+- `npm run check` 串起 `tsc --noEmit` → `eslint` → `node --test` → `validate_data.js`；
+- `scripts/view_model.test.ts` 直接对真实数据集跑视图模型不变式：坐标只能是
+  `null` 或合法的 `[lng, lat]`（并断言 `lng > lat`，因为轴序颠倒正是本库反复踩过的坑）、
+  编年分桶不丢记录、任何缩放级别下聚合结果都可绘制、统计口径不被空值污染；
+- `scripts/validate_data.js` 校验 sector 真源与 `places.json` 是否一致、字段值域、
+  重复记录，并会在 sector 落后于 `places.json` 时报错；
+- `scripts/merge_places.js` 现在会在合并结果**少于**现有 `places.json` 时拒绝写入
+  （见第 9 条的事故），需要 `--force` 才允许删减。
+
+- **仍缺**：GitHub Actions。上述检查目前只能靠本地 `npm run check` 与人工自觉，
+  对协作者没有强制力。
+
+## 9. `[待补]` 194 条新增条目经纬度待考 —— v0.1.2 线上崩溃的直接起因
+
+扩充到 294 条后，线上传「编年」与「山河」两个视图打开即空白。根因不在部署，
+而在数据与类型的口径不一致：`src/types/place.ts` 把 `coordinates` 声明为
+`[number, number]`、`sacrifice_date` 声明为 `string`，而 194 条新记录带着
+`coordinates: []`、4 条带着 `sacrifice_date: null`。JSON 被直接 `as HeroPlace[]`
+断言，类型检查形同虚设，于是：
+
+- 地图侧 `const [lng, lat] = place.coordinates` 取出 `undefined`，网格键与聚类
+  质心变成 `NaN`，Leaflet 抛 `Invalid LatLng object`，整个地图视图崩掉；
+- 编年侧 `parseSacrificeDate(dateStr)` 对 `null` 调 `.match()` 抛 `TypeError`；
+- `Math.min(...death_year)` 里 `null` 被强制成 `0`，年份区间退化为「0–1946」，
+  首页平均殉国年龄被空值拉低、「最年轻」显示 0 岁。
+
+现在这些字段在 `src/lib/normalize.ts` 里被一次性归一为 `null`，视图遇到空值统一
+显示「待考」，无坐标条目**照常收录于名录与编年，但不进入空间图层**（地图面板顶部
+明示「N 处经纬待考，未列入空间图层」）。缺的是坐标本身，不是防线。
+
+补坐标的现状与限制：
+
+- 本机网络下 Nominatim 与 Overpass 镜像均被网关拦截（406/500/超时），可用的是
+  photon.komoot.io；它对中文乡镇、街道、村的覆盖很差——已跑的 93 条中仅 23 条
+  可靠命中、8 条同名多解，59 条未命中，命中率约 1/3。
+- 「历史曾用县名」25 条（复程县、匡五县等战时设立后又撤销的县名）在公开地名库中
+  根本不存在，按今名检索必然 0 命中。
+- 结论：要成规模补齐，需要高德 Web服务 key（`scripts/geocode_amap.js` 已备好，
+  含地名级校验与配额熔断）。**未通过校验的一律留空，不做「看起来对」的填补。**
+- 坐标系限制：底图用高德瓦片（GCJ-02），而既有 100 条手工坐标中有 58 条只精确到
+  小数点后 2 位（约 1 公里），因此本库整体只保证公里级定位，不宣称米级精度；
+  补入的新坐标会带 `coordinate_source` 标注来源，便于将来统一重投影。
+
+## 10. `[待核]` 70 条更名年份来源未载，页面显示「更名待考」
+
+按 `data-expansion/merge_expansion.py` 的口径，这是**来源史料所限、如实留空**，
+不是合并时丢失（已逐字段比对 `partial-*.json` 与 `places.json`，差异为零）。
+其中 21 条属 1966 年以后的近年更名。
+
+`scripts/suggest_fields.js` 尝试从条目自身志文提取候选年份，报告见
+`scripts/data/field_suggestions.md`。该规则**仅供人工核对、不自动写库**：首轮 4 条
+候选中 3 条是误取——1948 年是「改名翰章屯」、1985 年是「在桥畔修建王龙亭」、
+1945 年是「将枫桥忠义中学改名学勉公学」，都不是此地得名的年份。同句中年份与命名
+动词相邻，并不等于那个年份属于这个地名。
+
+## 11. `[口径]` 空值字段一律显示「待考」，统计只按有载者计算
+
+- 2 条记录（`shanxi-shuangxu-village` 双徐村、`jiangsu-yangjiang-village` 杨蒋村）
+  纪念的是方志仅记「抗日战争期间先后牺牲」的多位烈士，无年可编。它们列在编年卷末
+  单设的「年月待考」栏，与有年可稽者分开，既不被静默丢弃，也不被凑进某一年。
+- 另有 39 条无生年、23 条无殉国年龄。首页「平均殉国年龄」与「最年轻」现在只统计
+  有载者（`computeCoreStats`），空值不再按 0 计入；无值时整项显示「待考」。
+- 仅 2 条殉国年龄是从条目自身的生卒年算术推得（李之光 31、田绍文 35），且只用于
+  单人条目；17 条群体条目（第 1 条）的名义年龄不参与该推算。
 
 ---
 
