@@ -6,6 +6,7 @@ import {
   getCoreStats,
   filterPlaces,
   createDefaultFilter,
+  isGeoReferenced,
 } from '@/lib/places';
 import { HeroPlace, FilterState } from '@/types/place';
 import { Header } from '@/components/Header';
@@ -38,6 +39,12 @@ export default function Home() {
   const filteredPlaces = useMemo(() => {
     return filterPlaces(places, filter);
   }, [filter]);
+
+  // Records in the current selection that cannot be plotted yet (经纬待考).
+  const unlocatedCount = useMemo(
+    () => filteredPlaces.filter((p) => !isGeoReferenced(p)).length,
+    [filteredPlaces]
+  );
 
   const handleSelectMonument = (place: HeroPlace) => {
     setDialogPlace(place);
@@ -196,6 +203,15 @@ export default function Home() {
                     : '全景山河空间地图 (星标: 县市 / 路牌: 街道 / 聚合徽章: 区域群落)'}
                 </span>
               </div>
+              {!activeThematicId && unlocatedCount > 0 && (
+                <span
+                  className="shrink-0 text-[11px] text-ink-3 font-sans"
+                  title="这些条目的经纬度尚未考订，故未绘制于地图图层；名录与编年照常收录"
+                >
+                  本视图 {filteredPlaces.length} 处中，
+                  <span className="text-cinnabar"> {unlocatedCount} 处</span> 经纬待考，未列入空间图层
+                </span>
+              )}
             </div>
 
             <div className="bg-paper-2 p-2.5 border border-ink relative">

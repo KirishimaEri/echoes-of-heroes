@@ -13,6 +13,8 @@ import {
 } from 'react-leaflet';
 import L from 'leaflet';
 import { HeroPlace } from '@/types/place';
+import { formatDeathYear, formatRenamedYear } from '@/lib/format';
+import { computeClusters, type PlaceCluster } from '@/lib/clustering';
 import {
   THEMATIC_SPECIALS,
   ThematicSpecial,
@@ -182,11 +184,11 @@ function MapViewController({
 
     if (prevIdRef.current !== selectedPlace.id) {
       prevIdRef.current = selectedPlace.id;
+      const coords = selectedPlace.coordinates;
+      // 经纬待考的记录不进空间图层，无视角可飞
+      if (!coords) return;
       const targetZoom = selectedPlace.category === '街道' ? 14 : 10;
-      const latLng: [number, number] = [
-        selectedPlace.coordinates[1],
-        selectedPlace.coordinates[0],
-      ];
+      const latLng: [number, number] = [coords[1], coords[0]];
 
       const timer = setTimeout(() => {
         map.invalidateSize();
@@ -204,6 +206,8 @@ function MapViewController({
   useEffect(() => {
     if (focusTrigger && focusTrigger !== prevTriggerRef.current && selectedPlace) {
       prevTriggerRef.current = focusTrigger;
+      const coords = selectedPlace.coordinates;
+      if (!coords) return;
       map.stop();
       map.invalidateSize({ animate: false });
       const currentZoom = map.getZoom();
@@ -211,10 +215,7 @@ function MapViewController({
         selectedPlace.category === '街道'
           ? Math.max(currentZoom, 14)
           : Math.max(currentZoom, 10);
-      const latLng: [number, number] = [
-        selectedPlace.coordinates[1],
-        selectedPlace.coordinates[0],
-      ];
+      const latLng: [number, number] = [coords[1], coords[0]];
 
       const currCenter = map.getCenter();
       const dist = map.distance(currCenter, latLng);
@@ -237,98 +238,8 @@ function MapViewController({
   return null;
 }
 
-// Spatial clustering data structure
-interface PlaceCluster {
-  id: string;
-  isCluster: boolean;
-  coordinates: [number, number]; // [lng, lat]
-  places: HeroPlace[];
-  count: number;
-  primaryRegion: string;
-  category: string;
-}
-
-// Pure client-side Spatial Grid Clustering
-function computeClusters(
-  places: HeroPlace[],
-  zoom: number,
-  isEnabled: boolean
-): PlaceCluster[] {
-  if (!isEnabled || zoom >= 8) {
-    return places.map((p) => ({
-      id: p.id,
-      isCluster: false,
-      coordinates: p.coordinates,
-      places: [p],
-      count: 1,
-      primaryRegion: p.city || p.province,
-      category: p.category,
-    }));
-  }
-
-  // Grid step in degrees
-  const step =
-    zoom <= 4
-      ? 2.8
-      : zoom === 5
-      ? 1.6
-      : zoom === 6
-      ? 0.95
-      : 0.55;
-
-  const grid = new Map<string, HeroPlace[]>();
-
-  for (const place of places) {
-    const [lng, lat] = place.coordinates;
-    const gridX = Math.round(lng / step);
-    const gridY = Math.round(lat / step);
-    const key = `${gridX}_${gridY}`;
-    const list = grid.get(key) || [];
-    list.push(place);
-    grid.set(key, list);
-  }
-
-  const result: PlaceCluster[] = [];
-
-  grid.forEach((list, key) => {
-    if (list.length === 1) {
-      const p = list[0];
-      result.push({
-        id: p.id,
-        isCluster: false,
-        coordinates: p.coordinates,
-        places: [p],
-        count: 1,
-        primaryRegion: p.city || p.province,
-        category: p.category,
-      });
-    } else {
-      const avgLng =
-        list.reduce((acc, p) => acc + p.coordinates[0], 0) / list.length;
-      const avgLat =
-        list.reduce((acc, p) => acc + p.coordinates[1], 0) / list.length;
-
-      const provs = list.map((p) =>
-        p.province.replace('省', '').replace('市', '')
-      );
-      const counts: Record<string, number> = {};
-      provs.forEach((pr) => (counts[pr] = (counts[pr] || 0) + 1));
-      const topProv = Object.keys(counts).sort((a, b) => counts[b] - counts[a])[0];
-
-      result.push({
-        id: `cluster-${key}-${list.length}`,
-        isCluster: true,
-        coordinates: [avgLng, avgLat],
-        places: list,
-        count: list.length,
-        primaryRegion: `${topProv}片区`,
-        category: '群落',
-      });
-    }
-  });
-
-  return result;
-}
+// Spatial clustering lives in src/lib/clustering.ts so it can be unit-tested
+// against the real dataset (see scripts/view_model.test.ts).
 
 // Custom Cluster Marker Icon
 function createClusterMarkerIcon(cluster: PlaceCluster) {
@@ -900,7 +811,7 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({
                           </span>
                         </div>
                         <div className="text-[11px] text-ink-3">
-                          原名: {place.former_name} · {place.renamed_year}年命更
+                          原名: {place.former_name} · {formatRenamedYear(place.renamed_year)}
                         </div>
                       </div>
 
@@ -908,7 +819,7 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({
                         <div className="flex items-center gap-1.5 text-cinnabar font-medium">
                           <Shield className="w-3 h-3" />
                           <span>
-                            英烈: {place.hero.name} ({place.hero.death_year}年殉国)
+                            英烈: {place.hero.name} ({formatDeathYear(place.hero.death_year)})
                           </span>
                         </div>
                         <div className="text-[11px] text-ink-3">

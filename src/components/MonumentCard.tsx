@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { HeroPlace } from '@/types/place';
+import { formatAge, formatRenamedYear } from '@/lib/format';
 
 interface MonumentCardProps {
   place: HeroPlace;
@@ -43,7 +44,7 @@ export const MonumentCard: React.FC<MonumentCardProps> = ({ place, onClick }) =>
             {place.former_name}
           </span>
           <span className="text-ink-3 font-mono text-[11px]">
-            （{place.renamed_year}年更名）
+            （{formatRenamedYear(place.renamed_year)}）
           </span>
         </div>
       </div>
@@ -55,7 +56,7 @@ export const MonumentCard: React.FC<MonumentCardProps> = ({ place, onClick }) =>
             {place.hero.name}
           </span>
           <span className="shrink-0 text-[11px] font-serif text-cinnabar tracking-wider">
-            殉国时 {place.hero.sacrifice_age} 岁
+            殉国时 {formatAge(place.hero.sacrifice_age)}
           </span>
         </div>
         <span className="shrink-0 text-xs font-serif text-ink-3 group-hover:text-cinnabar transition-colors tracking-wider">

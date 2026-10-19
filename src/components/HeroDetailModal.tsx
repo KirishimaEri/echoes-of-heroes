@@ -3,6 +3,13 @@
 import React from 'react';
 import { HeroPlace } from '@/types/place';
 import {
+  formatCoord,
+  formatLifespan,
+  formatAge,
+  formatDateOrYear,
+  yearOr,
+} from '@/lib/format';
+import {
   X,
   Shield,
   Award,
@@ -26,6 +33,7 @@ export const HeroDetailModal: React.FC<HeroDetailModalProps> = ({
   if (!place) return null;
 
   const { hero } = place;
+  const hasCoords = place.coordinates !== null;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
@@ -95,13 +103,13 @@ export const HeroDetailModal: React.FC<HeroDetailModalProps> = ({
                 <div className="bg-paper-2 border border-line px-3 py-1.5 rounded">
                   <span className="text-ink-3 block">生卒纪年</span>
                   <span className="font-mono text-cinnabar font-medium">
-                    {hero.birth_year} – {hero.death_year}
+                    {formatLifespan(hero.birth_year, hero.death_year)}
                   </span>
                 </div>
                 <div className="bg-paper-2 border border-line px-3 py-1.5 rounded">
                   <span className="text-ink-3 block">殉国时年</span>
                   <span className="font-mono text-cinnabar font-medium">
-                    {hero.sacrifice_age} 岁
+                    {formatAge(hero.sacrifice_age)}
                   </span>
                 </div>
               </div>
@@ -114,7 +122,7 @@ export const HeroDetailModal: React.FC<HeroDetailModalProps> = ({
                 <div>
                   <span className="text-ink-3">殉国战役与时间:</span>
                   <div className="text-ink font-medium mt-0.5">
-                    {hero.sacrifice_date} · {hero.battle}
+                    {formatDateOrYear(hero.sacrifice_date, hero.death_year)} · {hero.battle}
                   </div>
                 </div>
               </div>
@@ -124,7 +132,7 @@ export const HeroDetailModal: React.FC<HeroDetailModalProps> = ({
                 <div>
                   <span className="text-ink-3">更名与命名年份:</span>
                   <div className="text-ink font-medium mt-0.5">
-                    {place.renamed_year} 年正式命名更名
+                    {yearOr(place.renamed_year)} 年正式命名更名
                   </div>
                 </div>
               </div>
@@ -180,21 +188,31 @@ export const HeroDetailModal: React.FC<HeroDetailModalProps> = ({
           <div className="text-xs text-ink-3">
             空间地理坐标 (经度, 纬度):{' '}
             <span className="font-mono text-ink-2">
-              {place.coordinates[0].toFixed(4)}°E,{' '}
-              {place.coordinates[1].toFixed(4)}°N
+              {formatCoord(place.coordinates)}
             </span>
+            {place.coordinate_note && (
+              <p className="text-[10px] text-ink-3 mt-1 font-sans leading-relaxed">
+                {place.coordinate_note}
+              </p>
+            )}
           </div>
 
           <div className="flex items-center gap-2">
             <button
               onClick={() => {
+                if (!hasCoords) return;
                 onFocusMap(place);
                 onClose();
               }}
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded bg-cinnabar hover:bg-cinnabar text-white text-xs font-medium transition-colors cursor-pointer"
+              disabled={!hasCoords}
+              className={`inline-flex items-center gap-1.5 px-4 py-2 rounded text-xs font-medium transition-colors ${
+                hasCoords
+                  ? 'bg-cinnabar hover:bg-cinnabar text-white cursor-pointer'
+                  : 'bg-paper-3 text-ink-3 border border-line cursor-not-allowed'
+              }`}
             >
               <Compass className="w-3.5 h-3.5" />
-              <span>在地图上定位此地标</span>
+              <span>{hasCoords ? '在地图上定位此地标' : '经纬待考，暂不可定位'}</span>
             </button>
             <button
               onClick={onClose}

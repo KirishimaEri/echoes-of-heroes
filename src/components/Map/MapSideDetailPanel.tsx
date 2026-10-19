@@ -3,6 +3,13 @@
 import React, { useState } from 'react';
 import { HeroPlace } from '@/types/place';
 import {
+  formatCoord,
+  formatLifespan,
+  formatAge,
+  formatDateOrYear,
+  yearOr,
+} from '@/lib/format';
+import {
   X,
   Shield,
   Scroll,
@@ -29,8 +36,10 @@ export const MapSideDetailPanel: React.FC<MapSideDetailPanelProps> = ({
   const [activeTab, setActiveTab] = useState<'hero' | 'modern' | 'all'>('hero');
   const [isFlyActive, setIsFlyActive] = useState<boolean>(false);
   const { hero } = place;
+  const hasCoords = place.coordinates !== null;
 
   const handleCenterMap = () => {
+    if (!hasCoords) return;
     setIsFlyActive(true);
     onFlyToPlace(place);
     setTimeout(() => {
@@ -67,12 +76,15 @@ export const MapSideDetailPanel: React.FC<MapSideDetailPanelProps> = ({
         <div className="flex items-center gap-1 shrink-0">
           <button
             onClick={handleCenterMap}
-            className={`p-1.5 rounded transition-all cursor-pointer ${
-              isFlyActive
-                ? 'text-emerald-400 bg-emerald-900/40 ring-1 ring-emerald-500/50'
-                : 'text-ink-3 hover:text-cinnabar hover:bg-paper-2'
+            disabled={!hasCoords}
+            className={`p-1.5 rounded transition-all ${
+              !hasCoords
+                ? 'text-ink-3 opacity-50 cursor-not-allowed'
+                : isFlyActive
+                ? 'cursor-pointer text-emerald-400 bg-emerald-900/40 ring-1 ring-emerald-500/50'
+                : 'cursor-pointer text-ink-3 hover:text-cinnabar hover:bg-paper-2'
             }`}
-            title="地图视角聚焦此地"
+            title={hasCoords ? '地图视角聚焦此地' : '经纬待考，无法聚焦'}
           >
             {isFlyActive ? (
               <Check className="w-4 h-4 text-emerald-400" />
@@ -170,14 +182,14 @@ export const MapSideDetailPanel: React.FC<MapSideDetailPanelProps> = ({
                 <div className="p-2 rounded bg-paper/90 border border-cinnabar/30">
                   <span className="text-[10px] text-ink-3 block">生卒纪年</span>
                   <span className="font-mono text-ink font-medium text-xs">
-                    {hero.birth_year} – {hero.death_year}
+                    {formatLifespan(hero.birth_year, hero.death_year)}
                   </span>
                 </div>
 
                 <div className="p-2 rounded bg-cinnabar/15 border border-cinnabar/40">
                   <span className="text-[10px] text-cinnabar block">殉国时年</span>
                   <span className="font-mono text-cinnabar font-bold text-sm">
-                    仅 {hero.sacrifice_age} 岁
+                    仅 {formatAge(hero.sacrifice_age)}
                   </span>
                 </div>
               </div>
@@ -190,7 +202,7 @@ export const MapSideDetailPanel: React.FC<MapSideDetailPanelProps> = ({
                 <span>殉国战役与时间</span>
               </div>
               <div className="text-ink font-serif text-xs leading-relaxed">
-                {hero.sacrifice_date} · {hero.battle}
+                {formatDateOrYear(hero.sacrifice_date, hero.death_year)} · {hero.battle}
               </div>
             </div>
 
@@ -267,7 +279,7 @@ export const MapSideDetailPanel: React.FC<MapSideDetailPanelProps> = ({
                 <div className="p-2 rounded bg-paper/90 border border-cinnabar/30">
                   <span className="text-[10px] text-ink-3 block">正式更名年份</span>
                   <span className="font-mono text-cinnabar font-bold text-sm">
-                    {place.renamed_year} 年
+                    {yearOr(place.renamed_year)} 年
                   </span>
                 </div>
 
@@ -287,8 +299,13 @@ export const MapSideDetailPanel: React.FC<MapSideDetailPanelProps> = ({
                 <span>地理坐标 (经度, 纬度)</span>
               </div>
               <div className="font-mono text-ink text-xs">
-                {place.coordinates[0].toFixed(4)}°E , {place.coordinates[1].toFixed(4)}°N
+                {formatCoord(place.coordinates)}
               </div>
+              {place.coordinate_note && (
+                <p className="text-[10px] text-ink-3 font-sans leading-relaxed">
+                  {place.coordinate_note}
+                </p>
+              )}
             </div>
 
             {/* Modern Status */}
@@ -309,13 +326,23 @@ export const MapSideDetailPanel: React.FC<MapSideDetailPanelProps> = ({
       <div className="px-4 py-2.5 border-t border-line bg-paper flex items-center justify-between text-xs shrink-0">
         <button
           onClick={handleCenterMap}
-          className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded font-serif text-xs transition-all cursor-pointer shadow-md ${
-            isFlyActive
-              ? 'bg-emerald-700 text-white ring-2 ring-emerald-400/50'
-              : 'bg-cinnabar hover:bg-cinnabar text-white'
+          disabled={!hasCoords}
+          className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded font-serif text-xs transition-all shadow-md ${
+            !hasCoords
+              ? 'bg-paper-3 text-ink-3 border border-line cursor-not-allowed'
+              : `cursor-pointer ${
+                  isFlyActive
+                    ? 'bg-emerald-700 text-white ring-2 ring-emerald-400/50'
+                    : 'bg-cinnabar hover:bg-cinnabar text-white'
+                }`
           }`}
         >
-          {isFlyActive ? (
+          {!hasCoords ? (
+            <>
+              <MapPin className="w-3.5 h-3.5" />
+              <span>经纬待考，无法居中</span>
+            </>
+          ) : isFlyActive ? (
             <>
               <Check className="w-3.5 h-3.5 text-emerald-200" />
               <span>已锁定居中视角</span>

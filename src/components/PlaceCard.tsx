@@ -2,6 +2,11 @@
 
 import React from 'react';
 import { HeroPlace } from '@/types/place';
+import {
+  formatDeathYear,
+  formatRenamedYear,
+  formatSacrificeAgeLine,
+} from '@/lib/format';
 import { MapPin, ArrowRight } from 'lucide-react';
 
 interface PlaceCardProps {
@@ -70,7 +75,7 @@ export const PlaceCard: React.FC<PlaceCardProps> = ({
 
         <div className="text-right shrink-0">
           <span className="text-[11px] font-mono text-cinnabar block">
-            {place.renamed_year}年命更
+            {formatRenamedYear(place.renamed_year)}
           </span>
         </div>
       </div>
@@ -87,7 +92,7 @@ export const PlaceCard: React.FC<PlaceCardProps> = ({
             </span>
           </div>
           <span className="text-[11px] font-mono text-cinnabar bg-cinnabar/10 px-1.5 py-0.5 rounded border border-cinnabar/30">
-            {place.hero.death_year}年殉国
+            {formatDeathYear(place.hero.death_year)}
           </span>
         </div>
 
@@ -98,7 +103,7 @@ export const PlaceCard: React.FC<PlaceCardProps> = ({
 
         <div className="text-[11px] text-ink-3 flex items-center justify-between pt-0.5 border-t border-line/40">
           <span className="truncate pr-2">{place.hero.title}</span>
-          <span className="shrink-0">{place.hero.sacrifice_age} 岁殉国</span>
+          <span className="shrink-0">{formatSacrificeAgeLine(place.hero.sacrifice_age)}</span>
         </div>
       </div>
 

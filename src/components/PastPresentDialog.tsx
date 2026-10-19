@@ -2,6 +2,13 @@
 
 import React, { useEffect } from 'react';
 import { HeroPlace } from '@/types/place';
+import {
+  formatCoord,
+  formatLifespan,
+  formatAge,
+  formatDateOrYear,
+  yearOr,
+} from '@/lib/format';
 import { X } from 'lucide-react';
 
 interface PastPresentDialogProps {
@@ -31,6 +38,7 @@ export const PastPresentDialog: React.FC<PastPresentDialogProps> = ({
   if (!place) return null;
 
   const { hero } = place;
+  const hasCoords = place.coordinates !== null;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-5 lg:p-8 bg-ink/55">
@@ -92,13 +100,13 @@ export const PastPresentDialog: React.FC<PastPresentDialogProps> = ({
               <div>
                 <span className="text-[11px] text-ink-3 block font-sans">生卒纪年</span>
                 <span className="font-serif text-ink font-bold text-lg [font-variant-numeric:tabular-nums]">
-                  {hero.birth_year} – {hero.death_year}
+                  {formatLifespan(hero.birth_year, hero.death_year)}
                 </span>
               </div>
               <div>
                 <span className="text-[11px] text-ink-3 block font-sans">殉国时年</span>
                 <span className="font-serif text-cinnabar font-black text-lg [font-variant-numeric:tabular-nums]">
-                  仅 {hero.sacrifice_age} 岁
+                  仅 {formatAge(hero.sacrifice_age)}
                 </span>
               </div>
             </div>
@@ -109,7 +117,7 @@ export const PastPresentDialog: React.FC<PastPresentDialogProps> = ({
                 殉国战役
               </span>
               <p className="font-serif text-ink text-sm leading-relaxed">
-                {hero.sacrifice_date} · {hero.battle}
+                {formatDateOrYear(hero.sacrifice_date, hero.death_year)} · {hero.battle}
               </p>
             </div>
 
@@ -177,7 +185,7 @@ export const PastPresentDialog: React.FC<PastPresentDialogProps> = ({
               <div>
                 <span className="text-[11px] text-ink-3 block font-sans">正式更名</span>
                 <span className="font-serif text-ink font-bold text-lg [font-variant-numeric:tabular-nums]">
-                  {place.renamed_year} 年
+                  {yearOr(place.renamed_year)} 年
                 </span>
               </div>
               <div className="min-w-0">
@@ -194,8 +202,13 @@ export const PastPresentDialog: React.FC<PastPresentDialogProps> = ({
                 地理经纬（经度，纬度）
               </span>
               <p className="font-mono text-ink text-sm tracking-wide">
-                {place.coordinates[0].toFixed(4)}°E ，{place.coordinates[1].toFixed(4)}°N
+                {formatCoord(place.coordinates)}
               </p>
+              {place.coordinate_note && (
+                <p className="text-[10px] text-ink-3 font-sans leading-relaxed">
+                  {place.coordinate_note}
+                </p>
+              )}
             </div>
 
             {/* 今日风貌 */}
@@ -212,15 +225,21 @@ export const PastPresentDialog: React.FC<PastPresentDialogProps> = ({
             {onFocusMap && (
               <button
                 onClick={() => {
+                  if (!hasCoords) return;
                   onFocusMap(place);
                   onClose();
                 }}
-                className="w-full py-2.5 px-4 bg-cinnabar hover:bg-cinnabar-dim text-paper text-xs font-serif font-bold tracking-[0.3em] transition-colors cursor-pointer flex items-center justify-center gap-3"
+                disabled={!hasCoords}
+                className={`w-full py-2.5 px-4 text-xs font-serif font-bold tracking-[0.3em] transition-colors flex items-center justify-center gap-3 ${
+                  hasCoords
+                    ? 'bg-cinnabar hover:bg-cinnabar-dim text-paper cursor-pointer'
+                    : 'bg-paper-3 text-ink-3 border border-line cursor-not-allowed'
+                }`}
               >
                 <span className="font-black leading-none" aria-hidden="true">
                   印
                 </span>
-                <span>在山河地图中定位此地</span>
+                <span>{hasCoords ? '在山河地图中定位此地' : '经纬待考，暂不可定位'}</span>
               </button>
             )}
           </div>

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { CoreStats } from '@/lib/places';
+import { PENDING } from '@/lib/format';
 
 interface HeroSectionProps {
   stats: CoreStats;
@@ -82,17 +83,28 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ stats }) => {
           <div className="lg:border-l lg:border-line lg:pl-8">
             <div className="flex items-baseline gap-1.5">
               <span className="font-serif font-black text-cinnabar text-4xl sm:text-5xl tracking-tight [font-variant-numeric:tabular-nums]">
-                {stats.avgSacrificeAge}
+                {stats.avgSacrificeAge ?? PENDING}
               </span>
               <span className="text-xs font-serif text-ink-3">岁平均殉国</span>
             </div>
             <p className="text-[11px] text-ink-3 mt-1.5">
-              最年轻{' '}
-              <span className="text-cinnabar font-serif font-bold">
-                {stats.minSacrificeAge}
-              </span>{' '}
-              岁（{stats.youngestHeroName}烈士）
+              {stats.minSacrificeAge === null ? (
+                <span>殉国年岁待考</span>
+              ) : (
+                <>
+                  最年轻{' '}
+                  <span className="text-cinnabar font-serif font-bold">
+                    {stats.minSacrificeAge}
+                  </span>{' '}
+                  岁（{stats.youngestHeroName}烈士）
+                </>
+              )}
             </p>
+            {stats.unlocatedCount > 0 && (
+              <p className="text-[10px] text-ink-3/80 mt-1 font-sans">
+                已定位 {stats.geocodedCount} 处 · 余 {stats.unlocatedCount} 处经纬待考
+              </p>
+            )}
           </div>
 
           <div className="lg:border-l lg:border-line lg:pl-8">
