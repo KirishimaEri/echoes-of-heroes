@@ -95,9 +95,10 @@ tsc、eslint 与构建全都不报错——空值只有在渲染成文字时才�
 `.github/workflows/deploy.yml` 在推送到 `main` 时执行：门禁 → 静态导出 → 导出一致性校验 →
 以 Pages 制品部署（结构取自 Next.js 官方模板 `nextjs/deploy-github-pages`，改为 npm）。
 
-一次性前置设置（仓库所有者操作）：**Settings → Pages → Source = GitHub Actions**。
-若 Source 仍是 `gh-pages` 分支，deploy 作业会失败，而线上页面继续由该分支提供——
-这也是历史上手工发布所走的路径；切换成功一次之后，`gh-pages` 分支即可停用。
+一次性前置设置（**已完成**）：**Settings → Pages → Source = GitHub Actions**。切换后
+`gh-pages` 分支已从远端删除，仓库只保留 `main`——避免再有人以为要推分支才能发布
+（v0.1.2 那次「改了 main，线上没变」正源于此）。如需回看历史手工发布，本地仍保留
+`gh-pages` 分支，可用 `git push origin gh-pages` 恢复。
 
 ## 数据管线
 

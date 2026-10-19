@@ -6,9 +6,9 @@ name: Deploy to GitHub Pages
 # nextjs/deploy-github-pages，差别在于本仓库用 npm，且把 npm run check 设为
 # 构建前的强制门禁。
 #
-# 前置条件（一次性，仓库所有者操作）：
+# 前置条件（已满足）：
 #   Settings → Pages → Build and deployment → Source = GitHub Actions
-# 源仍是 gh-pages 分支时，deploy 作业会失败；届时线上页面仍由该分支提供。
+# 原用于手工发布的 gh-pages 分支已从远端删除；需要时可用本地同名分支恢复。
 
 on:
   push:
