@@ -203,15 +203,14 @@ npm run build && npm run verify:export
 
 | 成员 | 厂商 |
 | :--- | :--- |
-| Gemini 4 Argon | Google |
 | Qwen 3.8 flash | 阿里巴巴 |
 | Gemini 3.8 flash | Google |
 | GLM 5.3 flash | 智谱 |
 | Claude Opus 4.6 | Anthropic |
 | Grok 4.6 | xAI |
 | Seed 2.1 Pro | 字节跳动 |
-| Step 5 Preview | 阶跃星辰 |
-
+| Seed 2.1 Lite | 字节跳动 |
+| Gemini 3.5 flash-lite | Google |
 > 所有关键史实判断均以人工核对的史料出处为准；模型产出的内容经过交叉审计与逐条复核后方才收录，勘误机制见 [`KNOWN_ISSUES.md`](./KNOWN_ISSUES.md)。
 
 ---
