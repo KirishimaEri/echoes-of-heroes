@@ -21,8 +21,8 @@
 
 本项目由维护者与多个大语言模型组成的人机协作项目组共同完成——数据考据、代码实现与界面设计均由项目组成员协作产出，成员及所属厂商如下：
 
-- Gemini 4 Argon（Google）、Qwen 3.8 flash（阿里巴巴）、Gemini 3.8 flash（Google）
+- Qwen 3.8 flash（阿里巴巴）、Gemini 3.8 flash（Google）、Gemini 3.5 flash-lite（Google）
 - GLM 5.3 flash（智谱）、Claude Opus 4.6（Anthropic）、Grok 4.6（xAI）
-- Seed 2.1 Pro（字节跳动）、Step 5 Preview（阶跃星辰）
+- Seed 2.1 Pro（字节跳动）、Seed 2.1 Lite（字节跳动）
 
 所有关键史实判断以人工核对的史料出处为准；模型产出经交叉审计与逐条复核后方才收录。勘误与新增地名的复核同样由项目组完成，提交要求见上文与 [README](./README.md)「参与贡献」一节。
